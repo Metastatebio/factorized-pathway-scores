@@ -1,7 +1,10 @@
 # Clean-room validation record
 
 **Validation date:** 31 August 2026  
-**Release candidate:** 1.0.0  
+**Scientific release candidate:** 1.0.0
+
+**Published release:** 1.0.1 (packaging-only security update)
+
 **Host:** Intel Xeon E-2176G, 6 physical cores / 12 threads, 62 GiB RAM  
 **System:** Linux 6.8.0-136-generic, x86-64  
 **Python:** 3.12.3 with `requirements.lock`
@@ -37,3 +40,8 @@ Run manifests remain intentionally non-byte-identical because they record comple
 and local execution paths. Their declared output checksums and all manuscript-facing quantitative
 outputs are identical.
 
+Release 1.0.1 changes only the package version and the pinned `setuptools` build backend from
+80.9.0 to 83.0.0 to address GHSA-h35f-9h28-mq5c. A fresh environment installed the revised lock,
+built the wheel, verified all 14 artifact manifests, passed all 40 focused tests and reproduced the
+same 83 declared scientific-output checksums. No analysis dependency, configuration, source input
+or scientific artifact changed from the full clean-room run.

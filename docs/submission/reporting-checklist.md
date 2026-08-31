@@ -13,7 +13,7 @@ date: <https://www.nature.com/ncomms/submit/article>.
 | Introduction, Results, Discussion, Methods | Complete | Present in submission manuscript |
 | Main text within target length | Complete | Under 5,000 words excluding Methods, references and end matter |
 | Data Availability | Complete | Public accession/DOI statements included |
-| Code Availability | Complete | Public repository, `v1.0.0`, licenses and Zenodo DOI stated |
+| Code Availability | Complete | Public repository, `v1.0.1`, licenses and Zenodo DOI stated |
 | References | Complete for draft | 25 primary/source references; bibliographic manager validation still recommended |
 | Acknowledgements | Complete | No external funding; Metastate compute resources disclosed |
 | Author Contributions | Complete | Sole-author contribution and CRediT roles stated |
@@ -45,7 +45,7 @@ date: <https://www.nature.com/ncomms/submit/article>.
 | Create clean public source repository | Complete |
 | Select and add open-source license | Complete: Apache-2.0 code; CC BY 4.0 research outputs |
 | Remove private paths, credentials and non-redistributable raw data | Complete |
-| Tag immutable release matching manuscript | Complete: `v1.0.0` |
+| Tag immutable release matching manuscript | Complete: `v1.0.1` |
 | Archive release and obtain DOI | Complete: 10.5281/zenodo.22207315 |
 | Insert repository URL, release tag and DOI into Code Availability | Complete |
 | Validate all source URLs and checksums from a clean environment | Complete: 83/83 declared outputs byte-identical |

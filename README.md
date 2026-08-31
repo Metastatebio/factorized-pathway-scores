@@ -9,7 +9,7 @@ The release contains no private or participant-level source data. It contains fr
 analysis code, exact configurations, checksummed aggregate outputs, complete sensitivity grids,
 accepted/rejected mapping ledgers, figures, and the manuscript package.
 
-- **Release:** [`v1.0.0`](https://github.com/Metastatebio/factorized-pathway-scores/releases/tag/v1.0.0)
+- **Release:** [`v1.0.1`](https://github.com/Metastatebio/factorized-pathway-scores/releases/tag/v1.0.1)
 - **Archive DOI:** [10.5281/zenodo.22207315](https://doi.org/10.5281/zenodo.22207315)
 
 ## Main results
