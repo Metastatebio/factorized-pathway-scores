@@ -1,0 +1,18 @@
+{
+  "config": "/home/openclaw/.openclaw/workspace/cross-omic-distillation-pilot/config/gxe-family-scan.yaml",
+  "registered_files": 108,
+  "unique_reaction_pairs": 6,
+  "contexts": 6,
+  "cohorts": [
+    "BBJ",
+    "UKB"
+  ],
+  "family_p_threshold": 1.3888888888888888e-09,
+  "scan_rows": 72,
+  "family_lead_rows": 18,
+  "strict_replicated_candidate_rows": 1,
+  "strict_candidate_definition": "family-significant discovery; coherent and two-component-supported in both cohorts; discovery family-significant and replication-corrected at zero residual correlation; and directionally coherent replication after Bonferroni correction over all carried discovery leads",
+  "replication_family_threshold": 0.002777777777777778,
+  "novel_mutable_candidate_rows": 0,
+  "novel_candidate_definition": "strict replicated candidate observed in a mutable context; observational context still requires randomized validation"
+}

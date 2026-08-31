@@ -1,0 +1,55 @@
+{
+  "analysis_id": "pathway_score_mapping_qc_supplement_v1",
+  "completed_at": "2026-08-30T19:44:03.724632+00:00",
+  "decision": "MAPPING_QC_SUPPLEMENT_COMPLETE",
+  "config": "/home/openclaw/.openclaw/workspace/cross-omic-distillation-pilot/config/pathway-score-mapping-supplement.yaml",
+  "config_sha256": "0c4f2ffcf8b6235c71bdf25e1d34b768a6fc0bcf4eed37e126a13e2adc99144b",
+  "implementation_sha256": "842318cda4db1a4e459f9479449b5bfb0eae218406267c83103ac9b8100e2853",
+  "source_integrity": {
+    "st002081_coarse": "verified",
+    "st002081_structural": "verified",
+    "st000818": "verified",
+    "ccle": "verified"
+  },
+  "summary": [
+    {
+      "domain": "ST000818 lipid features",
+      "total": 260,
+      "accepted": 255,
+      "rejected": 5
+    },
+    {
+      "domain": "ST002081 lipid features",
+      "total": 845,
+      "accepted": 493,
+      "rejected": 352
+    },
+    {
+      "domain": "CCLE assay metabolites",
+      "total": 225,
+      "accepted": 76,
+      "rejected": 149
+    },
+    {
+      "domain": "CCLE GPR signatures",
+      "total": 195,
+      "accepted": 169,
+      "rejected": 26
+    },
+    {
+      "domain": "CCLE prediction targets",
+      "total": 60,
+      "accepted": 60,
+      "rejected": 0
+    }
+  ],
+  "claim_boundary": "These tables document deterministic mapping, eligibility, descriptor and feature-set decisions. They do not supply independent biological validation or convert unmapped measurements into inferred identities.",
+  "output_sha256": {
+    "human-lipid-feature-map.csv": "1f073f239419ef4df982290998e6581b056c0034af43bad14c7edf2ef159ccbc",
+    "ccle-metabolite-map.csv": "db025a5eec90d5b2dac9a54dd0c4540dd2ef47d031ed8e9a6ea70889da8c1f9c",
+    "ccle-gpr-map.csv": "7b536f7474b91736578fca1aa0c879b2432f2ed41ca64b479026a40fe29a2082",
+    "ccle-target-feature-sets.csv": "b4799b173a00f6c49ffc938b09f4ac602328a7a2403efac3b9dcff6bfcf3651e",
+    "mapping-qc-summary.csv": "570e1fc641710413d0ea45126eec31b72d94593cb462736d1b0e78ab5c11ff4e",
+    "report.md": "d4e4bc2cb3c970a8be8718643812a2963dc38de17a6730242e5e8e6de5a01854"
+  }
+}

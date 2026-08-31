@@ -1,0 +1,37 @@
+{
+  "analysis_id": "ccle_reaction_cluster_robustness_v1",
+  "completed_at": "2026-08-30T20:20:44.106560+00:00",
+  "decision": "CCLE_REACTION_CLUSTER_ROBUST",
+  "post_result_sensitivity": true,
+  "config": "/home/openclaw/.openclaw/workspace/cross-omic-distillation-pilot/config/pathway-score-ccle-reaction-cluster.yaml",
+  "config_sha256": "57715134d15df279bb35d107a4efa08dfa669cded3c6b4c8b1ebb81332c7c58c",
+  "protocol": "/home/openclaw/.openclaw/workspace/cross-omic-distillation-pilot/docs/protocol-ccle-reaction-cluster-robustness.md",
+  "protocol_sha256": "c8d64d6d901aebbb5cbe8391b8ff014c3ebc2ce39017e31469133e83f12e58a2",
+  "implementation_sha256": "ec4d85af7fb48259693ed961be7d94b7b18e4ba3bdda21dda7b656d1643ea3e1",
+  "null_artifact_integrity": "verified",
+  "null_manifest_sha256": "73900c0407876648b8ae6b2ff3c04794fc625b96ac09f385bd171c5f50b83648",
+  "candidates_sha256": "2376196042a633b378ba0ffb679a141a8dbfc43ce1d3f5dd9ddb99ca69e1d80c",
+  "inference": {
+    "clusters": 20,
+    "targets": 60,
+    "draws": 10000,
+    "effect_sd": 0.13740158178902728,
+    "ci_lower": 0.08570154701121939,
+    "ci_upper": 0.19372941377055297
+  },
+  "adjudication": {
+    "clusters": 20,
+    "minimum_clusters_pass": true,
+    "cluster_ci_lower": 0.08570154701121939,
+    "cluster_ci_pass": true,
+    "minimum_leave_one_cluster_effect_sd": 0.11967216290022671,
+    "leave_one_cluster_pass": true
+  },
+  "claim_boundary": "This post-result audit tests whether the property-matched CCLE topology result survives subsystem-cluster resampling and leave-one-subsystem-out analysis. It does not establish target independence, causal reaction direction, physiological flux, drug response or clinical utility.",
+  "output_sha256": {
+    "target-effects-with-subsystem.csv": "8665c62f6fcbc8662844578c62bdd7b8d8c1fc14fce1712cefaaa429ebcbc434",
+    "subsystem-summary.csv": "3adc08b06903525c3d8ebe3cbaff9907e656dd5aaaadb43fa71b27ac883967a6",
+    "leave-one-subsystem-out.csv": "ba3caa0096e72d5efe2e88e58cbb4ceaa9476272a29e5e8209a80f009b2325a5",
+    "report.md": "35e779cc0919f9b55af3c86bd00a02ee2fc2debd9607992e8c3aa653179b5a40"
+  }
+}

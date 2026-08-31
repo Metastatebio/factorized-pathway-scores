@@ -1,0 +1,36 @@
+{
+  "analysis_id": "factorized_pathway_publication_synthesis_v1",
+  "completed_at": "2026-08-30T20:27:48.266566+00:00",
+  "decision": "ROBUST_HUMAN_STRUCTURAL_AND_REACTION_TOPOLOGY_SIGNAL",
+  "config": "/home/openclaw/.openclaw/workspace/cross-omic-distillation-pilot/config/factorized-pathway-publication.yaml",
+  "config_sha256": "b4dd2ad19a6ef24008a7cc1f146f73e84f057060a5ddc507e71fac1706d7ee67",
+  "protocol": "/home/openclaw/.openclaw/workspace/cross-omic-distillation-pilot/docs/protocol-factorized-pathway-score-benchmark.md",
+  "protocol_sha256": "db8f41a5291f37dcc0f08eb99afef681fc5a13f45d3cbc64b8db2fe2b8f95ec8",
+  "implementation_sha256": "71ba82ed2f982f81dda18d2a0ba6a12f4a141ac1b2f799f3dc3ad6ddae9237d5",
+  "source_integrity": {
+    "st002081": "verified",
+    "st002081_structural": "verified",
+    "st002081_structural_null_sensitivity": "verified",
+    "st000818_replication": "verified",
+    "ccle_prediction": "verified",
+    "human_sensitivity": "verified",
+    "human_graph_mixing": "verified",
+    "ccle_sensitivity": "verified",
+    "ccle_null_ensemble": "verified",
+    "ccle_property_matched_null": "verified",
+    "ccle_reaction_cluster": "verified",
+    "mapping_supplement": "verified",
+    "metsim_topology": "verified",
+    "constraint_ensemble": "verified",
+    "longitudinal_prior": "verified"
+  },
+  "supported_claims": 12,
+  "unsupported_or_untested_claims": 5,
+  "claim_boundary": "This synthesis benchmarks evidence components across different public cohorts and model systems. It is not same-participant multi-omics, does not infer missing DNA or RNA as measured, and does not establish physiological flux, prospective clinical prediction, diagnosis, treatment selection or drug efficacy.",
+  "output_sha256": {
+    "evidence-domain-summary.csv": "a08d089b3d706f5bd5c690c4e7b347a493f085e5e079539ac258ab28b0cf7cad",
+    "claim-ledger.csv": "1f04531dd7908f999a8ee79ae2de5cee60edb037cea772079496e3c7266d82b4",
+    "factorized-pathway-benchmarks.png": "342b083d39acb552f342df926b42fb1edbcc039999a153426fc39e6ea6f90f7b",
+    "report.md": "90d26e9d6d3b6a73a285d7e53c78f39cba9f105e2443430e092cdecd75a48ae8"
+  }
+}

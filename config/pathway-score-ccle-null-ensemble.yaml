@@ -1,0 +1,42 @@
+analysis_id: ccle_random_feature_null_ensemble_v1
+protocol: ../docs/protocol-ccle-random-feature-null-ensemble.md
+sources:
+  benchmark_config: pathway-score-ccle.yaml
+  benchmark_artifact: ../artifacts/pathway-score-ccle
+matching:
+  mode: dimension_only
+random_feature_seeds:
+  - 20262000
+  - 20262001
+  - 20262002
+  - 20262003
+  - 20262004
+  - 20262005
+  - 20262006
+  - 20262007
+  - 20262008
+  - 20262009
+  - 20262010
+  - 20262011
+  - 20262012
+  - 20262013
+  - 20262014
+  - 20262015
+  - 20262016
+  - 20262017
+  - 20262018
+  - 20262019
+execution:
+  parallel_jobs: 10
+inference:
+  per_seed_bootstrap_draws: 2000
+  ensemble_bootstrap_draws: 5000
+  seed: 20262050
+gates:
+  minimum_seed_ci_pass_rate: 0.90
+  improvement_threshold: 0.0
+  invariant_tolerance: 1.0e-12
+claim_boundary: >-
+  This post-result ensemble tests whether the CCLE reaction-topology result survives stochastic
+  selection of dimension-matched random features. It does not establish human germline effects,
+  personalized prediction, physiological flux, drug response or clinical utility.

@@ -1,0 +1,3 @@
+dataset,settings,all_degrees_preserved,all_rmse_points_positive,all_precision_points_positive,rmse_ci_pass_rate,precision_ci_pass_rate
+ST000818,9,True,True,True,1.0,1.0
+ST002081,9,True,True,True,1.0,1.0

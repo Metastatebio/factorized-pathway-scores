@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "factorized-pathway-scores"
+version = "1.0.0"
+description = "Matched-null qualification benchmarks for metabolic pathway scores"
+readme = "README.md"
+requires-python = "==3.12.*"
+license = "Apache-2.0"
+authors = [
+  {name = "Oğuzcan Ünver", email = "can@metastate.bio"},
+]
+dependencies = [
+  "joblib==1.5.3",
+  "matplotlib==3.11.1",
+  "numpy==2.5.2",
+  "pandas==3.0.5",
+  "PyYAML==6.0.3",
+  "scikit-learn==1.9.0",
+  "scipy==1.18.1",
+  "statsmodels==0.14.6",
+]
+
+[project.urls]
+Repository = "https://github.com/Metastatebio/factorized-pathway-scores"
+
+[project.scripts]
+factorized-fetch-human-gem = "genotype_gated_metabolism.fetch_human_gem:main"
+factorized-fetch-ccle = "genotype_gated_metabolism.datasets.ccle:main"
+factorized-ccle-catalog = "genotype_gated_metabolism.pipelines.ccle_proof:main"
+factorized-st002081 = "genotype_gated_metabolism.pipelines.pathway_score_st002081:main"
+factorized-st002081-structural = "genotype_gated_metabolism.pipelines.pathway_score_st002081_structural:main"
+factorized-st002081-null-sensitivity = "genotype_gated_metabolism.pipelines.pathway_score_st002081_structural_null_sensitivity:main"
+factorized-st000818-replication = "genotype_gated_metabolism.pipelines.pathway_score_st000818_replication:main"
+factorized-human-sensitivity = "genotype_gated_metabolism.pipelines.pathway_score_human_sensitivity:main"
+factorized-human-graph-mixing = "genotype_gated_metabolism.pipelines.pathway_score_human_graph_mixing:main"
+factorized-ccle = "genotype_gated_metabolism.pipelines.pathway_score_ccle:main"
+factorized-ccle-sensitivity = "genotype_gated_metabolism.pipelines.pathway_score_ccle_sensitivity:main"
+factorized-ccle-null-ensemble = "genotype_gated_metabolism.pipelines.pathway_score_ccle_null_ensemble:main"
+factorized-ccle-reaction-cluster = "genotype_gated_metabolism.pipelines.pathway_score_ccle_reaction_cluster:main"
+factorized-mapping-supplement = "genotype_gated_metabolism.pipelines.pathway_score_mapping_supplement:main"
+factorized-publication-figures = "genotype_gated_metabolism.pipelines.pathway_score_publication_figures:main"
+factorized-publication-synthesis = "genotype_gated_metabolism.pipelines.factorized_pathway_publication:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+

@@ -1,0 +1,29 @@
+{
+  "analysis_id": "ccle_reaction_topology_sensitivity_v1",
+  "completed_at": "2026-08-30T19:40:38.807994+00:00",
+  "decision": "CCLE_REACTION_TOPOLOGY_SENSITIVITY_ROBUST",
+  "post_result_sensitivity": true,
+  "config": "/home/openclaw/.openclaw/workspace/cross-omic-distillation-pilot/config/pathway-score-ccle-sensitivity.yaml",
+  "config_sha256": "f89f857f86888297f9ade860df3a7c21e673469ffb3d1bd7e2926c00f9a5dc78",
+  "protocol": "/home/openclaw/.openclaw/workspace/cross-omic-distillation-pilot/docs/protocol-ccle-pathway-sensitivity.md",
+  "protocol_sha256": "3056cffc065e46404f6cab5c0ea8c707900adc5bc8cdb6ded7b2836002d23c9d",
+  "implementation_sha256": "1be133d84512cf741ae52ffd64c6fa454be2efac4e75d0f5a52e4566d8e436df",
+  "primary_artifact_integrity": "verified",
+  "candidate_config_sha256": "1e3555ba16482d8aa5cf716a9a7dd5026e46982e98391fdcd84e6c0201bfa785",
+  "benchmark_config_sha256": "0c9f94c04f6840e496bfe35924a81b0c1838cd08fd5c359411d5b17cf80114dc",
+  "settings": 10,
+  "parallel_jobs": 5,
+  "adjudication": {
+    "settings": 10,
+    "all_point_improvements_positive": true,
+    "random_ci_pass_rate": 1.0,
+    "positive_median_r2_rate": 1.0,
+    "interaction_beats_additive_rate": 0.0
+  },
+  "claim_boundary": "This post-result grid tests robustness of lineage-held-out CCLE prediction to reaction and model definitions. It does not establish human germline effects, personalized prediction, physiological flux, drug response or clinical utility.",
+  "output_sha256": {
+    "setting-summary.csv": "71be8025d1fcaf29800cfdd93acda99b8c3d14eb2bd52770f430cbb3ca1c6dee",
+    "model-metrics-grid.csv": "c9a447ce04775abce485036190cca010a181d0bba20806426d9ed3a58d3c10fb",
+    "report.md": "dab4f0644991370023b9d7bded8c63b476adc88f30bd80ac02d19d946cef2819"
+  }
+}

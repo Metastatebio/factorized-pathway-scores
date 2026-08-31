@@ -1,0 +1,13 @@
+analysis_id: pathway_score_mapping_qc_supplement_v1
+sources:
+  st002081_config: pathway-score-st002081-structural.yaml
+  st002081_coarse_artifact: ../artifacts/pathway-score-st002081
+  st002081_structural_artifact: ../artifacts/pathway-score-st002081-structural
+  st000818_config: pathway-score-st000818-replication.yaml
+  st000818_artifact: ../artifacts/pathway-score-st000818-replication
+  ccle_config: pathway-score-ccle.yaml
+  ccle_artifact: ../artifacts/pathway-score-ccle
+claim_boundary: >-
+  These tables document deterministic mapping, eligibility, descriptor and feature-set decisions.
+  They do not supply independent biological validation or convert unmapped measurements into
+  inferred identities.

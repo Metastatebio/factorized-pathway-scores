@@ -1,0 +1,25 @@
+{
+  "config": "/home/openclaw/.openclaw/workspace/cross-omic-distillation-pilot/config/nsclc-flux-validation.yaml",
+  "nsclc_samples": 80,
+  "expression_module_tests": 8,
+  "expression_module_fdr_significant": 0,
+  "oncogenotype_tests": 56,
+  "oncogenotype_valid_tests": 45,
+  "oncogenotype_fdr_significant": 0,
+  "aco1_tests": 7,
+  "aco1_fdr_significant": 0,
+  "maximum_leverage_limit": 0.95,
+  "source_provenance": {
+    "dataset": "Chen et al. NSCLC metabolism",
+    "publication_doi": "10.1016/j.molcel.2019.08.028",
+    "git_commit": "afccbb22743a621284f2cbdf8abfbc5a46f6c344",
+    "source_checksums": {
+      "metabolic_profiling_data.rds": "b91a096cda506c1205db1dcef494f6ef1e967b61a9add9931cb0f29ccf8a139d",
+      "mutations.rds": "c9f4a6e642c928fc358384b533c6c742040bf565d4f12706fc5f80ec7a7d1d5e",
+      "illumina_gene_level.rds": "7ed39ebe383fbd5c74c0a7531a275b694983256e06f23cd6c3f8c7812063aa94",
+      "Table_S4.rds": "753bd996a5edba43f5f7cf19c5ff29dd30bedc9323c23d36386af50c25b5648b"
+    },
+    "isotope_interpretation": "mass-isotopologue distributions and fractional carbon contribution; not a full metabolic-flux-analysis rate",
+    "oncogenotype_coding": "source-curated non-empty mutation call equals 1"
+  }
+}

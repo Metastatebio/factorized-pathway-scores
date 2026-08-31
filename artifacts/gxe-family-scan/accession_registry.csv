@@ -1,0 +1,109 @@
+trait_id,trait_description,context,catalog_trait,accession,cohort,trait,variant_count,pubmed_id,md5,genome_assembly
+Acetoacetate,Acetoacetate,age,Acetoacetate x age interaction,GCST90683272,BBJ,Acetoacetate x age interaction,1009514,41606330,4b704b61f444c37170027aa691c3991a,GRCh37
+Acetoacetate,Acetoacetate,age,Acetoacetate x age interaction,GCST90686847,UKB,Acetoacetate x age interaction,1478368,41606330,c744c55642d8b50f3cdcdc26687dc5e2,GRCh37
+Acetoacetate,Acetoacetate,current_smoking,Acetoacetate x current-smoking interaction,GCST90684247,BBJ,Acetoacetate x current-smoking interaction,1009477,41606330,0e4e3f1a4a68233ac5431a3258089bc3,GRCh37
+Acetoacetate,Acetoacetate,current_smoking,Acetoacetate x current-smoking interaction,GCST90687822,UKB,Acetoacetate x current-smoking interaction,1478372,41606330,de86cadd7e5ceda2fde655572a978eb8,GRCh37
+Acetoacetate,Acetoacetate,ever_drinking,Acetoacetate x ever-drinking interaction,GCST90683597,BBJ,Acetoacetate x ever-drinking interaction,1009521,41606330,77709c1085a55f3611bd6a480f771e92,GRCh37
+Acetoacetate,Acetoacetate,ever_drinking,Acetoacetate x ever-drinking interaction,GCST90687172,UKB,Acetoacetate x ever-drinking interaction,1478375,41606330,5a928e86860d4cafdb792daf8880a5e9,GRCh37
+Acetoacetate,Acetoacetate,ever_smoking,Acetoacetate x ever-smoking interaction,GCST90683922,BBJ,Acetoacetate x ever-smoking interaction,1009509,41606330,2fc18e0fa4dac906f08b2b3051076e35,GRCh37
+Acetoacetate,Acetoacetate,ever_smoking,Acetoacetate x ever-smoking interaction,GCST90687497,UKB,Acetoacetate x ever-smoking interaction,1478372,41606330,beaf2b2601c3b903694b08afea52fc9e,GRCh37
+Acetoacetate,Acetoacetate,physical_activity,Acetoacetate x physical activity interaction,GCST90685547,BBJ,Acetoacetate x physical activity interaction,1009475,41606330,dddeae0ab9ce0e87b3edc5737f1cd0ed,GRCh37
+Acetoacetate,Acetoacetate,physical_activity,Acetoacetate x physical activity interaction,GCST90689122,UKB,Acetoacetate x physical activity interaction,1478366,41606330,8df411ff6d0c0427e743a8e8dc3ad614,GRCh37
+Acetoacetate,Acetoacetate,sex,Acetoacetate x sex interaction,GCST90682947,BBJ,Acetoacetate x sex interaction,1009514,41606330,4227127e0c0d181dd33e3c5fbdb881d9,GRCh37
+Acetoacetate,Acetoacetate,sex,Acetoacetate x sex interaction,GCST90686522,UKB,Acetoacetate x sex interaction,1478368,41606330,cfc3413ddf3e464c9999205c7be77c64,GRCh37
+Ala,Alanine,age,Alanine x age interaction,GCST90683256,BBJ,Alanine x age interaction,1009538,41606330,82ea92abb113360f284b4dbeab3b6050,GRCh37
+Ala,Alanine,age,Alanine x age interaction,GCST90686831,UKB,Alanine x age interaction,1478398,41606330,f2c527bbc126646576e26a8dc4d10684,GRCh37
+Ala,Alanine,current_smoking,Alanine x current-smoking interaction,GCST90684231,BBJ,Alanine x current-smoking interaction,1009477,41606330,7f7b1bd6768b3f625773a31413a42c4a,GRCh37
+Ala,Alanine,current_smoking,Alanine x current-smoking interaction,GCST90687806,UKB,Alanine x current-smoking interaction,1478394,41606330,31e8239956230956839329afdc0df856,GRCh37
+Ala,Alanine,ever_drinking,Alanine x ever-drinking interaction,GCST90683581,BBJ,Alanine x ever-drinking interaction,1009516,41606330,93c5cc0dbc0a02a06890004ad8cd4e9f,GRCh37
+Ala,Alanine,ever_drinking,Alanine x ever-drinking interaction,GCST90687156,UKB,Alanine x ever-drinking interaction,1478400,41606330,519da982400d6630e7507d2de86b3bcd,GRCh37
+Ala,Alanine,ever_smoking,Alanine x ever-smoking interaction,GCST90683906,BBJ,Alanine x ever-smoking interaction,1009503,41606330,beaf7a22185aa6b329ebc7f3df9adf79,GRCh37
+Ala,Alanine,ever_smoking,Alanine x ever-smoking interaction,GCST90687481,UKB,Alanine x ever-smoking interaction,1478394,41606330,fbe5d68d3c4510e8eb12545965b7a252,GRCh37
+Ala,Alanine,physical_activity,Alanine x physical activity interaction,GCST90685531,BBJ,Alanine x physical activity interaction,1009475,41606330,6c648fb5247d55c56fc520b2f2f0619c,GRCh37
+Ala,Alanine,physical_activity,Alanine x physical activity interaction,GCST90689106,UKB,Alanine x physical activity interaction,1478402,41606330,ce7e1a137b2038a0313a7fe856e451e6,GRCh37
+Ala,Alanine,sex,Alanine x sex interaction,GCST90682931,BBJ,Alanine x sex interaction,1009538,41606330,da49694b4885ee397f18079b037ddc65,GRCh37
+Ala,Alanine,sex,Alanine x sex interaction,GCST90686506,UKB,Alanine x sex interaction,1478398,41606330,e71d53471d5b99a67f4cb8ec6a6e599d,GRCh37
+Gln,Glutamine,age,Glutamine x age interaction,GCST90683257,BBJ,Glutamine x age interaction,1009513,41606330,2f1550f34c89d5c133f7a7603bf953be,GRCh37
+Gln,Glutamine,age,Glutamine x age interaction,GCST90686832,UKB,Glutamine x age interaction,1478349,41606330,00770ce511f154d5b82d332692ec6ecf,GRCh37
+Gln,Glutamine,current_smoking,Glutamine x current-smoking interaction,GCST90684232,BBJ,Glutamine x current-smoking interaction,1009477,41606330,a13157043fa19bf08bb93f37e32906db,GRCh37
+Gln,Glutamine,current_smoking,Glutamine x current-smoking interaction,GCST90687807,UKB,Glutamine x current-smoking interaction,1478352,41606330,bb93a996c8313654533ea5a9ab028203,GRCh37
+Gln,Glutamine,ever_drinking,Glutamine x ever-drinking interaction,GCST90683582,BBJ,Glutamine x ever-drinking interaction,1009505,41606330,2ba2cec4465716f65a92aeee05b06d25,GRCh37
+Gln,Glutamine,ever_drinking,Glutamine x ever-drinking interaction,GCST90687157,UKB,Glutamine x ever-drinking interaction,1478361,41606330,317bde147b5f99715e66e87e9f6c2e62,GRCh37
+Gln,Glutamine,ever_smoking,Glutamine x ever-smoking interaction,GCST90683907,BBJ,Glutamine x ever-smoking interaction,1009497,41606330,02e7a80d44e2cefbfa54ce6cf1ac2445,GRCh37
+Gln,Glutamine,ever_smoking,Glutamine x ever-smoking interaction,GCST90687482,UKB,Glutamine x ever-smoking interaction,1478352,41606330,d7fc0f9523d7d50eb259b0740b00a79e,GRCh37
+Gln,Glutamine,physical_activity,Glutamine x physical activity interaction,GCST90685532,BBJ,Glutamine x physical activity interaction,1009443,41606330,938f8c722165ba5540dedd688121ab26,GRCh37
+Gln,Glutamine,physical_activity,Glutamine x physical activity interaction,GCST90689107,UKB,Glutamine x physical activity interaction,1478350,41606330,4fb07cd0e8714c80b55721810604fe05,GRCh37
+Gln,Glutamine,sex,Glutamine x sex interaction,GCST90682932,BBJ,Glutamine x sex interaction,1009513,41606330,0aad26575f351f60fe85d3db0c514fb4,GRCh37
+Gln,Glutamine,sex,Glutamine x sex interaction,GCST90686507,UKB,Glutamine x sex interaction,1478349,41606330,f06a1152ce0c0db5e1ced1adedbb07e5,GRCh37
+Gly,Glycine,age,Glycine x age interaction,GCST90683258,BBJ,Glycine x age interaction,1009513,41606330,467d4bca7abbc7db128d97f51419d584,GRCh37
+Gly,Glycine,age,Glycine x age interaction,GCST90686833,UKB,Glycine x age interaction,1478362,41606330,2027d1722fe0ac28b37d88b15dd8c2ef,GRCh37
+Gly,Glycine,current_smoking,Glycine x current-smoking interaction,GCST90684233,BBJ,Glycine x current-smoking interaction,1009475,41606330,0c21a497f72c85a10f9c7330fc7d82b4,GRCh37
+Gly,Glycine,current_smoking,Glycine x current-smoking interaction,GCST90687808,UKB,Glycine x current-smoking interaction,1478362,41606330,09d772a4ad5921a60e6355bd8f3168c4,GRCh37
+Gly,Glycine,ever_drinking,Glycine x ever-drinking interaction,GCST90683583,BBJ,Glycine x ever-drinking interaction,1009508,41606330,5452a3c11d7bba1a30ec4ee2aa4c5311,GRCh37
+Gly,Glycine,ever_drinking,Glycine x ever-drinking interaction,GCST90687158,UKB,Glycine x ever-drinking interaction,1478364,41606330,b33313944dcf5e5605c0837d7d3f9161,GRCh37
+Gly,Glycine,ever_smoking,Glycine x ever-smoking interaction,GCST90683908,BBJ,Glycine x ever-smoking interaction,1009492,41606330,b25fcd45b0ffbc86a5ab12b3fe6c9db3,GRCh37
+Gly,Glycine,ever_smoking,Glycine x ever-smoking interaction,GCST90687483,UKB,Glycine x ever-smoking interaction,1478362,41606330,16612163ba70aa2f1724da6008a68762,GRCh37
+Gly,Glycine,physical_activity,Glycine x physical activity interaction,GCST90685533,BBJ,Glycine x physical activity interaction,1009474,41606330,b955c9299732bd616589f4032b827f6d,GRCh37
+Gly,Glycine,physical_activity,Glycine x physical activity interaction,GCST90689108,UKB,Glycine x physical activity interaction,1478365,41606330,0b1f940eb32753781dc72bc98c9136e6,GRCh37
+Gly,Glycine,sex,Glycine x sex interaction,GCST90682933,BBJ,Glycine x sex interaction,1009513,41606330,7aae753e4906cd239a97aef018a75d1a,GRCh37
+Gly,Glycine,sex,Glycine x sex interaction,GCST90686508,UKB,Glycine x sex interaction,1478362,41606330,db607b5087c5036f015e2057b3b43e95,GRCh37
+Lactate,Lactate,age,Lactate x age interaction,GCST90683267,BBJ,Lactate x age interaction,1009510,41606330,1e0e82312979c5619c076b6ed58a03a2,GRCh37
+Lactate,Lactate,age,Lactate x age interaction,GCST90686842,UKB,Lactate x age interaction,1478392,41606330,12ee51f800b9c1dcb890cea056fca451,GRCh37
+Lactate,Lactate,current_smoking,Lactate x current-smoking interaction,GCST90684242,BBJ,Lactate x current-smoking interaction,1009458,41606330,5342490d6288e2c0eb08aeb1bde9b211,GRCh37
+Lactate,Lactate,current_smoking,Lactate x current-smoking interaction,GCST90687817,UKB,Lactate x current-smoking interaction,1478388,41606330,dda2f71242ff183d56604aa8af6c11da,GRCh37
+Lactate,Lactate,ever_drinking,Lactate x ever-drinking interaction,GCST90683592,BBJ,Lactate x ever-drinking interaction,1009497,41606330,0bf0f662a133661f1c1c4858559817c3,GRCh37
+Lactate,Lactate,ever_drinking,Lactate x ever-drinking interaction,GCST90687167,UKB,Lactate x ever-drinking interaction,1478394,41606330,3f7334ac0bc6fa6186a7ec0af5aa034e,GRCh37
+Lactate,Lactate,ever_smoking,Lactate x ever-smoking interaction,GCST90683917,BBJ,Lactate x ever-smoking interaction,1009482,41606330,076a0d08815d51f094409ea24020ccd7,GRCh37
+Lactate,Lactate,ever_smoking,Lactate x ever-smoking interaction,GCST90687492,UKB,Lactate x ever-smoking interaction,1478388,41606330,563b3aa3b86985ff61d2fc5660d924cd,GRCh37
+Lactate,Lactate,physical_activity,Lactate x physical activity interaction,GCST90685542,BBJ,Lactate x physical activity interaction,1009449,41606330,82120b794d30d563233913c6339fc9b2,GRCh37
+Lactate,Lactate,physical_activity,Lactate x physical activity interaction,GCST90689117,UKB,Lactate x physical activity interaction,1478396,41606330,1be794c485f002d23e328d993161fcb4,GRCh37
+Lactate,Lactate,sex,Lactate x sex interaction,GCST90682942,BBJ,Lactate x sex interaction,1009510,41606330,bdcf60f78da305203ede4621e0feec03,GRCh37
+Lactate,Lactate,sex,Lactate x sex interaction,GCST90686517,UKB,Lactate x sex interaction,1478392,41606330,1aa968f9de9db9a85859dc8e6d9c0cde,GRCh37
+Phe,Phenylalanine,age,Phenylalanine x age interaction,GCST90683264,BBJ,Phenylalanine x age interaction,1009500,41606330,42a486ab88f5eb9a211949b05d33c721,GRCh37
+Phe,Phenylalanine,age,Phenylalanine x age interaction,GCST90686839,UKB,Phenylalanine x age interaction,1478373,41606330,46388dc52de3e251399855d3d13281b2,GRCh37
+Phe,Phenylalanine,current_smoking,Phenylalanine x current-smoking interaction,GCST90684239,BBJ,Phenylalanine x current-smoking interaction,1009450,41606330,39fe503f009e917d79b2030635961958,GRCh37
+Phe,Phenylalanine,current_smoking,Phenylalanine x current-smoking interaction,GCST90687814,UKB,Phenylalanine x current-smoking interaction,1478375,41606330,3b59587c95249cd9f4ae6f5f1bc879aa,GRCh37
+Phe,Phenylalanine,ever_drinking,Phenylalanine x ever-drinking interaction,GCST90683589,BBJ,Phenylalanine x ever-drinking interaction,1009487,41606330,07914d261969e38b5041b6decd1475ff,GRCh37
+Phe,Phenylalanine,ever_drinking,Phenylalanine x ever-drinking interaction,GCST90687164,UKB,Phenylalanine x ever-drinking interaction,1478375,41606330,86722ba15b7c3058eb66adacbb8adc4c,GRCh37
+Phe,Phenylalanine,ever_smoking,Phenylalanine x ever-smoking interaction,GCST90683914,BBJ,Phenylalanine x ever-smoking interaction,1009489,41606330,ea75b11f41c4dc2f3a078a23396438d5,GRCh37
+Phe,Phenylalanine,ever_smoking,Phenylalanine x ever-smoking interaction,GCST90687489,UKB,Phenylalanine x ever-smoking interaction,1478375,41606330,de6db5075d895d6e01a4ed53afcf39d9,GRCh37
+Phe,Phenylalanine,physical_activity,Phenylalanine x physical activity interaction,GCST90685539,BBJ,Phenylalanine x physical activity interaction,1009443,41606330,102333becdb3cfbbe84ef9bdcf628370,GRCh37
+Phe,Phenylalanine,physical_activity,Phenylalanine x physical activity interaction,GCST90689114,UKB,Phenylalanine x physical activity interaction,1478371,41606330,7e491df2fe5f722a0edfbe3ceb92135c,GRCh37
+Phe,Phenylalanine,sex,Phenylalanine x sex interaction,GCST90682939,BBJ,Phenylalanine x sex interaction,1009500,41606330,42d53c26ea423541cfb36e7eb99a251d,GRCh37
+Phe,Phenylalanine,sex,Phenylalanine x sex interaction,GCST90686514,UKB,Phenylalanine x sex interaction,1478373,41606330,b8b009c9ef60aec015203e2db6396084,GRCh37
+Pyruvate,Pyruvate,age,Pyruvate x age interaction,GCST90683268,BBJ,Pyruvate x age interaction,1009517,41606330,4b214b4b03355b008284a268ac112c2c,GRCh37
+Pyruvate,Pyruvate,age,Pyruvate x age interaction,GCST90686843,UKB,Pyruvate x age interaction,1478381,41606330,ffcfc6d3e5f0203a02854f72e8b7a05a,GRCh37
+Pyruvate,Pyruvate,current_smoking,Pyruvate x current-smoking interaction,GCST90684243,BBJ,Pyruvate x current-smoking interaction,1009463,41606330,7bf04ecf86bda032e8ee348b9d7c5547,GRCh37
+Pyruvate,Pyruvate,current_smoking,Pyruvate x current-smoking interaction,GCST90687818,UKB,Pyruvate x current-smoking interaction,1478378,41606330,bda1f5c62f65f8744535853a82bf1757,GRCh37
+Pyruvate,Pyruvate,ever_drinking,Pyruvate x ever-drinking interaction,GCST90683593,BBJ,Pyruvate x ever-drinking interaction,1009484,41606330,e1ef33ec98391549db179dc9ed90befb,GRCh37
+Pyruvate,Pyruvate,ever_drinking,Pyruvate x ever-drinking interaction,GCST90687168,UKB,Pyruvate x ever-drinking interaction,1478384,41606330,48fbdce94cfd086a33a5c49b8466d4c6,GRCh37
+Pyruvate,Pyruvate,ever_smoking,Pyruvate x ever-smoking interaction,GCST90683918,BBJ,Pyruvate x ever-smoking interaction,1009488,41606330,ff4625b087df3011a4060bc719307bdd,GRCh37
+Pyruvate,Pyruvate,ever_smoking,Pyruvate x ever-smoking interaction,GCST90687493,UKB,Pyruvate x ever-smoking interaction,1478378,41606330,85c2ab302b232429b5a65e0e00cae403,GRCh37
+Pyruvate,Pyruvate,physical_activity,Pyruvate x physical activity interaction,GCST90685543,BBJ,Pyruvate x physical activity interaction,1009441,41606330,55cac2047d211563b41eaa73508ebe6b,GRCh37
+Pyruvate,Pyruvate,physical_activity,Pyruvate x physical activity interaction,GCST90689118,UKB,Pyruvate x physical activity interaction,1478378,41606330,e21e4f13f7308e0b653e1c3bb7009d73,GRCh37
+Pyruvate,Pyruvate,sex,Pyruvate x sex interaction,GCST90682943,BBJ,Pyruvate x sex interaction,1009517,41606330,84fd63e8b84bcf1686589d96a53cd857,GRCh37
+Pyruvate,Pyruvate,sex,Pyruvate x sex interaction,GCST90686518,UKB,Pyruvate x sex interaction,1478381,41606330,4fe14e1dc5ddf900923db5ca9cb99017,GRCh37
+Tyr,Tyrosine,age,Tyrosine x age interaction,GCST90683265,BBJ,Tyrosine x age interaction,1009518,41606330,8ca9eef7b89276523a077e7be79847fe,GRCh37
+Tyr,Tyrosine,age,Tyrosine x age interaction,GCST90686840,UKB,Tyrosine x age interaction,1478394,41606330,f3cd77254b94dfb50c862db97007e867,GRCh37
+Tyr,Tyrosine,current_smoking,Tyrosine x current-smoking interaction,GCST90684240,BBJ,Tyrosine x current-smoking interaction,1009460,41606330,e322ca673115f43b112796b315048f54,GRCh37
+Tyr,Tyrosine,current_smoking,Tyrosine x current-smoking interaction,GCST90687815,UKB,Tyrosine x current-smoking interaction,1478393,41606330,39c90116d617d880f5117633dcb23cf4,GRCh37
+Tyr,Tyrosine,ever_drinking,Tyrosine x ever-drinking interaction,GCST90683590,BBJ,Tyrosine x ever-drinking interaction,1009504,41606330,0220ddc4e141269d436fbe835cc58b50,GRCh37
+Tyr,Tyrosine,ever_drinking,Tyrosine x ever-drinking interaction,GCST90687165,UKB,Tyrosine x ever-drinking interaction,1478397,41606330,74fab07c163742366b936773460e046f,GRCh37
+Tyr,Tyrosine,ever_smoking,Tyrosine x ever-smoking interaction,GCST90683915,BBJ,Tyrosine x ever-smoking interaction,1009496,41606330,0d83a72e127e85a6d7786d1bf91b6cea,GRCh37
+Tyr,Tyrosine,ever_smoking,Tyrosine x ever-smoking interaction,GCST90687490,UKB,Tyrosine x ever-smoking interaction,1478393,41606330,fbeb9edfcb75ceb426d0aff2725ff24f,GRCh37
+Tyr,Tyrosine,physical_activity,Tyrosine x physical activity interaction,GCST90685540,BBJ,Tyrosine x physical activity interaction,1009449,41606330,becb248cc495988a8e15006f58b57ad7,GRCh37
+Tyr,Tyrosine,physical_activity,Tyrosine x physical activity interaction,GCST90689115,UKB,Tyrosine x physical activity interaction,1478396,41606330,f88ed64070adcb0a21a2f4718d9aab3d,GRCh37
+Tyr,Tyrosine,sex,Tyrosine x sex interaction,GCST90682940,BBJ,Tyrosine x sex interaction,1009518,41606330,a8d75fe1648c8429c726bc09ce6796ce,GRCh37
+Tyr,Tyrosine,sex,Tyrosine x sex interaction,GCST90686515,UKB,Tyrosine x sex interaction,1478394,41606330,2bd5d7374d54c3cfa41494aa22399643,GRCh37
+bOHbutyrate,3-Hydroxybutyrate,age,3-Hydroxybutyrate x age interaction,GCST90683270,BBJ,3-Hydroxybutyrate x age interaction,1009388,41606330,d97635a82cff2ce1810cefce28268840,GRCh37
+bOHbutyrate,3-Hydroxybutyrate,age,3-Hydroxybutyrate x age interaction,GCST90686845,UKB,3-Hydroxybutyrate x age interaction,1478324,41606330,11ecef55f983d6ae527d854983e521f0,GRCh37
+bOHbutyrate,3-Hydroxybutyrate,current_smoking,3-Hydroxybutyrate x current-smoking interaction,GCST90684245,BBJ,3-Hydroxybutyrate x current-smoking interaction,1009376,41606330,bee95e0a5d15690d56173397fd705a0c,GRCh37
+bOHbutyrate,3-Hydroxybutyrate,current_smoking,3-Hydroxybutyrate x current-smoking interaction,GCST90687820,UKB,3-Hydroxybutyrate x current-smoking interaction,1478329,41606330,e12ab433aa8dc22da02923e6015925a3,GRCh37
+bOHbutyrate,3-Hydroxybutyrate,ever_drinking,3-Hydroxybutyrate x ever-drinking interaction,GCST90683595,BBJ,3-Hydroxybutyrate x ever-drinking interaction,1009397,41606330,7d46d96b01e70972f107f991bcef64bb,GRCh37
+bOHbutyrate,3-Hydroxybutyrate,ever_drinking,3-Hydroxybutyrate x ever-drinking interaction,GCST90687170,UKB,3-Hydroxybutyrate x ever-drinking interaction,1478328,41606330,2bed9a4ff35f5c613ccdcadd9c9bb809,GRCh37
+bOHbutyrate,3-Hydroxybutyrate,ever_smoking,3-Hydroxybutyrate x ever-smoking interaction,GCST90683920,BBJ,3-Hydroxybutyrate x ever-smoking interaction,1009384,41606330,d08e17783d5d0df65df778a94580a4b2,GRCh37
+bOHbutyrate,3-Hydroxybutyrate,ever_smoking,3-Hydroxybutyrate x ever-smoking interaction,GCST90687495,UKB,3-Hydroxybutyrate x ever-smoking interaction,1478329,41606330,b3044217e7d805bcb3c8cf1142ea061e,GRCh37
+bOHbutyrate,3-Hydroxybutyrate,physical_activity,3-Hydroxybutyrate x physical activity interaction,GCST90685545,BBJ,3-Hydroxybutyrate x physical activity interaction,1009346,41606330,2842129482a6b2131fefc5d1718e9dc5,GRCh37
+bOHbutyrate,3-Hydroxybutyrate,physical_activity,3-Hydroxybutyrate x physical activity interaction,GCST90689120,UKB,3-Hydroxybutyrate x physical activity interaction,1478321,41606330,cf2dedbcc5e412607892f92588a4353a,GRCh37
+bOHbutyrate,3-Hydroxybutyrate,sex,3-Hydroxybutyrate x sex interaction,GCST90682945,BBJ,3-Hydroxybutyrate x sex interaction,1009388,41606330,86facb9f03646f32f511a04219370c85,GRCh37
+bOHbutyrate,3-Hydroxybutyrate,sex,3-Hydroxybutyrate x sex interaction,GCST90686520,UKB,3-Hydroxybutyrate x sex interaction,1478324,41606330,7f1ae39a19a8621b7b0031c4c2e695e5,GRCh37

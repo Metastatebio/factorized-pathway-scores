@@ -1,0 +1,6 @@
+mask,visible_features,hidden_features,descriptors,incidence_edges,row_degrees_preserved,column_degrees_preserved
+0,202,53,81,910,True,True
+1,202,53,81,915,True,True
+2,203,52,81,917,True,True
+3,205,50,81,930,True,True
+4,208,47,81,948,True,True

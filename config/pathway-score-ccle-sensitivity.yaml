@@ -1,0 +1,29 @@
+analysis_id: ccle_reaction_topology_sensitivity_v1
+protocol: ../docs/protocol-ccle-pathway-sensitivity.md
+sources:
+  candidate_config: ccle-expanded.yaml
+  benchmark_config: pathway-score-ccle.yaml
+  benchmark_artifact: ../artifacts/pathway-score-ccle
+settings:
+  - {id: primary, maximum_metabolites_per_reaction: 8, include_transport: false, ridge_alpha: 10.0, gpr_aggregation: limiting_subunit}
+  - {id: reaction_max_4, maximum_metabolites_per_reaction: 4, include_transport: false, ridge_alpha: 10.0, gpr_aggregation: limiting_subunit}
+  - {id: reaction_max_6, maximum_metabolites_per_reaction: 6, include_transport: false, ridge_alpha: 10.0, gpr_aggregation: limiting_subunit}
+  - {id: reaction_max_12, maximum_metabolites_per_reaction: 12, include_transport: false, ridge_alpha: 10.0, gpr_aggregation: limiting_subunit}
+  - {id: reaction_unbounded, maximum_metabolites_per_reaction: null, include_transport: false, ridge_alpha: 10.0, gpr_aggregation: limiting_subunit}
+  - {id: include_transport, maximum_metabolites_per_reaction: 8, include_transport: true, ridge_alpha: 10.0, gpr_aggregation: limiting_subunit}
+  - {id: alpha_1, maximum_metabolites_per_reaction: 8, include_transport: false, ridge_alpha: 1.0, gpr_aggregation: limiting_subunit}
+  - {id: alpha_100, maximum_metabolites_per_reaction: 8, include_transport: false, ridge_alpha: 100.0, gpr_aggregation: limiting_subunit}
+  - {id: gpr_mean, maximum_metabolites_per_reaction: 8, include_transport: false, ridge_alpha: 10.0, gpr_aggregation: mean}
+  - {id: gpr_sum, maximum_metabolites_per_reaction: 8, include_transport: false, ridge_alpha: 10.0, gpr_aggregation: sum}
+execution:
+  parallel_jobs: 5
+inference:
+  bootstrap_draws: 2000
+  seed: 20261500
+gates:
+  minimum_ci_pass_rate: 0.80
+  point_improvement_threshold: 0.0
+claim_boundary: >-
+  This post-result grid tests robustness of lineage-held-out CCLE prediction to reaction and model
+  definitions. It does not establish human germline effects, personalized prediction,
+  physiological flux, drug response or clinical utility.

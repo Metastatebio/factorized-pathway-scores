@@ -1,0 +1,9 @@
+{
+  "tested": 284,
+  "fdr_significant": 0,
+  "minimum_context_samples_per_lineage": 5,
+  "context_1": "RPMI",
+  "context_0": "known non-RPMI",
+  "identification": "within-lineage; lineage-specific A and G slopes; full-rank design required",
+  "covariance": "HC3"
+}

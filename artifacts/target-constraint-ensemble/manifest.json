@@ -1,0 +1,35 @@
+{
+  "analysis": "Frozen target constraint ensemble",
+  "ensemble_id": "bcaa_target_constraint_ensemble_v1",
+  "completed_at": "2026-08-30T00:10:43.269986+00:00",
+  "config": "/home/openclaw/.openclaw/workspace/cross-omic-distillation-pilot/config/target-constraint-ensemble.yaml",
+  "config_sha256": "3d3dbe1c3dfe4e189283c4ee1710ca1ade32449d7ca584fc0aa115ad44b245a4",
+  "protocol_sha256": "176f30c4b7fda2bb8faeae938e7042c5790af68e79a98d939a0776332b0b47a2",
+  "implementation_sha256": "7a501887038dddc8462321f9550f2845dfad2026d0de69856433d2b224f80494",
+  "target_screen_manifest_sha256": "0af89c0ebf002559d45772f607649e8c181f54787ccad444516cd332cc2a79f6",
+  "human_gem_sha256": "01a8ea826bdaa36511b9eed28eedcb5e73690333860856c682387c6380dd3fc6",
+  "draws_per_candidate": 1000,
+  "candidate_draw_evaluations": 5000,
+  "workers": 6,
+  "complete_checkpoint_reused": true,
+  "all_solves_succeeded": true,
+  "stable_candidates": [
+    "bckdh_complex_inhibition_negative",
+    "bckdh_complex_stabilization",
+    "bckdk_direct_model_inhibition"
+  ],
+  "unstable_candidates": [
+    "bcat2_activation",
+    "slc25a44_activation"
+  ],
+  "physiologic_rate_calibrated": false,
+  "claim_status": "model_relative_1000_draw_constraint_ensemble_complete",
+  "hard_limit": "This ensemble tests directional stability to frozen, model-relative medium, transport, intervention-capacity, tissue, scenario, and endpoint-weight uncertainty. The ranges are not organ-specific physiological rate estimates, and stability is not evidence of clinical efficacy or safety.",
+  "output_sha256": {
+    "constraint-draws.csv": "bcd5403a7146be0cfc7a46911b5dca956a2a61f52775f8ef855cace3b0e41ace",
+    "constraint-ensemble-results.csv": "c68c2f9414645d112a907f8486f29d17cfd48d1f331766a56bc1a85cdee4a006",
+    "constraint-ensemble-summary.csv": "efbc73056d7ad45a78a7d51e2be43f7307a2a609b7bde00d82d6b2528cd77126",
+    "constraint-ensemble-checkpoint.csv": "7f98d07ee7460a240c1b04fc3275d0e18a6c9c686ea815d285d80793d9c9754c",
+    "target-constraint-ensemble.png": "ceda0698efa9d66556c5702a5ab6c5f7080732e1749cb3fac8236de564759eed"
+  }
+}

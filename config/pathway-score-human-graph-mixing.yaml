@@ -1,0 +1,21 @@
+analysis_id: human_structural_graph_null_mixing_v1
+protocol: ../docs/protocol-human-graph-null-mixing.md
+sources:
+  discovery_incidence: ../artifacts/pathway-score-st002081-structural/structural-descriptor-incidence.csv
+  discovery_masks: ../artifacts/pathway-score-st002081/disjoint-masks.csv
+  discovery_manifest: ../artifacts/pathway-score-st002081-structural-null-sensitivity
+  replication_features: ../artifacts/pathway-score-st000818-replication/eligible-features.csv
+  replication_manifest: ../artifacts/pathway-score-st000818-replication
+  replication_config: pathway-score-st000818-replication.yaml
+randomization:
+  swaps_per_edge: 10
+  repeats: 20
+  discovery_first_seed: 20260900
+  replication_first_seed: 20261200
+gates:
+  minimum_edge_replacement_fraction: 0.50
+  maximum_pairwise_null_jaccard: 0.80
+claim_boundary: >-
+  This post-result diagnostic verifies exact degree preservation, graph movement and null diversity
+  for the reported human structural ensembles. It does not prove perfectly uniform graph sampling,
+  independent biological replication, physiology, genetics or clinical utility.

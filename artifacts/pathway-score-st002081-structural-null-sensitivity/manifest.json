@@ -1,0 +1,40 @@
+{
+  "analysis_id": "st002081_structural_graph_null_sensitivity_v1",
+  "completed_at": "2026-08-30T19:20:42.047828+00:00",
+  "decision": "ADAPTIVE_STRUCTURE_SIGNAL_ROBUST_ACROSS_GRAPH_NULLS",
+  "adaptive_post_result_sensitivity": true,
+  "config": "/home/openclaw/.openclaw/workspace/cross-omic-distillation-pilot/config/pathway-score-st002081-structural-null-sensitivity.yaml",
+  "config_sha256": "20c987e4a4df08ae65731c27c03054c24990634898203828843b992f34513a1c",
+  "base_config_sha256": "7e539a93338a11359942ffc693639733cb31d35b980cc8a81fd0b610561357e7",
+  "protocol": "/home/openclaw/.openclaw/workspace/cross-omic-distillation-pilot/docs/protocol-st002081-structural-null-sensitivity.md",
+  "protocol_sha256": "3a84d8e60253702a2d0756ca6b4cd40b1c92f47c19c3aba1a876fd56a4742093",
+  "implementation_sha256": "927b6c250c3cc59877c7ff5646fe301cd7c97b13cc4eccf9428ece91ba69f873",
+  "source_sha256": "e5d68bea4f6adf113f9bafa0e8bd333b949f289f0dc645a18435d542c3ae9c9b",
+  "base_artifact_integrity": "verified",
+  "null_repeats": 20,
+  "parallel_jobs": 10,
+  "random_rmse_range": [
+    0.4000113168338504,
+    0.4123148232295799
+  ],
+  "rmse_improvement_range": [
+    0.09389404891363617,
+    0.10655862712199521
+  ],
+  "precision_improvement_range": [
+    0.1205665275566723,
+    0.15416266822621993
+  ],
+  "minimum_rmse_ci_lower": 0.08840413921821164,
+  "minimum_precision_ci_lower": 0.10718025333686516,
+  "gate_results": {
+    "all_degrees_preserved": true,
+    "rmse_ci_passes_all_nulls": true,
+    "precision_ci_passes_all_nulls": true
+  },
+  "claim_boundary": "This post-result sensitivity tests dependence of the adaptive same-cohort finding on the degree-preserving null realization. It is not independent replication and does not establish temporal direction, genetic conditioning, physiological flux or clinical utility.",
+  "output_sha256": {
+    "null-ensemble-results.csv": "74d57acd103b9d53a6b912baea604b7476cc830490e1261d5409055ba830f055",
+    "report.md": "bf1c8435e0ee1a5d77ffad6075e9be23f3dcaa7c1d4b85ec53daa6b0dbe6d589"
+  }
+}

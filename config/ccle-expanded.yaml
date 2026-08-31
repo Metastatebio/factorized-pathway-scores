@@ -1,0 +1,49 @@
+study:
+  name: "CCLE expanded reaction-coupling discovery"
+  random_seed: 20260829
+
+dataset:
+  adapter: "ccle_2019"
+  raw_dir: "data/raw/ccle/2019"
+  assay_panel: "config/ccle_assay_panel.csv"
+  expand_exact_name_matches: true
+  group_column: "lineage"
+  minimum_group_size: 15
+
+network:
+  source: "Human-GEM"
+  version: "2.0.0"
+  model: "data/raw/human-gem/v2.0.0/Human-GEM.yml"
+  genes: "data/raw/human-gem/v2.0.0/genes.tsv"
+  metabolites: "data/raw/human-gem/v2.0.0/metabolites.tsv"
+  maximum_reaction_distance: 0
+  maximum_paths_per_metabolite_pair: 250
+  maximum_gpr_alternatives: 512
+  maximum_currency_metabolite_degree: 25
+  maximum_metabolites_per_reaction: 8
+  excluded_subsystem_patterns: ["protein degradation"]
+  maximum_candidates: 100000
+
+candidate_generation:
+  maximum_genes_per_signature: 3
+  included_review_priorities: ["1_direct_reaction"]
+
+analysis:
+  expression_signature_aggregation: "limiting_subunit"
+  covariance_type: "HC3"
+  control_group_slopes: true
+  false_discovery_rate: 0.05
+  follow_up_q_value: 0.10
+  permutation_top_k: 20
+  permutations: 500
+  predictive_top_k: 20
+  cross_validation_folds: 5
+  prediction_model: "ridge"
+  prediction_model_parameters:
+    alpha: 1.0
+  holdout_fraction: 0.30
+  stability_repetitions: 20
+  winsorization_tail_fraction: 0.01
+  influence_exclusion_fraction: 0.01
+  minimum_leave_one_group_out_sign_agreement: 0.80
+  minimum_holdout_sign_agreement: 0.80

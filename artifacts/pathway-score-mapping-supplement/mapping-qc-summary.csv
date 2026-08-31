@@ -1,0 +1,6 @@
+domain,total,accepted,rejected
+ST000818 lipid features,260,255,5
+ST002081 lipid features,845,493,352
+CCLE assay metabolites,225,76,149
+CCLE GPR signatures,195,169,26
+CCLE prediction targets,60,60,0

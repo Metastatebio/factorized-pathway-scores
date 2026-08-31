@@ -1,0 +1,21 @@
+subsystem,targets,mean_effect_sd
+Aminoacyl-tRNA biosynthesis,1,-0.0822378961539566
+"Valine, leucine, and isoleucine metabolism",2,-0.05404795822105174
+Inositol phosphate metabolism,1,-0.017768309275447036
+Bile acid biosynthesis,2,0.007057147068437963
+Glycerophospholipid metabolism,3,0.031031908040822193
+"Glycine, serine and threonine metabolism",6,0.041045449851938275
+Isolated,1,0.04117443108583663
+Arginine and proline metabolism,6,0.07539973880826356
+Pyruvate metabolism,1,0.08475678594201652
+"Alanine, aspartate and glutamate metabolism",5,0.09562243138956075
+"Phenylalanine, tyrosine and tryptophan biosynthesis",3,0.12384595612497362
+Beta-alanine metabolism,3,0.13477910231535836
+Purine metabolism,10,0.16144795157652958
+Nucleotide metabolism,2,0.18878255625054713
+Nicotinate and nicotinamide metabolism,1,0.20991416051086675
+Peptide metabolism,1,0.23169751175474562
+Pyrimidine metabolism,6,0.2379412667634634
+Histidine metabolism,1,0.2551277788643096
+Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism,4,0.3856134462322351
+Phenylalanine metabolism,1,0.6075118647899039

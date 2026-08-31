@@ -1,0 +1,16 @@
+# Target constraint ensemble
+
+**Status:** `model_relative_1000_draw_constraint_ensemble_complete`  
+**Draws per candidate:** 1000  
+**Candidate-draw evaluations:** 5000  
+**Physiological-rate calibration:** false  
+
+| candidate_id | ensemble_role | draws | successful_solves | failed_solves | stable_draws | stability_fraction | median_desired_normalized_gain | gain_q025 | gain_q975 | direction_stable |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| bcat2_activation | positive | 1000 | 1000 | 0 | 667 | 0.667 | 0.35796411718632615 | -1.4899067539796186e-14 | 0.8053407349277474 | False |
+| bckdh_complex_inhibition_negative | harmful_control | 1000 | 1000 | 0 | 1000 | 1.0 | -0.6638661263803378 | -0.904092923316743 | -0.33465201906962155 | True |
+| bckdh_complex_stabilization | positive | 1000 | 1000 | 0 | 997 | 0.997 | 0.47987537923856916 | 0.19255544378727257 | 0.8197693721604271 | True |
+| bckdk_direct_model_inhibition | disconnect_control | 1000 | 1000 | 0 | 1000 | 1.0 | 0.0 | 0.0 | 0.0 | True |
+| slc25a44_activation | positive | 1000 | 1000 | 0 | 667 | 0.667 | 0.35796411718632615 | -4.462414372533602e-14 | 0.8053407349277474 | False |
+
+This ensemble tests directional stability to frozen, model-relative medium, transport, intervention-capacity, tissue, scenario, and endpoint-weight uncertainty. The ranges are not organ-specific physiological rate estimates, and stability is not evidence of clinical efficacy or safety.

@@ -1,0 +1,11 @@
+domain,dataset,role,result,status
+Repeated human metabolomics,ST002081,Frozen coarse benchmark + adaptive structural follow-up,Coarse R2=0.588 failed its null; adaptive structural R2=0.907 passed across 20 graph nulls,ADAPTIVE_SIGNAL
+External human structural replication,ST000818,Locked population-held-out replication,255 lipids across 15 groups; passed 20 graph nulls and 9 settings; minimum edge replacement=0.771,SUPPORTED
+Reaction topology prediction,CCLE + HumanGEM,New lineage-held-out metabolite benchmark,"Mechanistic RMSE=0.797; improvement vs random=0.124; 10 settings, 20 dimension-matched and 20 property-matched random seeds pass; cluster lower bound=0.086",SUPPORTED
+Mapping and feature provenance,ST002081 + ST000818 + CCLE,Accepted/rejected feature and model-input audit,5 machine-readable tables; all source integrity verified,SUPPORTED
+Transcript-conditioned coupling,CCLE,Prior reaction-resolved inference,1 FDR-significant state among 284 tests; no general interaction increment,CANDIDATE_SPECIFIC
+Human genetic topology,METSIM + HumanGEM,Prior degree-matched topology benchmark,26/71 direct recoveries; P=1e-05,SUPPORTIVE_NOT_INDEPENDENT
+Genotype-by-context reaction coordinate,UKB/BBJ summaries,Prior reciprocal summary-statistic scan,1 strict replicated row; 0 novel mutable-context rows,LIMITED
+Isotope-resolved external challenge,NSCLC,Prior falsification,0 expression and 0 oncogenotype FDR signals,NULL
+Constraint sensitivity,HumanGEM,"Prior 1,000-draw model ensemble",3 stable and 2 unstable configured candidates,MODEL_RELATIVE
+Directional longitudinal prediction,ST002081,Prior temporal falsification,forward R2=0.452; reverse R2=0.459,NOT_SUPPORTED

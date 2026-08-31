@@ -1,0 +1,29 @@
+analysis_id: ccle_factorized_pathway_heldout_metabolite_v1
+protocol: ../docs/protocol-factorized-pathway-score-benchmark.md
+source:
+  ccle_raw_dir: ../data/raw/ccle/2019
+  mapping: ../artifacts/ccle-expanded/ccle_metabolite_mapping.csv
+  candidates: ../artifacts/ccle-expanded/ccle_candidate_hypotheses.csv
+  source_manifest: ../artifacts/ccle-expanded/ccle_proof_manifest.json
+eligibility:
+  minimum_target_samples: 300
+  minimum_lineage_samples: 15
+  minimum_targets: 30
+  minimum_lineages: 10
+model:
+  folds: 5
+  repeats: 2
+  ridge_alpha: 10.0
+  seed: 20260830
+  random_feature_seed: 20260831
+  expression_signature_aggregation: limiting_subunit
+inference:
+  bootstrap_draws: 5000
+  seed: 20260832
+gates:
+  bootstrap_ci_lower_must_exceed: 0.0
+claim_boundary: >-
+  Lineage-isolated prediction in cancer cell lines can test whether compact direct-reaction and
+  GPR features carry pathway-specific information. It does not establish human germline effects,
+  personalized prediction, metabolite conversion rates, physiological flux, drug response or
+  clinical utility.

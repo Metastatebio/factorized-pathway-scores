@@ -1,0 +1,125 @@
+{
+  "analysis_id": "ccle_factorized_pathway_heldout_metabolite_v1",
+  "completed_at": "2026-08-30T18:40:13.095941+00:00",
+  "decision": "RESOURCE_ONLY",
+  "config": "/home/openclaw/.openclaw/workspace/cross-omic-distillation-pilot/config/pathway-score-ccle.yaml",
+  "config_sha256": "0c9f94c04f6840e496bfe35924a81b0c1838cd08fd5c359411d5b17cf80114dc",
+  "protocol": "/home/openclaw/.openclaw/workspace/cross-omic-distillation-pilot/docs/protocol-factorized-pathway-score-benchmark.md",
+  "protocol_sha256": "db8f41a5291f37dcc0f08eb99afef681fc5a13f45d3cbc64b8db2fe2b8f95ec8",
+  "implementation_sha256": "5620ff22e1710d4c1bd5544ee25eb423642982ec5be0c6bf02285322d7c7a41b",
+  "source_sha256": {
+    "mapping": "226195d030f88ffb2a62de2606badbdb987621bd8bbe5231f9b7e2456f57bb21",
+    "candidates": "2376196042a633b378ba0ffb679a141a8dbfc43ce1d3f5dd9ddb99ca69e1d80c",
+    "source_manifest": "058b9a8f1997ff4a433facd5db693aba802b60bb6ee0c089c0b19b6d0fd247a5"
+  },
+  "aligned_samples": 913,
+  "mapped_metabolites": 76,
+  "available_signatures": 169,
+  "targets": 60,
+  "lineages": 18,
+  "model_metrics": [
+    {
+      "model": "all_metabolites_ridge",
+      "targets": 60,
+      "mean_equal_lineage_rmse_sd": 0.6379657881057545,
+      "median_target_r2": 0.5673446732603386,
+      "positive_r2_targets": 58
+    },
+    {
+      "model": "factorized_interaction_ridge",
+      "targets": 60,
+      "mean_equal_lineage_rmse_sd": 0.7967808043874182,
+      "median_target_r2": 0.24103722510950498,
+      "positive_r2_targets": 52
+    },
+    {
+      "model": "network_additive_ridge",
+      "targets": 60,
+      "mean_equal_lineage_rmse_sd": 0.7877179952494064,
+      "median_target_r2": 0.26981900541547293,
+      "positive_r2_targets": 53
+    },
+    {
+      "model": "network_metabolites_ridge",
+      "targets": 60,
+      "mean_equal_lineage_rmse_sd": 0.7984787358427333,
+      "median_target_r2": 0.24060507246300072,
+      "positive_r2_targets": 53
+    },
+    {
+      "model": "population_mean",
+      "targets": 60,
+      "mean_equal_lineage_rmse_sd": 0.9853038145230948,
+      "median_target_r2": 0.0,
+      "positive_r2_targets": 0
+    },
+    {
+      "model": "random_factorized_ridge",
+      "targets": 60,
+      "mean_equal_lineage_rmse_sd": 0.9203227803157856,
+      "median_target_r2": 0.04467150167182965,
+      "positive_r2_targets": 39
+    }
+  ],
+  "bootstrap_comparisons": [
+    {
+      "reference": "population_mean",
+      "challenger": "factorized_interaction_ridge",
+      "targets": 60,
+      "draws": 5000,
+      "rmse_improvement_sd": 0.18852301013567663,
+      "ci_lower": 0.14294746632296987,
+      "ci_upper": 0.23557873804360352
+    },
+    {
+      "reference": "random_factorized_ridge",
+      "challenger": "factorized_interaction_ridge",
+      "targets": 60,
+      "draws": 5000,
+      "rmse_improvement_sd": 0.12354197592836746,
+      "ci_lower": 0.08259248513063887,
+      "ci_upper": 0.16683232387758706
+    },
+    {
+      "reference": "network_metabolites_ridge",
+      "challenger": "factorized_interaction_ridge",
+      "targets": 60,
+      "draws": 5000,
+      "rmse_improvement_sd": 0.0016979314553150493,
+      "ci_lower": -0.00989542268281729,
+      "ci_upper": 0.013915503709565256
+    },
+    {
+      "reference": "network_additive_ridge",
+      "challenger": "factorized_interaction_ridge",
+      "targets": 60,
+      "draws": 5000,
+      "rmse_improvement_sd": -0.009062809138011607,
+      "ci_lower": -0.014380185313441162,
+      "ci_upper": -0.004151114768114587
+    },
+    {
+      "reference": "all_metabolites_ridge",
+      "challenger": "factorized_interaction_ridge",
+      "targets": 60,
+      "draws": 5000,
+      "rmse_improvement_sd": -0.15881501628166372,
+      "ci_lower": -0.20801754413672732,
+      "ci_upper": -0.11463116496673874
+    }
+  ],
+  "gate_results": {
+    "data_scale": true,
+    "beats_random_factorization": true,
+    "beats_network_metabolites": false,
+    "positive_median_target_r2": true
+  },
+  "claim_boundary": "Lineage-isolated prediction in cancer cell lines can test whether compact direct-reaction and GPR features carry pathway-specific information. It does not establish human germline effects, personalized prediction, metabolite conversion rates, physiological flux, drug response or clinical utility.",
+  "output_sha256": {
+    "model-metrics.csv": "17d5d67459b77eb0a59f583280028a9b71aef417309a1e44a840667dde6f6607",
+    "target-metrics.csv": "93bae53c98687aeeeada648e6e38d5e0d28d223512ea373ab3cd2508e5c6ea1c",
+    "target-feature-sets.csv": "b4799b173a00f6c49ffc938b09f4ac602328a7a2403efac3b9dcff6bfcf3651e",
+    "bootstrap-comparisons.csv": "e83a7af67ade6c584d4acf770b0518cc38316d79d3c254eab08dc03ec6084244",
+    "report.md": "a224ec7b61e7e094a42d97d5bf2d9399830a4ce6fef2b23e1a82a2a175409aae"
+  }
+}

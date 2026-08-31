@@ -1,0 +1,226 @@
+assay_metabolite_id,mapping_status,mapping_reason,human_gem_base_id,display_name,matched_by,candidate_human_gem_base_ids,hmdb_id,chebi_id,mapping_origin
+2-aminoadipate,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+3-phosphoglycerate,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+alpha-glycerophosphate,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+4-pyridoxate,mapped,unique_stable_or_exact_model_mapping,MAM01033,4-pyridoxate,HMDB;ChEBI,MAM01033,HMDB0000017,CHEBI:17405,unique_exact_normalized_name
+aconitate,mapped,unique_stable_or_exact_model_mapping,MAM01580,cis-aconitate,ChEBI,MAM01580,,CHEBI:32805,curated_stable_id
+adenine,mapped,unique_stable_or_exact_model_mapping,MAM01279,adenine,HMDB;ChEBI,MAM01279,HMDB0000034,CHEBI:16708,unique_exact_normalized_name
+adipate,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+alpha-ketoglutarate,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+AMP,mapped,unique_stable_or_exact_model_mapping,MAM01334,AMP,HMDB;ChEBI,MAM01334,HMDB0000045,CHEBI:16027,unique_exact_normalized_name
+citrate,mapped,unique_stable_or_exact_model_mapping,MAM01587,citrate,HMDB;ChEBI,MAM01587,HMDB0000094,CHEBI:30769,curated_stable_id
+isocitrate,mapped,unique_stable_or_exact_model_mapping,MAM02183,isocitrate,HMDB;ChEBI,MAM02183,HMDB0000193,CHEBI:30887,curated_stable_id
+CMP,mapped,unique_stable_or_exact_model_mapping,MAM01590,CMP,HMDB;ChEBI,MAM01590,HMDB0000095,CHEBI:17361,unique_exact_normalized_name
+cystathionine,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+cytidine,mapped,unique_stable_or_exact_model_mapping,MAM01630,cytidine,HMDB;ChEBI,MAM01630,HMDB0000089,CHEBI:17562,unique_exact_normalized_name
+dCMP,mapped,unique_stable_or_exact_model_mapping,MAM01644,dCMP,ChEBI,MAM01644,,CHEBI:15918,unique_exact_normalized_name
+DHAP/glyceraldehyde 3P,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+erythrose-4-phosphate,mapped,unique_stable_or_exact_model_mapping,MAM01785,erythrose-4-phosphate,ChEBI,MAM01785,,CHEBI:48153,unique_exact_normalized_name
+F1P/F6P/G1P/G6P,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+hexoses (HILIC neg),not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+fumarate/maleate/alpha-ketoisovalerate,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+glucuronate,mapped,unique_stable_or_exact_model_mapping,MAM01973,glucuronate,HMDB;ChEBI,MAM01973,HMDB0000127,CHEBI:42717,unique_exact_normalized_name
+glutathione oxidized,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+glutathione reduced,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+GMP,mapped,unique_stable_or_exact_model_mapping,MAM02016,GMP,ChEBI,MAM02016,,CHEBI:17345,unique_exact_normalized_name
+guanosine,mapped,unique_stable_or_exact_model_mapping,MAM02038,guanosine,HMDB;ChEBI,MAM02038,HMDB0000133,CHEBI:16750,unique_exact_normalized_name
+hippurate,mapped,unique_stable_or_exact_model_mapping,MAM02123,hippurate,HMDB;ChEBI,MAM02123,HMDB0000714,CHEBI:18089,unique_exact_normalized_name
+hypoxanthine,mapped,unique_stable_or_exact_model_mapping,MAM02159,hypoxanthine,HMDB;ChEBI,MAM02159,HMDB0000157,CHEBI:17368,unique_exact_normalized_name
+inosine,mapped,unique_stable_or_exact_model_mapping,MAM02170,inosine,HMDB;ChEBI,MAM02170,HMDB0000195,CHEBI:17596,unique_exact_normalized_name
+kynurenine,mapped,unique_stable_or_exact_model_mapping,MAM02319,kynurenine,HMDB;ChEBI,MAM02319,HMDB0000684,CHEBI:16946,unique_exact_normalized_name
+lactate,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+lactose,mapped,unique_stable_or_exact_model_mapping,MAM02332,lactose,HMDB;ChEBI,MAM02332,HMDB0000186,CHEBI:36219,unique_exact_normalized_name
+malate,mapped,unique_stable_or_exact_model_mapping,MAM02439,malate,HMDB;ChEBI,MAM02439,HMDB0000156,CHEBI:30797,unique_exact_normalized_name
+NAD,mapped,unique_stable_or_exact_model_mapping,MAM02552,NAD+,HMDB;ChEBI,MAM02552,HMDB0000902,CHEBI:15846,unique_exact_normalized_name
+NADP,mapped,unique_stable_or_exact_model_mapping,MAM02554,NADP+,HMDB;ChEBI,MAM02554,HMDB0000217,CHEBI:18009;CHEBI:58349,unique_exact_normalized_name
+oxalate,mapped,unique_stable_or_exact_model_mapping,MAM02661,oxalate,ChEBI,MAM02661,,CHEBI:16995,unique_exact_normalized_name
+pantothenate,mapped,unique_stable_or_exact_model_mapping,MAM02680,pantothenate,HMDB;ChEBI,MAM02680,HMDB0000210,CHEBI:7916,unique_exact_normalized_name
+PEP,mapped,unique_stable_or_exact_model_mapping,MAM02696,PEP,HMDB;ChEBI,MAM02696,HMDB0000263,CHEBI:44897,unique_exact_normalized_name
+ribose-5-P/ribulose5-P,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+sorbitol,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+succinate/methylmalonate,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+sucrose,mapped,unique_stable_or_exact_model_mapping,MAM02945,sucrose,HMDB;ChEBI,MAM02945,HMDB0000258,CHEBI:17992,unique_exact_normalized_name
+thymine,mapped,unique_stable_or_exact_model_mapping,MAM02997,thymine,HMDB;ChEBI,MAM02997,HMDB0000262,CHEBI:17821,unique_exact_normalized_name
+UMP,mapped,unique_stable_or_exact_model_mapping,MAM03114,UMP,ChEBI,MAM03114,,CHEBI:16695,unique_exact_normalized_name
+UDP-galactose/UDP-glucose,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+uracil,mapped,unique_stable_or_exact_model_mapping,MAM03118,uracil,HMDB;ChEBI,MAM03118,HMDB0000300,CHEBI:17568,unique_exact_normalized_name
+urate,mapped,unique_stable_or_exact_model_mapping,MAM03120,urate,HMDB;ChEBI,MAM03120,HMDB0000289,CHEBI:17775,unique_exact_normalized_name
+uridine,mapped,unique_stable_or_exact_model_mapping,MAM03123,uridine,HMDB;ChEBI,MAM03123,HMDB0000296,CHEBI:16704,unique_exact_normalized_name
+xanthine,mapped,unique_stable_or_exact_model_mapping,MAM03148,xanthine,HMDB;ChEBI,MAM03148,HMDB0000292,CHEBI:17712,unique_exact_normalized_name
+taurocholate,mapped,unique_stable_or_exact_model_mapping,MAM02963,taurocholate,HMDB;ChEBI,MAM02963,HMDB0000036,CHEBI:28865,unique_exact_normalized_name
+glycodeoxycholate/glycochenodeoxycholate,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+taurodeoxycholate/taurochenodeoxycholate,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+phosphocreatine,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+3-methyladipate/pimelate,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+6-phosphogluconate,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+alpha-hydroxybutyrate,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+2-hydroxyglutarate,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+inositol,mapped,unique_stable_or_exact_model_mapping,MAM02171,inositol,HMDB;ChEBI,MAM02171,HMDB0000211,CHEBI:17268,unique_exact_normalized_name
+malondialdehyde,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+glycine,mapped,unique_stable_or_exact_model_mapping,MAM01986,glycine,HMDB;ChEBI,MAM01986,HMDB0000123,CHEBI:15428,curated_stable_id
+alanine,mapped,unique_stable_or_exact_model_mapping,MAM01307,alanine,HMDB;ChEBI,MAM01307,HMDB0000161,CHEBI:16977,unique_exact_normalized_name
+serine,mapped,unique_stable_or_exact_model_mapping,MAM02896,serine,HMDB;ChEBI,MAM02896,HMDB0000187,CHEBI:17115,curated_stable_id
+threonine,mapped,unique_stable_or_exact_model_mapping,MAM02993,threonine,HMDB;ChEBI,MAM02993,HMDB0000167,CHEBI:16857,unique_exact_normalized_name
+methionine,mapped,unique_stable_or_exact_model_mapping,MAM02471,methionine,HMDB;ChEBI,MAM02471,HMDB0000696,CHEBI:16643,unique_exact_normalized_name
+aspartate,mapped,unique_stable_or_exact_model_mapping,MAM01370,aspartate,HMDB;ChEBI,MAM01370,HMDB0000191,CHEBI:17053,curated_stable_id
+glutamate,mapped,unique_stable_or_exact_model_mapping,MAM01974,glutamate,HMDB;ChEBI,MAM01974,HMDB0000148,CHEBI:16015,curated_stable_id
+asparagine,mapped,unique_stable_or_exact_model_mapping,MAM01369,asparagine,HMDB;ChEBI,MAM01369,HMDB0000168,CHEBI:17196,curated_stable_id
+glutamine,mapped,unique_stable_or_exact_model_mapping,MAM01975,glutamine,HMDB;ChEBI,MAM01975,HMDB0000641,CHEBI:18050,curated_stable_id
+histidine,mapped,unique_stable_or_exact_model_mapping,MAM02125,histidine,HMDB;ChEBI,MAM02125,HMDB0000177,CHEBI:15971,unique_exact_normalized_name
+arginine,mapped,unique_stable_or_exact_model_mapping,MAM01365,arginine,HMDB;ChEBI,MAM01365,HMDB0000517,CHEBI:16467,curated_stable_id
+lysine,mapped,unique_stable_or_exact_model_mapping,MAM02426,lysine,HMDB;ChEBI,MAM02426,HMDB0000182,CHEBI:18019,unique_exact_normalized_name
+valine,mapped,unique_stable_or_exact_model_mapping,MAM03135,valine,HMDB;ChEBI,MAM03135,HMDB0000883,CHEBI:16414,unique_exact_normalized_name
+leucine,mapped,unique_stable_or_exact_model_mapping,MAM02360,leucine,HMDB;ChEBI,MAM02360,HMDB0000687,CHEBI:15603,unique_exact_normalized_name
+isoleucine,mapped,unique_stable_or_exact_model_mapping,MAM02184,isoleucine,HMDB;ChEBI,MAM02184,HMDB0000172,CHEBI:17191,unique_exact_normalized_name
+phenylalanine,mapped,unique_stable_or_exact_model_mapping,MAM02724,phenylalanine,HMDB;ChEBI,MAM02724,HMDB0000159,CHEBI:17295,unique_exact_normalized_name
+tyrosine,mapped,unique_stable_or_exact_model_mapping,MAM03101,tyrosine,HMDB;ChEBI,MAM03101,HMDB0000158,CHEBI:17895,unique_exact_normalized_name
+tryptophan,mapped,unique_stable_or_exact_model_mapping,MAM03089,tryptophan,HMDB;ChEBI,MAM03089,HMDB0000929,CHEBI:16828,unique_exact_normalized_name
+proline,mapped,unique_stable_or_exact_model_mapping,MAM02770,proline,HMDB;ChEBI,MAM02770,HMDB0000162,CHEBI:17203,unique_exact_normalized_name
+cis/trans-hydroxyproline,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+ornithine,mapped,unique_stable_or_exact_model_mapping,MAM02658,ornithine,HMDB;ChEBI,MAM02658,HMDB0000214,CHEBI:15729,curated_stable_id
+citrulline,mapped,unique_stable_or_exact_model_mapping,MAM01588,citrulline,HMDB;ChEBI,MAM01588,HMDB0000904,CHEBI:16349,unique_exact_normalized_name
+taurine,mapped,unique_stable_or_exact_model_mapping,MAM02961,taurine,HMDB;ChEBI,MAM02961,HMDB0000251,CHEBI:15891,unique_exact_normalized_name
+5-HIAA,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+serotonin,mapped,unique_stable_or_exact_model_mapping,MAM02897,serotonin,HMDB;ChEBI,MAM02897,HMDB0000259,CHEBI:28790,unique_exact_normalized_name
+GABA,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+acetylglycine,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+dimethylglycine,mapped,unique_stable_or_exact_model_mapping,MAM01708,dimethylglycine,HMDB;ChEBI,MAM01708,HMDB0000092,CHEBI:17724,unique_exact_normalized_name
+homocysteine,mapped,unique_stable_or_exact_model_mapping,MAM02133,homocysteine,HMDB;ChEBI,MAM02133,HMDB0000742,CHEBI:17230,unique_exact_normalized_name
+SDMA/ADMA,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+NMMA,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+allantoin,mapped,unique_stable_or_exact_model_mapping,MAM01313,allantoin,HMDB;ChEBI,MAM01313,HMDB0000462,CHEBI:15676,unique_exact_normalized_name
+anthranilic acid,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+kynurenic acid,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+5-adenosylhomocysteine,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+carnosine,mapped,unique_stable_or_exact_model_mapping,MAM01423,carnosine,HMDB;ChEBI,MAM01423,HMDB0000033,CHEBI:15727,unique_exact_normalized_name
+N-carbamoyl-beta-alanine,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+thiamine,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+niacinamide,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+betaine,mapped,unique_stable_or_exact_model_mapping,MAM01393,betaine,HMDB;ChEBI,MAM01393,HMDB0000043,CHEBI:17750,curated_stable_id
+choline,mapped,unique_stable_or_exact_model_mapping,MAM01513,choline,HMDB;ChEBI,MAM01513,HMDB0000097,CHEBI:15354,curated_stable_id
+alpha-glycerophosphocholine,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+acetylcholine,mapped,unique_stable_or_exact_model_mapping,MAM01260,acetylcholine,HMDB;ChEBI,MAM01260,HMDB0000895,CHEBI:15355,unique_exact_normalized_name
+creatine,mapped,unique_stable_or_exact_model_mapping,MAM01619,creatine,HMDB;ChEBI,MAM01619,HMDB0000064,CHEBI:16919,unique_exact_normalized_name
+creatinine,mapped,unique_stable_or_exact_model_mapping,MAM01621,creatinine,HMDB;ChEBI,MAM01621,HMDB0000562,CHEBI:16737,unique_exact_normalized_name
+thyroxine,mapped,unique_stable_or_exact_model_mapping,MAM02998,thyroxine,HMDB;ChEBI,MAM02998,HMDB0000248,CHEBI:18332,unique_exact_normalized_name
+trimethylamine-N-oxide,mapped,unique_stable_or_exact_model_mapping,MAM03054,trimethylamine-N-oxide,ChEBI,MAM03054,,CHEBI:15724,unique_exact_normalized_name
+hexoses (HILIC pos),not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+adenosine,mapped,unique_stable_or_exact_model_mapping,MAM01280,adenosine,HMDB;ChEBI,MAM01280,HMDB0000050,CHEBI:16335,unique_exact_normalized_name
+thymidine,mapped,unique_stable_or_exact_model_mapping,MAM02996,thymidine,HMDB;ChEBI,MAM02996,HMDB0000273,CHEBI:17748,unique_exact_normalized_name
+xanthosine,mapped,unique_stable_or_exact_model_mapping,MAM03149,xanthosine,HMDB;ChEBI,MAM03149,HMDB0000299,CHEBI:18107,unique_exact_normalized_name
+2-deoxyadenosine,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+2-deoxycytidine,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+cAMP,mapped,unique_stable_or_exact_model_mapping,MAM01419,cAMP,HMDB;ChEBI,MAM01419,HMDB0000058,CHEBI:17489,unique_exact_normalized_name
+cotinine,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+pipecolic acid,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+pyroglutamic acid,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+1-methylnicotinamide,mapped,unique_stable_or_exact_model_mapping,MAM00536,1-methylnicotinamide,HMDB;ChEBI,MAM00536,HMDB0000699,CHEBI:16797,unique_exact_normalized_name
+butyrobetaine,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+putrescine,mapped,unique_stable_or_exact_model_mapping,MAM02812,putrescine,HMDB;ChEBI,MAM02812,HMDB0001414,CHEBI:17148,unique_exact_normalized_name
+methionine sulfoxide,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+carnitine,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+acetylcarnitine,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+propionylcarnitine,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+malonylcarnitine,mapped,unique_stable_or_exact_model_mapping,MAM02443,malonyl-carnitine,HMDB,MAM02443,HMDB0002095,,unique_exact_normalized_name
+butyrylcarnitine/isobutyrylcarnitine,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+valerylcarnitine/isovalerylcarnitine/2-methylbutyroylcarnitine,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+hexanoylcarnitine,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+heptanoylcarnitine,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+lauroylcarnitine,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+myristoylcarnitine,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+palmitoylcarnitine,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+stearoylcarnitine,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+oleylcarnitine,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+arachidonyl_carnitine,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+sarcosine,mapped,unique_stable_or_exact_model_mapping,MAM02880,sarcosine,HMDB;ChEBI,MAM02880,HMDB0000271,CHEBI:15611,unique_exact_normalized_name
+beta-alanine,mapped,unique_stable_or_exact_model_mapping,MAM01383,beta-alanine,HMDB;ChEBI,MAM01383,HMDB0000056,CHEBI:16958,unique_exact_normalized_name
+anserine,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C14:0 LPC,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C16:1 LPC,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C16:0 LPC,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C18:2 LPC,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C18:1 LPC,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C18:0 LPC,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C20:4 LPC,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C20:3 LPC,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C22:6 LPC,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C16:0 LPE,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C18:1 LPE,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C18:0 LPE,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C20:4 LPE,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C22:6 LPE,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C32:2 PC,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C32:1 PC,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C32:0 PC,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C34:4 PC,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C34:3 PC,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C34:2 PC,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C34:1 PC,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C36:4 PC-A,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C36:4 PC-B,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C36:3 PC,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C36:2 PC,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C36:1 PC,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C38:6 PC,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C38:5 PC,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C38:4 PC,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C38:2 PC,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C40:6 PC,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C14:0 SM,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C16:1 SM,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C16:0 SM,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C18:2 SM,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C18:1 SM,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C18:0 SM,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C22:1 SM,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C22:0 SM,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C24:1 SM,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C24:0 SM,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C34:2 DAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C34:1 DAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C36:2 DAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C36:1 DAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C14:0 CE,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C16:1 CE,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C16:0 CE,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C18:3 CE,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C18:2 CE,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C18:1 CE,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C18:0 CE,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C20:5 CE,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C20:4 CE,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C20:3 CE,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C22:6 CE,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C46:2 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C46:1 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C46:0 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C48:3 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C48:2 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C48:1 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C48:0 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C50:3 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C50:2 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C50:1 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C50:0 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C52:5 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C52:4 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C52:3 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C52:2 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C52:1 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C54:7 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C54:6 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C54:5 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C54:4 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C54:3 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C54:2 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C54:1 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C56:8 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C56:7 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C56:6 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C56:5 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C56:4 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C56:3 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C56:2 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C58:8 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C58:7 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,
+C58:6 TAG,not_nominated,absent_from_frozen_unique_stable_mapping_panel,,,,,,,

@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Public inputs are fetched from their primary repositories and are never committed.
+data/raw/
+
+# Clean-room reruns may write scratch outputs here.
+reproduction/
+

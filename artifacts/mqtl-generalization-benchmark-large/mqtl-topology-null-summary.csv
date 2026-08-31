@@ -1,0 +1,4 @@
+null_id,permutations,mean_recoveries,median_recoveries,q95_recoveries,q99_recoveries,maximum_recoveries,draws_at_least_observed,plus_one_p_value
+within_panel,100000,2.07096,2.0,4.0,6.0,10,0,9.99990000099999e-06
+global_degree_matched,100000,1.36779,1.0,3.0,4.0,7,0,9.99990000099999e-06
+within_biochemical_class,100000,5.7921,6.0,9.0,10.0,16,0,9.99990000099999e-06

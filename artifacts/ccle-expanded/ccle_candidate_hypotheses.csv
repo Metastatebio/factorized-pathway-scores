@@ -1,0 +1,318 @@
+hypothesis_id,metabolite_a,metabolite_a_name,metabolite_b,metabolite_b_name,direction_status,genes,gene_count,reaction_ids,reaction_distance,intermediate_metabolites,subsystems,contains_transport_reaction,review_priority,pathway_source,path_search_truncated,signature_prevalence,expected_discovery_carriers,expected_replication_carriers,discovery_power,replication_power,eligible,ineligibility_reason
+GGM-0000001,AMP,AMP,CMP,CMP,unresolved,TREX1,1,MAR07164,0,,Nucleotide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: TREX1
+GGM-0000002,AMP,AMP,CMP,CMP,unresolved,TREX2,1,MAR07164,0,,Nucleotide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: TREX2
+GGM-0000003,AMP,AMP,CMP,CMP,unresolved,RAD1;RAD9A,2,MAR07164,0,,Nucleotide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: RAD1;RAD9A
+GGM-0000004,AMP,AMP,GMP,GMP,unresolved,GMPS,1,MAR04453,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: GMPS
+GGM-0000005,AMP,AMP,GMP,GMP,unresolved,TREX1,1,MAR07164,0,,Nucleotide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: TREX1
+GGM-0000006,AMP,AMP,GMP,GMP,unresolved,TREX2,1,MAR07164,0,,Nucleotide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: TREX2
+GGM-0000007,AMP,AMP,GMP,GMP,unresolved,RAD1;RAD9A,2,MAR07164,0,,Nucleotide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: RAD1;RAD9A
+GGM-0000008,AMP,AMP,NAD,NAD+,unresolved,NADSYN1,1,MAR04261,0,,Nicotinate and nicotinamide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NADSYN1
+GGM-0000009,AMP,AMP,NAD,NAD+,unresolved,NUDT12,1,MAR04263,0,,Nicotinate and nicotinamide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NUDT12
+GGM-0000010,AMP,AMP,UMP,UMP,unresolved,TREX1,1,MAR07164,0,,Nucleotide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: TREX1
+GGM-0000011,AMP,AMP,UMP,UMP,unresolved,TREX2,1,MAR07164,0,,Nucleotide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: TREX2
+GGM-0000012,AMP,AMP,UMP,UMP,unresolved,RAD1;RAD9A,2,MAR07164,0,,Nucleotide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: RAD1;RAD9A
+GGM-0000013,AMP,AMP,adenine,adenine,unresolved,APRT,1,MAR04085,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: APRT
+GGM-0000014,AMP,AMP,adenosine,adenosine,unresolved,ACP3,1,MAR04010,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ACP3
+GGM-0000015,AMP,AMP,adenosine,adenosine,unresolved,ADK,1,MAR04012,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ADK
+GGM-0000016,AMP,AMP,adenosine,adenosine,unresolved,DCK,1,MAR04012,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: DCK
+GGM-0000017,AMP,AMP,adenosine,adenosine,unresolved,NT5C,1,MAR04010,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NT5C
+GGM-0000018,AMP,AMP,adenosine,adenosine,unresolved,NT5C1A,1,MAR04010,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NT5C1A
+GGM-0000019,AMP,AMP,adenosine,adenosine,unresolved,NT5C1B,1,MAR04010,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NT5C1B
+GGM-0000020,AMP,AMP,adenosine,adenosine,unresolved,NT5C2,1,MAR04010,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NT5C2
+GGM-0000021,AMP,AMP,adenosine,adenosine,unresolved,NT5C3B,1,MAR04081,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NT5C3B
+GGM-0000022,AMP,AMP,adenosine,adenosine,unresolved,NT5E,1,MAR04010,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NT5E
+GGM-0000023,AMP,AMP,adenosine,adenosine,unresolved,NT5M,1,MAR04081,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NT5M
+GGM-0000024,AMP,AMP,adenosine,adenosine,unresolved,RBAK,1,MAR04010,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: RBAK
+GGM-0000025,AMP,AMP,alanine,alanine,unresolved,AARS1,1,MAR05131,0,,Aminoacyl-tRNA biosynthesis,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: AARS1
+GGM-0000026,AMP,AMP,beta-alanine,beta-alanine,unresolved,CARNS1,1,MAR04425,0,,Beta-alanine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: CARNS1
+GGM-0000027,AMP,AMP,cAMP,cAMP,unresolved,PDE10A,1,MAR04014,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PDE10A
+GGM-0000028,AMP,AMP,cAMP,cAMP,unresolved,PDE11A,1,MAR04014,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PDE11A
+GGM-0000029,AMP,AMP,cAMP,cAMP,unresolved,PDE1A,1,MAR04014,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PDE1A
+GGM-0000030,AMP,AMP,cAMP,cAMP,unresolved,PDE1B,1,MAR04014,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PDE1B
+GGM-0000031,AMP,AMP,cAMP,cAMP,unresolved,PDE1C,1,MAR04014,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PDE1C
+GGM-0000032,AMP,AMP,cAMP,cAMP,unresolved,PDE2A,1,MAR04014,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PDE2A
+GGM-0000033,AMP,AMP,cAMP,cAMP,unresolved,PDE3A,1,MAR04014,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PDE3A
+GGM-0000034,AMP,AMP,cAMP,cAMP,unresolved,PDE3B,1,MAR04014,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PDE3B
+GGM-0000035,AMP,AMP,cAMP,cAMP,unresolved,PDE4A,1,MAR04014,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PDE4A
+GGM-0000036,AMP,AMP,cAMP,cAMP,unresolved,PDE4B,1,MAR04014,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PDE4B
+GGM-0000037,AMP,AMP,cAMP,cAMP,unresolved,PDE4C,1,MAR04014,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PDE4C
+GGM-0000038,AMP,AMP,cAMP,cAMP,unresolved,PDE4D,1,MAR04014,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PDE4D
+GGM-0000039,AMP,AMP,cAMP,cAMP,unresolved,PDE6C,1,MAR04014,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PDE6C
+GGM-0000040,AMP,AMP,cAMP,cAMP,unresolved,PDE6G,1,MAR04014,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PDE6G
+GGM-0000041,AMP,AMP,cAMP,cAMP,unresolved,PDE6H,1,MAR04014,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PDE6H
+GGM-0000042,AMP,AMP,cAMP,cAMP,unresolved,PDE7A,1,MAR04014,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PDE7A
+GGM-0000043,AMP,AMP,cAMP,cAMP,unresolved,PDE7B,1,MAR04014,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PDE7B
+GGM-0000044,AMP,AMP,cAMP,cAMP,unresolved,PDE8A,1,MAR04014,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PDE8A
+GGM-0000045,AMP,AMP,cAMP,cAMP,unresolved,PDE8B,1,MAR04014,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PDE8B
+GGM-0000046,AMP,AMP,carnosine,carnosine,unresolved,CARNS1,1,MAR04425,0,,Beta-alanine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: CARNS1
+GGM-0000047,AMP,AMP,citrulline,citrulline,unresolved,ASS1,1,MAR03811,0,,"Alanine, aspartate and glutamate metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ASS1
+GGM-0000048,AMP,AMP,histidine,histidine,unresolved,CARNS1,1,MAR04425,0,,Beta-alanine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: CARNS1
+GGM-0000049,AMP,AMP,histidine,histidine,unresolved,HARS1,1,MAR05139,0,,Aminoacyl-tRNA biosynthesis,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: HARS1
+GGM-0000050,AMP,AMP,isoleucine,isoleucine,unresolved,IARS1,1,MAR05140,0,,Aminoacyl-tRNA biosynthesis,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: IARS1
+GGM-0000051,AMP,AMP,leucine,leucine,unresolved,LARS1,1,MAR05141,0,,Aminoacyl-tRNA biosynthesis,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: LARS1
+GGM-0000052,AMP,AMP,lysine,lysine,unresolved,KARS1,1,MAR05142,0,,Aminoacyl-tRNA biosynthesis,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: KARS1
+GGM-0000053,AMP,AMP,methionine,methionine,unresolved,MARS1,1,MAR05143,0,,Aminoacyl-tRNA biosynthesis,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: MARS1
+GGM-0000054,AMP,AMP,phenylalanine,phenylalanine,unresolved,FARSA;FARSB,2,MAR05145,0,,Aminoacyl-tRNA biosynthesis,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: FARSA;FARSB
+GGM-0000055,AMP,AMP,proline,proline,unresolved,EPRS1,1,MAR05146,0,,Aminoacyl-tRNA biosynthesis,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: EPRS1
+GGM-0000056,AMP,AMP,taurine,taurine,unresolved,BAAT,1,MAR01841,0,,Bile acid biosynthesis,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: BAAT
+GGM-0000057,AMP,AMP,threonine,threonine,unresolved,TARS1,1,MAR05148,0,,Aminoacyl-tRNA biosynthesis,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: TARS1
+GGM-0000058,AMP,AMP,tryptophan,tryptophan,unresolved,WARS1,1,MAR05149,0,,Aminoacyl-tRNA biosynthesis,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: WARS1
+GGM-0000059,AMP,AMP,tyrosine,tyrosine,unresolved,YARS1,1,MAR05130,0,,Aminoacyl-tRNA biosynthesis,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: YARS1
+GGM-0000060,AMP,AMP,valine,valine,unresolved,VARS1,1,MAR05150,0,,Aminoacyl-tRNA biosynthesis,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: VARS1
+GGM-0000061,CMP,CMP,GMP,GMP,unresolved,TREX1,1,MAR07164,0,,Nucleotide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: TREX1
+GGM-0000062,CMP,CMP,GMP,GMP,unresolved,TREX2,1,MAR07164,0,,Nucleotide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: TREX2
+GGM-0000063,CMP,CMP,GMP,GMP,unresolved,RAD1;RAD9A,2,MAR07164,0,,Nucleotide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: RAD1;RAD9A
+GGM-0000064,CMP,CMP,UMP,UMP,unresolved,TREX1,1,MAR07164,0,,Nucleotide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: TREX1
+GGM-0000065,CMP,CMP,UMP,UMP,unresolved,TREX2,1,MAR07164,0,,Nucleotide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: TREX2
+GGM-0000066,CMP,CMP,UMP,UMP,unresolved,RAD1;RAD9A,2,MAR07164,0,,Nucleotide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: RAD1;RAD9A
+GGM-0000067,CMP,CMP,cytidine,cytidine,unresolved,ACP3,1,MAR04177,0,,Pyrimidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ACP3
+GGM-0000068,CMP,CMP,cytidine,cytidine,unresolved,NT5C1A,1,MAR04177,0,,Pyrimidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NT5C1A
+GGM-0000069,CMP,CMP,cytidine,cytidine,unresolved,NT5C1B,1,MAR04177,0,,Pyrimidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NT5C1B
+GGM-0000070,CMP,CMP,cytidine,cytidine,unresolved,NT5C2,1,MAR04177,0,,Pyrimidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NT5C2
+GGM-0000071,CMP,CMP,cytidine,cytidine,unresolved,NT5C3A,1,MAR04177,0,,Pyrimidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NT5C3A
+GGM-0000072,CMP,CMP,cytidine,cytidine,unresolved,NT5C3B,1,MAR04177,0,,Pyrimidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NT5C3B
+GGM-0000073,CMP,CMP,cytidine,cytidine,unresolved,NT5E,1,MAR04177,0,,Pyrimidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NT5E
+GGM-0000074,CMP,CMP,cytidine,cytidine,unresolved,RBAK,1,MAR04179,0,,Pyrimidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: RBAK
+GGM-0000075,CMP,CMP,cytidine,cytidine,unresolved,UCK1,1,MAR04180,0,,Nucleotide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: UCK1
+GGM-0000076,CMP,CMP,cytidine,cytidine,unresolved,UCK2,1,MAR04180,0,,Nucleotide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: UCK2
+GGM-0000077,CMP,CMP,cytidine,cytidine,unresolved,UCKL1,1,MAR04180,0,,Nucleotide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: UCKL1
+GGM-0000078,CMP,CMP,inositol,inositol,unresolved,CDIPT,1,MAR00610,0,,Glycerophospholipid metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: CDIPT
+GGM-0000079,GMP,GMP,NADP,NADP+,unresolved,GMPR,1,MAR04419,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: GMPR
+GGM-0000080,GMP,GMP,NADP,NADP+,unresolved,GMPR2,1,MAR04419,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: GMPR2
+GGM-0000081,GMP,GMP,UMP,UMP,unresolved,TREX1,1,MAR07164,0,,Nucleotide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: TREX1
+GGM-0000082,GMP,GMP,UMP,UMP,unresolved,TREX2,1,MAR07164,0,,Nucleotide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: TREX2
+GGM-0000083,GMP,GMP,UMP,UMP,unresolved,RAD1;RAD9A,2,MAR07164,0,,Nucleotide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: RAD1;RAD9A
+GGM-0000084,GMP,GMP,guanosine,guanosine,unresolved,ACP3,1,MAR04449,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ACP3
+GGM-0000085,GMP,GMP,guanosine,guanosine,unresolved,NT5C,1,MAR04449,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NT5C
+GGM-0000086,GMP,GMP,guanosine,guanosine,unresolved,NT5C1A,1,MAR04449,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NT5C1A
+GGM-0000087,GMP,GMP,guanosine,guanosine,unresolved,NT5C1B,1,MAR04449,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NT5C1B
+GGM-0000088,GMP,GMP,guanosine,guanosine,unresolved,NT5C2,1,MAR04449,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NT5C2
+GGM-0000089,GMP,GMP,guanosine,guanosine,unresolved,NT5C3A,1,MAR04449,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NT5C3A
+GGM-0000090,GMP,GMP,guanosine,guanosine,unresolved,NT5C3B,1,MAR04449,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NT5C3B
+GGM-0000091,GMP,GMP,guanosine,guanosine,unresolved,NT5E,1,MAR04449,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NT5E
+GGM-0000092,GMP,GMP,guanosine,guanosine,unresolved,NT5M,1,MAR04450,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NT5M
+GGM-0000093,GMP,GMP,guanosine,guanosine,unresolved,RBAK,1,MAR04450,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: RBAK
+GGM-0000094,NAD,NAD+,NADP,NADP+,unresolved,ACP3,1,MAR04270,0,,Nicotinate and nicotinamide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ACP3
+GGM-0000095,NAD,NAD+,NADP,NADP+,unresolved,ACP4,1,MAR04270,0,,Nicotinate and nicotinamide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ACP4
+GGM-0000096,NAD,NAD+,NADP,NADP+,unresolved,ACP5,1,MAR04270,0,,Nicotinate and nicotinamide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ACP5
+GGM-0000097,NAD,NAD+,NADP,NADP+,unresolved,ACP6,1,MAR04270,0,,Nicotinate and nicotinamide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ACP6
+GGM-0000098,NAD,NAD+,NADP,NADP+,unresolved,ACP7,1,MAR04270,0,,Nicotinate and nicotinamide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ACP7
+GGM-0000099,NAD,NAD+,NADP,NADP+,unresolved,NADK,1,MAR04269,0,,Nicotinate and nicotinamide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NADK
+GGM-0000100,NAD,NAD+,NADP,NADP+,unresolved,NADK2,1,MAR04268,0,,Nicotinate and nicotinamide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NADK2
+GGM-0000101,NAD,NAD+,NADP,NADP+,unresolved,PXYLP1,1,MAR04270,0,,Nicotinate and nicotinamide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PXYLP1
+GGM-0000102,NAD,NAD+,beta-alanine,beta-alanine,unresolved,ALDH1B1,1,MAR00088,0,,Beta-alanine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ALDH1B1
+GGM-0000103,NAD,NAD+,beta-alanine,beta-alanine,unresolved,ALDH2,1,MAR00088,0,,Beta-alanine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ALDH2
+GGM-0000104,NAD,NAD+,beta-alanine,beta-alanine,unresolved,ALDH3A2,1,MAR07993,0,,Beta-alanine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ALDH3A2
+GGM-0000105,NAD,NAD+,beta-alanine,beta-alanine,unresolved,ALDH7A1,1,MAR07993,0,,Beta-alanine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ALDH7A1
+GGM-0000106,NAD,NAD+,beta-alanine,beta-alanine,unresolved,ALDH9A1,1,MAR07993,0,,Beta-alanine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ALDH9A1
+GGM-0000107,NAD,NAD+,hypoxanthine,hypoxanthine,unresolved,XDH,1,MAR04519,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: XDH
+GGM-0000108,NAD,NAD+,malate,malate,unresolved,MDH1,1,MAR04139,0,,Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: MDH1
+GGM-0000109,NAD,NAD+,malate,malate,unresolved,MDH1B,1,MAR04139,0,,Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: MDH1B
+GGM-0000110,NAD,NAD+,malate,malate,unresolved,MDH2,1,MAR04141,0,,Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: MDH2
+GGM-0000111,NAD,NAD+,malate,malate,unresolved,ME2,1,MAR04087,0,,Pyruvate metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ME2
+GGM-0000112,NAD,NAD+,malate,malate,unresolved,ME3,1,MAR04087,0,,Pyruvate metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ME3
+GGM-0000113,NAD,NAD+,oxalate,oxalate,unresolved,LDHAL6A,1,MAR08780,0,,Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: LDHAL6A
+GGM-0000114,NAD,NAD+,oxalate,oxalate,unresolved,LDHAL6B,1,MAR08780,0,,Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: LDHAL6B
+GGM-0000115,NAD,NAD+,oxalate,oxalate,unresolved,LDHB,1,MAR08780,0,,Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: LDHB
+GGM-0000116,NAD,NAD+,oxalate,oxalate,unresolved,LDHC,1,MAR08780,0,,Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: LDHC
+GGM-0000117,NAD,NAD+,oxalate,oxalate,unresolved,LDHD,1,MAR08780,0,,Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: LDHD
+GGM-0000118,NAD,NAD+,proline,proline,unresolved,PYCR1,1,MAR03837,0,,Arginine and proline metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PYCR1
+GGM-0000119,NAD,NAD+,proline,proline,unresolved,PYCR2,1,MAR03835,0,,Arginine and proline metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PYCR2
+GGM-0000120,NAD,NAD+,proline,proline,unresolved,PYCR3,1,MAR03835,0,,Arginine and proline metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PYCR3
+GGM-0000121,NAD,NAD+,taurine,taurine,unresolved,FMO1,1,MAR13083,0,,Metabolism of other amino acids,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: FMO1
+GGM-0000122,NAD,NAD+,thymine,thymine,unresolved,DPYD,1,MAR04470,0,,Pyrimidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: DPYD
+GGM-0000123,NAD,NAD+,urate,urate,unresolved,XDH,1,MAR04646,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: XDH
+GGM-0000124,NAD,NAD+,xanthine,xanthine,unresolved,XDH,1,MAR04519,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: XDH
+GGM-0000125,NADP,NADP+,beta-alanine,beta-alanine,unresolved,ALDH1B1,1,MAR04079,0,,Beta-alanine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ALDH1B1
+GGM-0000126,NADP,NADP+,beta-alanine,beta-alanine,unresolved,ALDH2,1,MAR04079,0,,Beta-alanine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ALDH2
+GGM-0000127,NADP,NADP+,beta-alanine,beta-alanine,unresolved,ALDH3A2,1,MAR04079,0,,Beta-alanine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ALDH3A2
+GGM-0000128,NADP,NADP+,beta-alanine,beta-alanine,unresolved,ALDH7A1,1,MAR04079,0,,Beta-alanine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ALDH7A1
+GGM-0000129,NADP,NADP+,beta-alanine,beta-alanine,unresolved,ALDH9A1,1,MAR04079,0,,Beta-alanine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ALDH9A1
+GGM-0000130,NADP,NADP+,citrulline,citrulline,unresolved,NOS1,1,MAR02023,0,,Arginine and proline metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NOS1
+GGM-0000131,NADP,NADP+,citrulline,citrulline,unresolved,NOS2,1,MAR02023,0,,Arginine and proline metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NOS2
+GGM-0000132,NADP,NADP+,citrulline,citrulline,unresolved,NOS3,1,MAR02023,0,,Arginine and proline metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NOS3
+GGM-0000133,NADP,NADP+,dimethylglycine,dimethylglycine,unresolved,DMGDH,1,MAR04700,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: DMGDH
+GGM-0000134,NADP,NADP+,dimethylglycine,dimethylglycine,unresolved,PDPR,1,MAR04700,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PDPR
+GGM-0000135,NADP,NADP+,glucuronate,glucuronate,unresolved,AKR1A1,1,MAR06537,0,,Pentose and glucuronate interconversions,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: AKR1A1
+GGM-0000136,NADP,NADP+,kynurenine,kynurenine,unresolved,KMO,1,MAR04220,0,,"Phenylalanine, tyrosine and tryptophan biosynthesis",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: KMO
+GGM-0000137,NADP,NADP+,lysine,lysine,unresolved,AASS,1,MAR04288,0,,Lysine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: AASS
+GGM-0000138,NADP,NADP+,malate,malate,unresolved,ME1,1,MAR04089,0,,Pyruvate metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ME1
+GGM-0000139,NADP,NADP+,malate,malate,unresolved,ME2,1,MAR04091,0,,Pyruvate metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ME2
+GGM-0000140,NADP,NADP+,malate,malate,unresolved,ME3,1,MAR04091,0,,Pyruvate metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ME3
+GGM-0000141,NADP,NADP+,malate,malate,unresolved,RWDD2A,1,MAR04089,0,,Pyruvate metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: RWDD2A
+GGM-0000142,NADP,NADP+,proline,proline,unresolved,PYCR1,1,MAR08609,0,,Arginine and proline metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PYCR1
+GGM-0000143,NADP,NADP+,proline,proline,unresolved,PYCR2,1,MAR03833,0,,Arginine and proline metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PYCR2
+GGM-0000144,NADP,NADP+,proline,proline,unresolved,PYCR3,1,MAR03833,0,,Arginine and proline metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PYCR3
+GGM-0000145,NADP,NADP+,sarcosine,sarcosine,unresolved,DMGDH,1,MAR04700,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: DMGDH
+GGM-0000146,NADP,NADP+,sarcosine,sarcosine,unresolved,PDPR,1,MAR04700,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PDPR
+GGM-0000147,NADP,NADP+,thymine,thymine,unresolved,DPYD,1,MAR04472,0,,Pyrimidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: DPYD
+GGM-0000148,NADP,NADP+,thyroxine,thyroxine,unresolved,DIO1,1,MAR06854,0,,"Phenylalanine, tyrosine and tryptophan biosynthesis",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: DIO1
+GGM-0000149,NADP,NADP+,thyroxine,thyroxine,unresolved,DIO2,1,MAR06854,0,,"Phenylalanine, tyrosine and tryptophan biosynthesis",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: DIO2
+GGM-0000150,NADP,NADP+,trimethylamine-N-oxide,trimethylamine-N-oxide,unresolved,FMO1,1,MAR09514,0,,Isolated,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: FMO1
+GGM-0000151,NADP,NADP+,trimethylamine-N-oxide,trimethylamine-N-oxide,unresolved,FMO2,1,MAR09514,0,,Isolated,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: FMO2
+GGM-0000152,NADP,NADP+,trimethylamine-N-oxide,trimethylamine-N-oxide,unresolved,FMO3,1,MAR09514,0,,Isolated,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: FMO3
+GGM-0000153,NADP,NADP+,trimethylamine-N-oxide,trimethylamine-N-oxide,unresolved,FMO4,1,MAR09514,0,,Isolated,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: FMO4
+GGM-0000154,NADP,NADP+,trimethylamine-N-oxide,trimethylamine-N-oxide,unresolved,FMO5,1,MAR09514,0,,Isolated,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: FMO5
+GGM-0000155,NADP,NADP+,uracil,uracil,unresolved,DPYD,1,MAR04345,0,,Pyrimidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: DPYD
+GGM-0000156,UMP,UMP,uracil,uracil,unresolved,UPRT,1,MAR04343,0,,Pyrimidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: UPRT
+GGM-0000157,UMP,UMP,uridine,uridine,unresolved,NT5C,1,MAR03970,0,,Pyrimidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NT5C
+GGM-0000158,UMP,UMP,uridine,uridine,unresolved,NT5C1A,1,MAR03970,0,,Pyrimidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NT5C1A
+GGM-0000159,UMP,UMP,uridine,uridine,unresolved,NT5C1B,1,MAR03970,0,,Pyrimidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NT5C1B
+GGM-0000160,UMP,UMP,uridine,uridine,unresolved,NT5C2,1,MAR03970,0,,Pyrimidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NT5C2
+GGM-0000161,UMP,UMP,uridine,uridine,unresolved,NT5C3A,1,MAR03970,0,,Pyrimidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NT5C3A
+GGM-0000162,UMP,UMP,uridine,uridine,unresolved,NT5C3B,1,MAR03970,0,,Pyrimidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NT5C3B
+GGM-0000163,UMP,UMP,uridine,uridine,unresolved,NT5E,1,MAR03970,0,,Pyrimidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NT5E
+GGM-0000164,UMP,UMP,uridine,uridine,unresolved,NT5M,1,MAR03970,0,,Pyrimidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NT5M
+GGM-0000165,UMP,UMP,uridine,uridine,unresolved,UCK1,1,MAR03969,0,,Pyrimidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: UCK1
+GGM-0000166,UMP,UMP,uridine,uridine,unresolved,UCK2,1,MAR03969,0,,Pyrimidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: UCK2
+GGM-0000167,UMP,UMP,uridine,uridine,unresolved,UCKL1,1,MAR05299,0,,Pyrimidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: UCKL1
+GGM-0000168,aconitate,cis-aconitate,citrate,citrate,unresolved,ACO2,1,MAR04458,0,,Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ACO2
+GGM-0000169,aconitate,cis-aconitate,isocitrate,isocitrate,unresolved,ACO2,1,MAR04589,0,,Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ACO2
+GGM-0000170,adenine,adenine,adenosine,adenosine,unresolved,PNP,1,MAR08486,0,,Nucleotide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PNP
+GGM-0000171,adenosine,adenosine,homocysteine,homocysteine,unresolved,AHCY,1,MAR03877,0,,Cysteine and methionine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: AHCY
+GGM-0000172,adenosine,adenosine,homocysteine,homocysteine,unresolved,AHCYL2,1,MAR03877,0,,Cysteine and methionine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: AHCYL2
+GGM-0000173,adenosine,adenosine,inosine,inosine,unresolved,ADA,1,MAR04481,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ADA
+GGM-0000174,adenosine,adenosine,inosine,inosine,unresolved,ADA2,1,MAR04481,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ADA2
+GGM-0000175,alanine,alanine,kynurenine,kynurenine,unresolved,KYNU,1,MAR04224,0,,"Phenylalanine, tyrosine and tryptophan biosynthesis",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: KYNU
+GGM-0000176,arginine,arginine,AMP,AMP,unresolved,RARS1,1,MAR05132,0,,Aminoacyl-tRNA biosynthesis,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: RARS1
+GGM-0000177,arginine,arginine,NADP,NADP+,unresolved,NOS1,1,MAR02023,0,,Arginine and proline metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NOS1
+GGM-0000178,arginine,arginine,NADP,NADP+,unresolved,NOS2,1,MAR02023,0,,Arginine and proline metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NOS2
+GGM-0000179,arginine,arginine,NADP,NADP+,unresolved,NOS3,1,MAR02023,0,,Arginine and proline metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NOS3
+GGM-0000180,arginine,arginine,citrulline,citrulline,unresolved,NOS1,1,MAR02023,0,,Arginine and proline metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NOS1
+GGM-0000181,arginine,arginine,citrulline,citrulline,unresolved,NOS2,1,MAR02023,0,,Arginine and proline metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NOS2
+GGM-0000182,arginine,arginine,citrulline,citrulline,unresolved,NOS3,1,MAR02023,0,,Arginine and proline metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NOS3
+GGM-0000183,arginine,arginine,glycine,glycine,unresolved,GATM,1,MAR04582,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: GATM
+GGM-0000184,arginine,arginine,ornithine,ornithine,unresolved,ARG1,1,MAR03816,0,,Arginine and proline metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ARG1
+GGM-0000185,arginine,arginine,ornithine,ornithine,unresolved,ARG2,1,MAR08426,0,,Arginine and proline metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ARG2
+GGM-0000186,arginine,arginine,ornithine,ornithine,unresolved,GATM,1,MAR04582,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: GATM
+GGM-0000187,asparagine,asparagine,AMP,AMP,unresolved,NARS1,1,MAR05133,0,,Aminoacyl-tRNA biosynthesis,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NARS1
+GGM-0000188,asparagine,asparagine,aspartate,aspartate,unresolved,ASPG,1,MAR03862,0,,"Alanine, aspartate and glutamate metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ASPG
+GGM-0000189,asparagine,asparagine,aspartate,aspartate,unresolved,ASRGL1,1,MAR03862,0,,"Alanine, aspartate and glutamate metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ASRGL1
+GGM-0000190,aspartate,aspartate,AMP,AMP,unresolved,ASS1,1,MAR03811,0,,"Alanine, aspartate and glutamate metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ASS1
+GGM-0000191,aspartate,aspartate,AMP,AMP,unresolved,DARS1,1,MAR05134,0,,Aminoacyl-tRNA biosynthesis,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: DARS1
+GGM-0000192,aspartate,aspartate,beta-alanine,beta-alanine,unresolved,GAD2,1,MAR04174,0,,Beta-alanine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: GAD2
+GGM-0000193,aspartate,aspartate,citrulline,citrulline,unresolved,ASS1,1,MAR03811,0,,"Alanine, aspartate and glutamate metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ASS1
+GGM-0000194,aspartate,aspartate,glutamate,glutamate,unresolved,GOT1,1,MAR03829,0,,"Alanine, aspartate and glutamate metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: GOT1
+GGM-0000195,aspartate,aspartate,glutamate,glutamate,unresolved,GOT1L1,1,MAR03829,0,,"Alanine, aspartate and glutamate metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: GOT1L1
+GGM-0000196,aspartate,aspartate,glutamate,glutamate,unresolved,GOT2,1,MAR03827,0,,"Alanine, aspartate and glutamate metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: GOT2
+GGM-0000197,beta-alanine,beta-alanine,carnosine,carnosine,unresolved,CARNS1,1,MAR04425,0,,Beta-alanine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: CARNS1
+GGM-0000198,beta-alanine,beta-alanine,carnosine,carnosine,unresolved,CNDP1,1,MAR04427,0,,Beta-alanine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: CNDP1
+GGM-0000199,beta-alanine,beta-alanine,carnosine,carnosine,unresolved,CNDP2,1,MAR04427,0,,Beta-alanine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: CNDP2
+GGM-0000200,beta-alanine,beta-alanine,histidine,histidine,unresolved,CARNS1,1,MAR04425,0,,Beta-alanine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: CARNS1
+GGM-0000201,beta-alanine,beta-alanine,histidine,histidine,unresolved,CNDP1,1,MAR04427,0,,Beta-alanine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: CNDP1
+GGM-0000202,beta-alanine,beta-alanine,histidine,histidine,unresolved,CNDP2,1,MAR04427,0,,Beta-alanine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: CNDP2
+GGM-0000203,betaine,betaine,NAD,NAD+,unresolved,ALDH7A1,1,MAR04697,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ALDH7A1
+GGM-0000204,betaine,betaine,NADP,NADP+,unresolved,ALDH7A1,1,MAR04698,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ALDH7A1
+GGM-0000205,betaine,betaine,dimethylglycine,dimethylglycine,unresolved,BHMT,1,MAR04699,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: BHMT
+GGM-0000206,betaine,betaine,dimethylglycine,dimethylglycine,unresolved,BHMT2,1,MAR04699,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: BHMT2
+GGM-0000207,betaine,betaine,homocysteine,homocysteine,unresolved,BHMT,1,MAR04699,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: BHMT
+GGM-0000208,betaine,betaine,homocysteine,homocysteine,unresolved,BHMT2,1,MAR04699,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: BHMT2
+GGM-0000209,betaine,betaine,methionine,methionine,unresolved,BHMT,1,MAR04699,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: BHMT
+GGM-0000210,betaine,betaine,methionine,methionine,unresolved,BHMT2,1,MAR04699,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: BHMT2
+GGM-0000211,carnosine,carnosine,histidine,histidine,unresolved,CARNS1,1,MAR04425,0,,Beta-alanine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: CARNS1
+GGM-0000212,carnosine,carnosine,histidine,histidine,unresolved,CNDP1,1,MAR04427,0,,Beta-alanine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: CNDP1
+GGM-0000213,carnosine,carnosine,histidine,histidine,unresolved,CNDP2,1,MAR04427,0,,Beta-alanine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: CNDP2
+GGM-0000214,choline,choline,NAD,NAD+,unresolved,CHDH,1,MAR04696,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: CHDH
+GGM-0000215,choline,choline,acetylcholine,acetylcholine,unresolved,ACHE,1,MAR00641,0,,Glycerophospholipid metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ACHE
+GGM-0000216,choline,choline,acetylcholine,acetylcholine,unresolved,BCHE,1,MAR00641,0,,Glycerophospholipid metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: BCHE
+GGM-0000217,choline,choline,acetylcholine,acetylcholine,unresolved,CHAT,1,MAR00640,0,,Glycerophospholipid metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: CHAT
+GGM-0000218,choline,choline,serine,serine,unresolved,PTDSS1,1,MAR00623,0,,Glycerophospholipid metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PTDSS1
+GGM-0000219,citrate,citrate,isocitrate,isocitrate,unresolved,ACO1,1,MAR04454,0,,Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ACO1
+GGM-0000220,cytidine,cytidine,uridine,uridine,unresolved,AICDA,1,MAR04580,0,,Pyrimidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: AICDA
+GGM-0000221,cytidine,cytidine,uridine,uridine,unresolved,APOBEC4,1,MAR04580,0,,Pyrimidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: APOBEC4
+GGM-0000222,cytidine,cytidine,uridine,uridine,unresolved,CDA,1,MAR04580,0,,Pyrimidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: CDA
+GGM-0000223,dimethylglycine,dimethylglycine,homocysteine,homocysteine,unresolved,BHMT,1,MAR04699,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: BHMT
+GGM-0000224,dimethylglycine,dimethylglycine,homocysteine,homocysteine,unresolved,BHMT2,1,MAR04699,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: BHMT2
+GGM-0000225,dimethylglycine,dimethylglycine,methionine,methionine,unresolved,BHMT,1,MAR04699,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: BHMT
+GGM-0000226,dimethylglycine,dimethylglycine,methionine,methionine,unresolved,BHMT2,1,MAR04699,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: BHMT2
+GGM-0000227,dimethylglycine,dimethylglycine,sarcosine,sarcosine,unresolved,DMGDH,1,MAR04700,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: DMGDH
+GGM-0000228,dimethylglycine,dimethylglycine,sarcosine,sarcosine,unresolved,PDPR,1,MAR04700,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PDPR
+GGM-0000229,dimethylglycine,dimethylglycine,sarcosine,sarcosine,unresolved,SARDH,1,MAR04701,0,,Sulfur metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: SARDH
+GGM-0000230,glucuronate,glucuronate,inositol,inositol,unresolved,MIOX,1,MAR06539,0,,Inositol phosphate metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: MIOX
+GGM-0000231,glutamate,glutamate,AMP,AMP,unresolved,EPRS1,1,MAR05137,0,,Aminoacyl-tRNA biosynthesis,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: EPRS1
+GGM-0000232,glutamate,glutamate,NAD,NAD+,unresolved,AASS,1,MAR04667,0,,Lysine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: AASS
+GGM-0000233,glutamate,glutamate,NAD,NAD+,unresolved,ALDH4A1,1,MAR03806,0,,Arginine and proline metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ALDH4A1
+GGM-0000234,glutamate,glutamate,NAD,NAD+,unresolved,GLUD1,1,MAR03802,0,,"Alanine, aspartate and glutamate metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: GLUD1
+GGM-0000235,glutamate,glutamate,NAD,NAD+,unresolved,GLUD2,1,MAR03802,0,,"Alanine, aspartate and glutamate metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: GLUD2
+GGM-0000236,glutamate,glutamate,NAD,NAD+,unresolved,SCCPDH,1,MAR04667,0,,Lysine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: SCCPDH
+GGM-0000237,glutamate,glutamate,NADP,NADP+,unresolved,AASS,1,MAR04668,0,,Lysine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: AASS
+GGM-0000238,glutamate,glutamate,NADP,NADP+,unresolved,GLUD1,1,MAR03804,0,,"Alanine, aspartate and glutamate metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: GLUD1
+GGM-0000239,glutamate,glutamate,NADP,NADP+,unresolved,GLUD2,1,MAR03804,0,,"Alanine, aspartate and glutamate metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: GLUD2
+GGM-0000240,glutamate,glutamate,alanine,alanine,unresolved,GPT,1,MAR03899,0,,"Alanine, aspartate and glutamate metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: GPT
+GGM-0000241,glutamate,glutamate,alanine,alanine,unresolved,GPT2,1,MAR04109,0,,"Alanine, aspartate and glutamate metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: GPT2
+GGM-0000242,glutamate,glutamate,beta-alanine,beta-alanine,unresolved,ABAT,1,MAR04330,0,,Beta-alanine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ABAT
+GGM-0000243,glutamate,glutamate,glutamine,glutamine,unresolved,CAD,1,MAR09802,0,,"Alanine, aspartate and glutamate metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: CAD
+GGM-0000244,glutamate,glutamate,glutamine,glutamine,unresolved,GFPT1,1,MAR04300,0,,Amino sugar and nucleotide sugar metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: GFPT1
+GGM-0000245,glutamate,glutamate,glutamine,glutamine,unresolved,GFPT2,1,MAR04300,0,,Amino sugar and nucleotide sugar metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: GFPT2
+GGM-0000246,glutamate,glutamate,glutamine,glutamine,unresolved,GLS,1,MAR03892,0,,"Alanine, aspartate and glutamate metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: GLS
+GGM-0000247,glutamate,glutamate,glutamine,glutamine,unresolved,GLS2,1,MAR09802,0,,"Alanine, aspartate and glutamate metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: GLS2
+GGM-0000248,glutamate,glutamate,glutamine,glutamine,unresolved,GLUL,1,MAR03890,0,,"Alanine, aspartate and glutamate metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: GLUL
+GGM-0000249,glutamate,glutamate,glutamine,glutamine,unresolved,PPAT,1,MAR04406,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PPAT
+GGM-0000250,glutamate,glutamate,glycine,glycine,unresolved,ACY3,1,MAR05336,0,,Histidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ACY3
+GGM-0000251,glutamate,glutamate,glycine,glycine,unresolved,MACROD1,1,MAR05336,0,,Histidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: MACROD1
+GGM-0000252,glutamate,glutamate,glycine,glycine,unresolved,NTAN1,1,MAR05336,0,,Histidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NTAN1
+GGM-0000253,glutamate,glutamate,glycine,glycine,unresolved,NTAQ1,1,MAR05336,0,,Histidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: NTAQ1
+GGM-0000254,glutamate,glutamate,glycine,glycine,unresolved,OARD1,1,MAR05336,0,,Histidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: OARD1
+GGM-0000255,glutamate,glutamate,glycine,glycine,unresolved,SIRT1,1,MAR05336,0,,Histidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: SIRT1
+GGM-0000256,glutamate,glutamate,glycine,glycine,unresolved,SIRT3,1,MAR05336,0,,Histidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: SIRT3
+GGM-0000257,glutamate,glutamate,glycine,glycine,unresolved,SIRT5,1,MAR05336,0,,Histidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: SIRT5
+GGM-0000258,glutamate,glutamate,glycine,glycine,unresolved,SIRT6,1,MAR05336,0,,Histidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: SIRT6
+GGM-0000259,glutamate,glutamate,glycine,glycine,unresolved,SIRT7,1,MAR05336,0,,Histidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: SIRT7
+GGM-0000260,glutamate,glutamate,isoleucine,isoleucine,unresolved,BCAT1,1,MAR03777,0,,"Valine, leucine, and isoleucine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: BCAT1
+GGM-0000261,glutamate,glutamate,isoleucine,isoleucine,unresolved,BCAT2,1,MAR03778,0,,"Valine, leucine, and isoleucine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: BCAT2
+GGM-0000262,glutamate,glutamate,kynurenine,kynurenine,unresolved,AADAT,1,MAR02765,0,,Tryptophan metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: AADAT
+GGM-0000263,glutamate,glutamate,kynurenine,kynurenine,unresolved,KYAT1,1,MAR04222,0,,"Phenylalanine, tyrosine and tryptophan biosynthesis",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: KYAT1
+GGM-0000264,glutamate,glutamate,kynurenine,kynurenine,unresolved,KYAT3,1,MAR02765,0,,Tryptophan metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: KYAT3
+GGM-0000265,glutamate,glutamate,leucine,leucine,unresolved,BCAT1,1,MAR06923,0,,"Valine, leucine, and isoleucine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: BCAT1
+GGM-0000266,glutamate,glutamate,leucine,leucine,unresolved,BCAT2,1,MAR03765,0,,"Valine, leucine, and isoleucine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: BCAT2
+GGM-0000267,glutamate,glutamate,methionine,methionine,unresolved,TAT,1,MAR05391,0,,Cysteine and methionine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: TAT
+GGM-0000268,glutamate,glutamate,ornithine,ornithine,unresolved,OAT,1,MAR03807,0,,Arginine and proline metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: OAT
+GGM-0000269,glutamate,glutamate,phenylalanine,phenylalanine,unresolved,GOT1,1,MAR06725,0,,"Phenylalanine, tyrosine and tryptophan biosynthesis",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: GOT1
+GGM-0000270,glutamate,glutamate,phenylalanine,phenylalanine,unresolved,GOT2,1,MAR01616,0,,Phenylalanine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: GOT2
+GGM-0000271,glutamate,glutamate,phenylalanine,phenylalanine,unresolved,TAT,1,MAR01616,0,,Phenylalanine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: TAT
+GGM-0000272,glutamate,glutamate,tyrosine,tyrosine,unresolved,GOT1,1,MAR06768,0,,"Phenylalanine, tyrosine and tryptophan biosynthesis",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: GOT1
+GGM-0000273,glutamate,glutamate,tyrosine,tyrosine,unresolved,GOT2,1,MAR06768,0,,"Phenylalanine, tyrosine and tryptophan biosynthesis",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: GOT2
+GGM-0000274,glutamate,glutamate,tyrosine,tyrosine,unresolved,TAT,1,MAR06768,0,,"Phenylalanine, tyrosine and tryptophan biosynthesis",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: TAT
+GGM-0000275,glutamate,glutamate,valine,valine,unresolved,BCAT1,1,MAR03747,0,,"Valine, leucine, and isoleucine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: BCAT1
+GGM-0000276,glutamate,glutamate,valine,valine,unresolved,BCAT2,1,MAR03744,0,,"Valine, leucine, and isoleucine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: BCAT2
+GGM-0000277,glutamine,glutamine,AMP,AMP,unresolved,QARS1,1,MAR05136,0,,Aminoacyl-tRNA biosynthesis,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: QARS1
+GGM-0000278,glutamine,glutamine,alanine,alanine,unresolved,AADAT,1,MAR04197,0,,"Alanine, aspartate and glutamate metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: AADAT
+GGM-0000279,glutamine,glutamine,alanine,alanine,unresolved,KYAT1,1,MAR04196,0,,"Alanine, aspartate and glutamate metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: KYAT1
+GGM-0000280,glutamine,glutamine,alanine,alanine,unresolved,KYAT3,1,MAR04197,0,,"Alanine, aspartate and glutamate metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: KYAT3
+GGM-0000281,glycine,glycine,AMP,AMP,unresolved,BAAT,1,MAR01844,0,,Bile acid biosynthesis,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: BAAT
+GGM-0000282,glycine,glycine,AMP,AMP,unresolved,GARS1,1,MAR05138,0,,Aminoacyl-tRNA biosynthesis,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: GARS1
+GGM-0000283,glycine,glycine,alanine,alanine,unresolved,AGXT,1,MAR04788,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: AGXT
+GGM-0000284,glycine,glycine,alanine,alanine,unresolved,AGXT2,1,MAR04788,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: AGXT2
+GGM-0000285,glycine,glycine,alanine,alanine,unresolved,KLK1,1,MAR09475,0,,Isolated,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: KLK1
+GGM-0000286,glycine,glycine,alanine,alanine,unresolved,KLK2,1,MAR09475,0,,Isolated,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: KLK2
+GGM-0000287,glycine,glycine,leucine,leucine,unresolved,CNDP2,1,MAR11411,0,,Peptide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: CNDP2
+GGM-0000288,glycine,glycine,leucine,leucine,unresolved,DPEP1,1,MAR11411,0,,Peptide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: DPEP1
+GGM-0000289,glycine,glycine,ornithine,ornithine,unresolved,GATM,1,MAR04582,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: GATM
+GGM-0000290,glycine,glycine,proline,proline,unresolved,PEPD,1,MAR07193,0,,Peptide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PEPD
+GGM-0000291,glycine,glycine,sarcosine,sarcosine,unresolved,GNMT,1,MAR03901,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: GNMT
+GGM-0000292,glycine,glycine,sarcosine,sarcosine,unresolved,PIPOX,1,MAR03849,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PIPOX
+GGM-0000293,glycine,glycine,sarcosine,sarcosine,unresolved,SARDH,1,MAR03849,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: SARDH
+GGM-0000294,glycine,glycine,sarcosine,sarcosine,unresolved,TPP1,1,MAR06915,0,,Peptide metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: TPP1
+GGM-0000295,glycine,glycine,serine,serine,unresolved,SHMT1,1,MAR03845,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: SHMT1
+GGM-0000296,glycine,glycine,serine,serine,unresolved,SHMT2,1,MAR04792,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: SHMT2
+GGM-0000297,homocysteine,homocysteine,methionine,methionine,unresolved,BHMT,1,MAR04699,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: BHMT
+GGM-0000298,homocysteine,homocysteine,methionine,methionine,unresolved,BHMT2,1,MAR04699,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: BHMT2
+GGM-0000299,homocysteine,homocysteine,methionine,methionine,unresolved,MTR,1,MAR03917,0,,Cysteine and methionine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: MTR
+GGM-0000300,hypoxanthine,hypoxanthine,inosine,inosine,unresolved,PNP,1,MAR04574,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PNP
+GGM-0000301,hypoxanthine,hypoxanthine,xanthine,xanthine,unresolved,XDH,1,MAR04519,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: XDH
+GGM-0000302,isocitrate,isocitrate,NAD,NAD+,unresolved,IDH3A;IDH3B;IDH3G,3,MAR03957,0,,Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: IDH3A;IDH3B;IDH3G
+GGM-0000303,isocitrate,isocitrate,NADP,NADP+,unresolved,IDH1,1,MAR00710,0,,Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: IDH1
+GGM-0000304,isocitrate,isocitrate,NADP,NADP+,unresolved,IDH2,1,MAR03958,0,,Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: IDH2
+GGM-0000305,leucine,leucine,phenylalanine,phenylalanine,unresolved,CMA1,1,MAR03042,0,,Miscellaneous,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: CMA1
+GGM-0000306,ornithine,ornithine,citrulline,citrulline,unresolved,OTC,1,MAR03809,0,,Arginine and proline metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: OTC
+GGM-0000307,ornithine,ornithine,putrescine,putrescine,unresolved,ODC1,1,MAR04212,0,,Arginine and proline metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: ODC1
+GGM-0000308,phenylalanine,phenylalanine,tyrosine,tyrosine,unresolved,PAH,1,MAR08539,0,,"Phenylalanine, tyrosine and tryptophan biosynthesis",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PAH
+GGM-0000309,serine,serine,AMP,AMP,unresolved,SARS1,1,MAR05147,0,,Aminoacyl-tRNA biosynthesis,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: SARS1
+GGM-0000310,serine,serine,alanine,alanine,unresolved,AGXT,1,MAR04198,0,,"Glycine, serine and threonine metabolism",False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: AGXT
+GGM-0000311,serine,serine,homocysteine,homocysteine,unresolved,CBS,1,MAR03879,0,,Cysteine and methionine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: CBS
+GGM-0000312,taurine,taurine,taurocholate,taurocholate,unresolved,BAAT,1,MAR01667,0,,Bile acid biosynthesis,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: BAAT
+GGM-0000313,thymidine,thymidine,thymine,thymine,unresolved,TYMP,1,MAR04485,0,,Pyrimidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: TYMP
+GGM-0000314,uracil,uracil,uridine,uridine,unresolved,UPP1,1,MAR04579,0,,Pyrimidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: UPP1
+GGM-0000315,uracil,uracil,uridine,uridine,unresolved,UPP2,1,MAR04579,0,,Pyrimidine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: UPP2
+GGM-0000316,urate,urate,xanthine,xanthine,unresolved,XDH,1,MAR04646,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: XDH
+GGM-0000317,xanthine,xanthine,xanthosine,xanthosine,unresolved,PNP,1,MAR04663,0,,Purine metabolism,False,1_direct_reaction,Human-GEM v2.0.0,False,,,,,,False,missing frequencies: PNP

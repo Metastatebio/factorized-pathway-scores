@@ -1,0 +1,25 @@
+{
+  "title": "Matched nulls for metabolic pathway scores",
+  "description": "Reproducible code, frozen protocols, aggregate outputs, sensitivity grids, mapping ledgers, figures and manuscript package for matched-null qualification of metabolic pathway scores. The evidence qualifies representations for held-out reconstruction; it does not establish physiological flux, causality, clinical utility, treatment response or same-person genomic personalization.",
+  "creators": [
+    {
+      "name": "Ünver, Oğuzcan",
+      "affiliation": "Metastate Bio Inc.",
+      "orcid": "0009-0007-2023-5084"
+    }
+  ],
+  "upload_type": "software",
+  "publication_date": "2026-08-31",
+  "version": "1.0.0",
+  "access_right": "open",
+  "license": "Apache-2.0",
+  "keywords": [
+    "metabolomics",
+    "pathway scores",
+    "matched null models",
+    "HumanGEM",
+    "cross-omics",
+    "reproducible research"
+  ]
+}
+

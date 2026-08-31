@@ -1,0 +1,45 @@
+{
+  "analysis_id": "ccle_random_feature_null_ensemble_v1",
+  "completed_at": "2026-08-30T20:21:51.169900+00:00",
+  "decision": "CCLE_RANDOM_FEATURE_NULL_ENSEMBLE_ROBUST",
+  "post_result_sensitivity": true,
+  "config": "/home/openclaw/.openclaw/workspace/cross-omic-distillation-pilot/config/pathway-score-ccle-null-ensemble.yaml",
+  "config_sha256": "d38c5f544e18a48307fbc008fe0d697152566f57ab2310746207b0ef648f828b",
+  "protocol": "/home/openclaw/.openclaw/workspace/cross-omic-distillation-pilot/docs/protocol-ccle-random-feature-null-ensemble.md",
+  "protocol_sha256": "a66a8c946073ecae221687ecf7c72569f229efaf0c0e3eac99e3ed903b16b814",
+  "implementation_sha256": "3068bad99bb448be337e6654448d4d544b25b77a2977f951c21e2db6497a20c5",
+  "primary_artifact_integrity": "verified",
+  "benchmark_config_sha256": "0c9f94c04f6840e496bfe35924a81b0c1838cd08fd5c359411d5b17cf80114dc",
+  "mapping_sha256": "226195d030f88ffb2a62de2606badbdb987621bd8bbe5231f9b7e2456f57bb21",
+  "candidates_sha256": "2376196042a633b378ba0ffb679a141a8dbfc43ce1d3f5dd9ddb99ca69e1d80c",
+  "random_feature_seeds": 20,
+  "matching_mode": "dimension_only",
+  "parallel_jobs": 10,
+  "expected_null_comparison": {
+    "targets": 60,
+    "draws": 5000,
+    "improvement_sd": 0.13414005933302822,
+    "ci_lower": 0.092908069497621,
+    "ci_upper": 0.17702067928905055,
+    "maximum_factorized_target_range_sd": 0.0
+  },
+  "adjudication": {
+    "seeds": 20,
+    "target_sets_invariant": true,
+    "target_counts_invariant": true,
+    "factorized_rmse_range_sd": 0.0,
+    "all_seed_point_improvements_positive": true,
+    "seed_ci_pass_rate": 1.0,
+    "ensemble_ci_lower": 0.092908069497621,
+    "matching_mode": "dimension_only",
+    "metabolite_log_degree_balance": true,
+    "metabolite_coverage_balance": true,
+    "signature_log_degree_balance": true
+  },
+  "claim_boundary": "This post-result ensemble tests whether the CCLE reaction-topology result survives stochastic selection of dimension-matched random features. It does not establish human germline effects, personalized prediction, physiological flux, drug response or clinical utility.",
+  "output_sha256": {
+    "seed-summary.csv": "0ac9793e246fd4f38d6a14893024bbd552948a0b39a972a076ff476f60d0a53a",
+    "target-null-ensemble.csv": "c2cec7cb9bc5a307e8b8d387b527be212f5aece6c28587739d4edaead0d6cd7c",
+    "report.md": "f5cd558f662ef3057bc6f654207dee672c29f0bfa3922bfbe8b52a959033504e"
+  }
+}

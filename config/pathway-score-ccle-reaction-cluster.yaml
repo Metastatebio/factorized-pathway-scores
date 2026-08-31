@@ -1,0 +1,16 @@
+analysis_id: ccle_reaction_cluster_robustness_v1
+protocol: ../docs/protocol-ccle-reaction-cluster-robustness.md
+sources:
+  null_artifact: ../artifacts/pathway-score-ccle-property-matched-null
+  candidates: ../artifacts/ccle-expanded/ccle_candidate_hypotheses.csv
+inference:
+  bootstrap_draws: 10000
+  seed: 20262200
+gates:
+  minimum_clusters: 10
+  lower_bound_must_exceed: 0.0
+  minimum_leave_one_cluster_effect: 0.0
+claim_boundary: >-
+  This post-result audit tests whether the property-matched CCLE topology result survives
+  subsystem-cluster resampling and leave-one-subsystem-out analysis. It does not establish target
+  independence, causal reaction direction, physiological flux, drug response or clinical utility.

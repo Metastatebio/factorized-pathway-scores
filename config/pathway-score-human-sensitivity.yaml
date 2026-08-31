@@ -1,0 +1,29 @@
+analysis_id: human_structural_pathway_score_sensitivity_v1
+protocol: ../docs/protocol-pathway-score-human-sensitivity.md
+sources:
+  st002081_config: pathway-score-st002081-structural.yaml
+  st002081_artifact: ../artifacts/pathway-score-st002081-structural
+  st000818_config: pathway-score-st000818-replication.yaml
+  st000818_artifact: ../artifacts/pathway-score-st000818-replication
+settings:
+  - {id: primary, ridge_alpha: 10.0, minimum_features: 5, maximum_feature_fraction: 0.90, swaps_per_edge: 10}
+  - {id: alpha_1, ridge_alpha: 1.0, minimum_features: 5, maximum_feature_fraction: 0.90, swaps_per_edge: 10}
+  - {id: alpha_100, ridge_alpha: 100.0, minimum_features: 5, maximum_feature_fraction: 0.90, swaps_per_edge: 10}
+  - {id: descriptor_min_3, ridge_alpha: 10.0, minimum_features: 3, maximum_feature_fraction: 0.90, swaps_per_edge: 10}
+  - {id: descriptor_min_10, ridge_alpha: 10.0, minimum_features: 10, maximum_feature_fraction: 0.90, swaps_per_edge: 10}
+  - {id: descriptor_max_080, ridge_alpha: 10.0, minimum_features: 5, maximum_feature_fraction: 0.80, swaps_per_edge: 10}
+  - {id: descriptor_max_095, ridge_alpha: 10.0, minimum_features: 5, maximum_feature_fraction: 0.95, swaps_per_edge: 10}
+  - {id: swaps_5, ridge_alpha: 10.0, minimum_features: 5, maximum_feature_fraction: 0.90, swaps_per_edge: 5}
+  - {id: swaps_25, ridge_alpha: 10.0, minimum_features: 5, maximum_feature_fraction: 0.90, swaps_per_edge: 25}
+execution:
+  parallel_jobs: 10
+inference:
+  bootstrap_draws: 2000
+  seed: 20261400
+gates:
+  minimum_ci_pass_rate: 0.80
+  point_improvement_threshold: 0.0
+claim_boundary: >-
+  This post-result grid tests robustness of structural-score prediction to reasonable model and
+  descriptor settings in two public cohorts. It is not prospective confirmation and does not
+  establish genetics, physiological flux, diagnosis, treatment response or clinical utility.

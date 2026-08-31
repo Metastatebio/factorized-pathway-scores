@@ -1,0 +1,6 @@
+reference,challenger,targets,draws,rmse_improvement_sd,ci_lower,ci_upper
+population_mean,factorized_interaction_ridge,60,5000,0.18852301013567663,0.14294746632296987,0.23557873804360352
+random_factorized_ridge,factorized_interaction_ridge,60,5000,0.12354197592836746,0.08259248513063887,0.16683232387758706
+network_metabolites_ridge,factorized_interaction_ridge,60,5000,0.0016979314553150493,-0.00989542268281729,0.013915503709565256
+network_additive_ridge,factorized_interaction_ridge,60,5000,-0.009062809138011607,-0.014380185313441162,-0.004151114768114587
+all_metabolites_ridge,factorized_interaction_ridge,60,5000,-0.15881501628166372,-0.20801754413672732,-0.11463116496673874

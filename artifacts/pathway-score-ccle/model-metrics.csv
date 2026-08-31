@@ -1,0 +1,7 @@
+model,targets,mean_equal_lineage_rmse_sd,median_target_r2,positive_r2_targets
+all_metabolites_ridge,60,0.6379657881057545,0.5673446732603386,58
+factorized_interaction_ridge,60,0.7967808043874182,0.24103722510950498,52
+network_additive_ridge,60,0.7877179952494064,0.26981900541547293,53
+network_metabolites_ridge,60,0.7984787358427333,0.24060507246300072,53
+population_mean,60,0.9853038145230948,0.0,0
+random_factorized_ridge,60,0.9203227803157856,0.04467150167182965,39

@@ -1,0 +1,33 @@
+analysis_id: st002081_factorized_pathway_missing_panel_v1
+protocol: ../docs/protocol-factorized-pathway-score-benchmark.md
+source:
+  study_id: ST002081
+  project_id: PR001321
+  doi: 10.21228/M8ZM5P
+  mwtab: ../data/raw/st002081/ST002081_AN003790.txt
+columns:
+  subject: additional_RandomID
+eligibility:
+  exclude_subject_values: [NA]
+  minimum_family_features: 5
+  minimum_total_features: 300
+  minimum_families: 8
+masking:
+  masks: 5
+  seed: 20260830
+model:
+  folds: 5
+  ridge_alpha: 10.0
+  random_group_seed: 20260831
+priority:
+  priority_count: 3
+  true_priority_fraction: 0.10
+inference:
+  bootstrap_draws: 5000
+  seed: 20260832
+gates:
+  bootstrap_ci_lower_must_exceed: 0.0
+claim_boundary: >-
+  Participant-held-out missing-panel reconstruction can validate compact biochemical-family
+  representation and marker-priority enrichment. It does not establish directional dynamics,
+  genetic conditioning, physiological flux, diagnosis, treatment response or clinical utility.

@@ -1,0 +1,105 @@
+{
+  "analysis_id": "st002081_subject_held_out_lipid_state_forecasting_v1",
+  "completed_at": "2026-08-30T11:34:56.028813+00:00",
+  "decision": "RESOURCE_ONLY",
+  "study_id": "ST002081",
+  "raw_samples": 1643,
+  "repository_subject_ids_with_age": 112,
+  "subjects": 100,
+  "transitions": 1000,
+  "complete_lipid_features": 512,
+  "primary_model": {
+    "model": "autoregressive_ridge",
+    "pooled_rmse_sd": 0.7546645381449595,
+    "pooled_r2": 0.45206140284287877,
+    "median_feature_r2": 0.4806081900921911,
+    "positive_r2_features": 499,
+    "features": 512,
+    "transitions": 1000,
+    "subjects": 100
+  },
+  "bootstrap_comparisons": [
+    {
+      "reference": "static_ridge",
+      "challenger": "autoregressive_ridge",
+      "rmse_improvement_sd": 0.2801802607198577,
+      "ci_lower": 0.2341616169003222,
+      "ci_upper": 0.3300120957810765,
+      "bootstrap_probability_improvement": 1.0,
+      "draws": 10000,
+      "subjects": 100
+    },
+    {
+      "reference": "persistence",
+      "challenger": "autoregressive_ridge",
+      "rmse_improvement_sd": 0.10280643325050165,
+      "ci_lower": 0.07466154830909033,
+      "ci_upper": 0.13162232705022064,
+      "bootstrap_probability_improvement": 1.0,
+      "draws": 10000,
+      "subjects": 100
+    }
+  ],
+  "context_increment_comparison": {
+    "reference": "autoregressive_ridge",
+    "challenger": "autoregressive_context_ridge",
+    "rmse_improvement_sd": -0.009169484228604419,
+    "ci_lower": -0.015927500031005997,
+    "ci_upper": -0.002545493553110193,
+    "bootstrap_probability_improvement": 0.0036,
+    "draws": 10000,
+    "subjects": 100
+  },
+  "monthly_aggregation": {
+    "transitions_touching_multi_sample_months": 321,
+    "transitions_touching_multi_context_months": 202
+  },
+  "marker_priority_enrichment": {
+    "priority_count": 3,
+    "true_priority_fraction": 0.1,
+    "primary_precision_at_k": 0.592,
+    "reference_precision_at_k": 0.41966666666666663,
+    "primary_exact_top_k_precision": 0.225,
+    "reference_exact_top_k_precision": 0.082,
+    "comparison": {
+      "reference": "change_prevalence",
+      "challenger": "autoregressive_ridge",
+      "precision_at_k_improvement": 0.1592904255363099,
+      "ci_lower": 0.11948909685487397,
+      "ci_upper": 0.19764059651978305,
+      "bootstrap_probability_improvement": 1.0,
+      "draws": 10000,
+      "subjects": 100
+    }
+  },
+  "temporal_falsification": {
+    "forward_r2": 0.45206140284287877,
+    "reverse_r2": 0.45917893603598015,
+    "within_subject_shuffled_r2": 0.4148065420542032,
+    "forward_minus_reverse_r2": -0.0071175331931013774,
+    "forward_minus_shuffled_r2": 0.03725486078867557
+  },
+  "gate_results": {
+    "data_scale": true,
+    "autoregressive_superiority": true,
+    "marker_priority_enrichment": true,
+    "forward_beats_reverse_time": false,
+    "forward_beats_within_subject_shuffle": true
+  },
+  "source_provenance": {
+    "format": "Metabolomics Workbench mwTab",
+    "path": "/home/openclaw/.openclaw/workspace/cross-omic-distillation-pilot/data/raw/st002081/ST002081_AN003790.txt",
+    "sha256": "e5d68bea4f6adf113f9bafa0e8bd333b949f289f0dc645a18435d542c3ae9c9b"
+  },
+  "claim_boundary": "Subject-held-out reconstruction can quantify how much a prior lipid profile predicts another profile from the same person. It is evidence of directional dynamics only if forward-time performance beats reverse-time and within-person shuffled-time falsification tests. Precision at k measures enrichment for membership in a broad high-change set, not exact top-k recovery. This study has no participant genomics, so it cannot compare nurture with genetic effects, test genotype-by-context interactions, establish metabolic mobility, or establish clinical utility.",
+  "output_sha256": {
+    "transitions.csv": "42262526cd135eb49a3f3cd29feb19e6547d6c3a3355f824654fe03dbcf97a2b",
+    "model-metrics.csv": "f4031e976984bc5fca59fcc5be157e8635eae2a828f4654d0e93dc46427ad83c",
+    "feature-metrics.csv": "e54f0b5739c135d720e8cc3ee0e922eb44b21cd3afde6c79f1ad8a5eeb436ae8",
+    "transition-errors.csv": "a23489ba60d25cbd5a946d45e3a3133b87596623ddce51ecabd6f9df5953ae9f",
+    "alpha-sensitivity.csv": "5ad4ff9531a3944f34112e55e64eb6819053161ffe34e88ff58d8be27612ea8c",
+    "priority-recovery.csv": "b709fdd7c466368cb04939fa44f16c2b9dd50316bb1729755b1cde58f9fa220c",
+    "priority-recovery-summary.csv": "63f491c854bb88e0b8c8b69ea747b74092db8c7dc370dc45929369e0c88fbc09",
+    "report.md": "8413687a132b1a1b0994585de35038d143bb9bb99873261bc3b7a849147d253b"
+  }
+}

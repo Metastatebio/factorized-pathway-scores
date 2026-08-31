@@ -1,0 +1,14 @@
+assay_metabolite_id,display_name,hmdb_id,chebi_id
+aconitate,cis-aconitate,,CHEBI:32805
+citrate,citrate,HMDB0000094,CHEBI:30769
+isocitrate,isocitrate,HMDB0000193,CHEBI:30887
+glutamine,glutamine,HMDB0000641,CHEBI:18050
+glutamate,glutamate,HMDB0000148,CHEBI:16015
+serine,serine,HMDB0000187,CHEBI:17115
+glycine,glycine,HMDB0000123,CHEBI:15428
+arginine,arginine,HMDB0000517,CHEBI:16467
+ornithine,ornithine,HMDB0000214,CHEBI:15729
+aspartate,aspartate,HMDB0000191,CHEBI:17053
+asparagine,asparagine,HMDB0000168,CHEBI:17196
+choline,choline,HMDB0000097,CHEBI:15354
+betaine,betaine,HMDB0000043,CHEBI:17750

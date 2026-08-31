@@ -1,0 +1,4 @@
+model,precision_at_k_for_top_fraction,recall_at_k_for_top_fraction,exact_top_k_precision,hit_rate_at_k,ndcg_at_k
+autoregressive_context_ridge,0.5816666666666667,0.03355769230769231,0.21,0.837,0.5876486621848933
+autoregressive_ridge,0.592,0.03415384615384615,0.225,0.84,0.5995539949460711
+change_prevalence,0.41966666666666663,0.024211538461538465,0.082,0.645,0.4212576455809986

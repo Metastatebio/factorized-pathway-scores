@@ -1,0 +1,41 @@
+analysis_id: st000818_structural_pathway_score_replication_v1
+protocol: ../docs/protocol-st000818-structural-replication.md
+source:
+  study_id: ST000818
+  analysis_id: AN001299
+  cache_dir: ../data/raw/public-intervention-registry/workbench-cache
+columns:
+  validation_group_factor: Categorization
+eligibility:
+  minimum_family_features: 5
+  minimum_total_features: 100
+  minimum_validation_groups: 10
+descriptors:
+  minimum_features: 5
+  maximum_feature_fraction: 0.90
+  swaps_per_edge: 10
+masking:
+  masks: 5
+  seed: 20261100
+model:
+  folds: 5
+  ridge_alpha: 10.0
+  split_seed: 20261110
+  random_group_seed: 20261120
+null_ensemble:
+  repeats: 20
+  first_seed: 20261200
+  parallel_jobs: 10
+priority:
+  priority_count: 3
+  true_priority_fraction: 0.10
+inference:
+  bootstrap_draws: 5000
+  seed: 20261300
+gates:
+  bootstrap_ci_lower_must_exceed: 0.0
+claim_boundary: >-
+  This separate public-cohort benchmark can replicate structure-resolved lipid-profile
+  reconstruction across held-out population categories. It does not test participant genomics or
+  transcriptomics and does not establish temporal direction, physiological flux, diagnosis,
+  treatment response or clinical utility.

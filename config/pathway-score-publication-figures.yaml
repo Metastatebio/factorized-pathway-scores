@@ -1,0 +1,20 @@
+analysis_id: pathway_score_publication_figures_v1
+sources:
+  st002081_metrics: ../artifacts/pathway-score-st002081/model-metrics.csv
+  st002081_structural_metrics: ../artifacts/pathway-score-st002081-structural/model-metrics.csv
+  st002081_nulls: ../artifacts/pathway-score-st002081-structural-null-sensitivity/null-ensemble-results.csv
+  st000818_metrics: ../artifacts/pathway-score-st000818-replication/model-metrics.csv
+  st000818_nulls: ../artifacts/pathway-score-st000818-replication/null-ensemble-results.csv
+  human_sensitivity: ../artifacts/pathway-score-human-sensitivity/sensitivity-grid.csv
+  human_graph_mixing: ../artifacts/pathway-score-human-graph-mixing/manifest.json
+  ccle_metrics: ../artifacts/pathway-score-ccle/model-metrics.csv
+  ccle_sensitivity: ../artifacts/pathway-score-ccle-sensitivity/setting-summary.csv
+  ccle_dimension_nulls: ../artifacts/pathway-score-ccle-null-ensemble/seed-summary.csv
+  ccle_property_nulls: ../artifacts/pathway-score-ccle-property-matched-null/seed-summary.csv
+  ccle_target_clusters: ../artifacts/pathway-score-ccle-reaction-cluster/target-effects-with-subsystem.csv
+  mapping_summary: ../artifacts/pathway-score-mapping-supplement/mapping-qc-summary.csv
+  publication_manifest: ../artifacts/factorized-pathway-publication/manifest.json
+render:
+  dpi: 300
+  raster_format: png
+  vector_format: pdf

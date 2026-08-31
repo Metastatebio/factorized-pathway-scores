@@ -1,0 +1,166 @@
+{
+  "analysis_id": "st000818_structural_pathway_score_replication_v1",
+  "completed_at": "2026-08-30T19:14:11.155567+00:00",
+  "decision": "EXTERNAL_STRUCTURAL_REPLICATION",
+  "independent_public_cohort": true,
+  "config": "/home/openclaw/.openclaw/workspace/cross-omic-distillation-pilot/config/pathway-score-st000818-replication.yaml",
+  "config_sha256": "aca31946b8eeb39262199ebf4dd90d1497b93ea2d76ce289eb1ee540fcca02a2",
+  "protocol": "/home/openclaw/.openclaw/workspace/cross-omic-distillation-pilot/docs/protocol-st000818-structural-replication.md",
+  "protocol_sha256": "2fda56a3f2a254c93d4a4a15a0b2e1baebafdc356d0d89b2e1f72a9cc88dc53f",
+  "implementation_sha256": "fe10a2aaf9b74a3c33fc8dc68fac4bfb51ac41056b4724d30fd08def84d8db6c",
+  "source_sha256": {
+    "factors": "cb8597fedf5fb3a26f2ebd5edb22e39e8741b9176798c8b7431addfc95a2b3c3",
+    "measurements": "389be9d8019c03baa380eb5f723d99e40d8eac2bd2bd32681f86b3b4e78eda7c"
+  },
+  "study_id": "ST000818",
+  "study_analysis_id": "AN001299",
+  "samples": 450,
+  "validation_groups": 15,
+  "eligible_features": 255,
+  "eligible_families": 6,
+  "descriptors": 81,
+  "null_repeats": 20,
+  "parallel_jobs": 10,
+  "model_metrics": [
+    {
+      "model": "all_visible_ridge",
+      "samples": 450,
+      "subjects": 15,
+      "prediction_pairs": 114750,
+      "row_weighted_rmse_sd": 0.8398206052352902,
+      "equal_subject_weighted_rmse_sd": 0.8412446326494826,
+      "pooled_r2": 0.823642978087504,
+      "precision_at_k": 0.6857777777777778,
+      "equal_subject_precision_at_k": 0.6857777777777779,
+      "ndcg_at_k": 0.8006956119886325
+    },
+    {
+      "model": "family_score_ridge",
+      "samples": 450,
+      "subjects": 15,
+      "prediction_pairs": 114750,
+      "row_weighted_rmse_sd": 1.877673808565111,
+      "equal_subject_weighted_rmse_sd": 1.8930565187817554,
+      "pooled_r2": 0.11842350709585314,
+      "precision_at_k": 0.2997037037037037,
+      "equal_subject_precision_at_k": 0.2997037037037037,
+      "ndcg_at_k": 0.5090761761133676
+    },
+    {
+      "model": "population_mean",
+      "samples": 450,
+      "subjects": 15,
+      "prediction_pairs": 114750,
+      "row_weighted_rmse_sd": 1.9998165020465073,
+      "equal_subject_weighted_rmse_sd": 2.014539669216681,
+      "pooled_r2": 0.0,
+      "precision_at_k": 0.13629629629629628,
+      "equal_subject_precision_at_k": 0.13629629629629625,
+      "ndcg_at_k": 0.32823722119880006
+    },
+    {
+      "model": "random_group_score_ridge",
+      "samples": 450,
+      "subjects": 15,
+      "prediction_pairs": 114750,
+      "row_weighted_rmse_sd": 1.912594982854539,
+      "equal_subject_weighted_rmse_sd": 1.9282986350154103,
+      "pooled_r2": 0.08532727501636173,
+      "precision_at_k": 0.21125925925925926,
+      "equal_subject_precision_at_k": 0.2112592592592592,
+      "ndcg_at_k": 0.42412404172264967
+    },
+    {
+      "model": "degree_preserving_random_structural_ridge",
+      "samples": 450,
+      "subjects": 15,
+      "prediction_pairs": 114750,
+      "row_weighted_rmse_sd": 1.785465366598465,
+      "equal_subject_weighted_rmse_sd": 1.8006109497422358,
+      "pooled_r2": 0.2016438322722649,
+      "precision_at_k": 0.47851851851851845,
+      "equal_subject_precision_at_k": null,
+      "ndcg_at_k": 0.6434779268021539
+    },
+    {
+      "model": "structural_descriptor_ridge",
+      "samples": 450,
+      "subjects": 15,
+      "prediction_pairs": 114750,
+      "row_weighted_rmse_sd": 1.237399159032854,
+      "equal_subject_weighted_rmse_sd": 1.2417611728765787,
+      "pooled_r2": 0.6165458370694986,
+      "precision_at_k": 0.5739259259259258,
+      "equal_subject_precision_at_k": null,
+      "ndcg_at_k": 0.7163070378224934
+    }
+  ],
+  "bootstrap_comparisons": [
+    {
+      "reference": "population_mean",
+      "challenger": "structural_descriptor_ridge",
+      "subjects": 15,
+      "draws": 5000,
+      "rmse_improvement_sd": 0.7720321467777533,
+      "rmse_ci_lower": 0.3555273289638178,
+      "rmse_ci_upper": 1.2047903535568492,
+      "precision_improvement": 0.43874074074074065,
+      "precision_ci_lower": 0.3996296296296296,
+      "precision_ci_upper": 0.486074074074074
+    },
+    {
+      "reference": "family_score_ridge",
+      "challenger": "structural_descriptor_ridge",
+      "subjects": 15,
+      "draws": 5000,
+      "rmse_improvement_sd": 0.6512953459051767,
+      "rmse_ci_lower": 0.14497621124705132,
+      "rmse_ci_upper": 1.1064619791322796,
+      "precision_improvement": 0.27422222222222215,
+      "precision_ci_lower": 0.23733333333333334,
+      "precision_ci_upper": 0.3297777777777777
+    },
+    {
+      "reference": "all_visible_ridge",
+      "challenger": "structural_descriptor_ridge",
+      "subjects": 15,
+      "draws": 5000,
+      "rmse_improvement_sd": -0.40051654022709615,
+      "rmse_ci_lower": -0.7073054080930994,
+      "rmse_ci_upper": -0.0738514712743352,
+      "precision_improvement": -0.11185185185185209,
+      "precision_ci_lower": -0.1259296296296297,
+      "precision_ci_upper": -0.0988148148148148
+    }
+  ],
+  "random_rmse_range": [
+    1.7289178612743923,
+    1.8591733869352511
+  ],
+  "rmse_improvement_range": [
+    0.5027213799827881,
+    0.6278058592490101
+  ],
+  "precision_improvement_range": [
+    0.0909629629629628,
+    0.1146666666666667
+  ],
+  "minimum_rmse_ci_lower": 0.05737433563660364,
+  "minimum_precision_ci_lower": 0.07214814814814818,
+  "gate_results": {
+    "minimum_features": true,
+    "minimum_validation_groups": true,
+    "all_degrees_preserved": true,
+    "rmse_ci_passes_all_nulls": true,
+    "precision_ci_passes_all_nulls": true
+  },
+  "claim_boundary": "This separate public-cohort benchmark can replicate structure-resolved lipid-profile reconstruction across held-out population categories. It does not test participant genomics or transcriptomics and does not establish temporal direction, physiological flux, diagnosis, treatment response or clinical utility.",
+  "output_sha256": {
+    "eligible-features.csv": "734c5e787dc8791062825fea0d72f9f6d3a6b3937f2b6b7d4163a03eda1a8f11",
+    "model-metrics.csv": "3db6cc853b84bc88d32803c8fb7ebe57d7e2ab676e80c39f150deb7ee80f39d3",
+    "bootstrap-comparisons.csv": "b8cde5a801b3e3aded11c7df67aff079b404c59049b087ac02ab1d3f79331c24",
+    "null-ensemble-results.csv": "6828a3277a8986f8573c40ce078641cb68f2e2f794091951ea688b181eacba4f",
+    "primary-null-audit.csv": "5301e263fcd065b614057c63c0fdb14be17c6d4859aa2af2157003f799742f62",
+    "report.md": "5bac86372d3bde0a4ab177fb4c1c122307c91809b1b9ad603af556250029a22a"
+  }
+}

@@ -1,0 +1,17 @@
+analysis_id: st002081_structural_graph_null_sensitivity_v1
+protocol: ../docs/protocol-st002081-structural-null-sensitivity.md
+base_config: pathway-score-st002081-structural.yaml
+base_artifact: ../artifacts/pathway-score-st002081-structural
+null_ensemble:
+  repeats: 20
+  first_seed: 20260900
+  parallel_jobs: 10
+inference:
+  bootstrap_draws: 5000
+  seed: 20261000
+gates:
+  bootstrap_ci_lower_must_exceed: 0.0
+claim_boundary: >-
+  This post-result sensitivity tests dependence of the adaptive same-cohort finding on the
+  degree-preserving null realization. It is not independent replication and does not establish
+  temporal direction, genetic conditioning, physiological flux or clinical utility.

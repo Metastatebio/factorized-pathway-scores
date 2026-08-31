@@ -1,0 +1,122 @@
+{
+  "analysis_id": "st002081_factorized_pathway_missing_panel_v1",
+  "completed_at": "2026-08-30T18:41:29.534809+00:00",
+  "decision": "RESOURCE_ONLY",
+  "config": "/home/openclaw/.openclaw/workspace/cross-omic-distillation-pilot/config/pathway-score-st002081.yaml",
+  "config_sha256": "092c79562b1e261798554dedebb8e085a61f797e60f7af4a414b000206bbc966",
+  "protocol": "/home/openclaw/.openclaw/workspace/cross-omic-distillation-pilot/docs/protocol-factorized-pathway-score-benchmark.md",
+  "protocol_sha256": "db8f41a5291f37dcc0f08eb99afef681fc5a13f45d3cbc64b8db2fe2b8f95ec8",
+  "implementation_sha256": "f392982aeee29ee963a26aa160522af8d367d8ef69ad8dcd994fb293d1dd1973",
+  "source_sha256": "e5d68bea4f6adf113f9bafa0e8bd333b949f289f0dc645a18435d542c3ae9c9b",
+  "samples": 1539,
+  "subjects": 112,
+  "source_features": 845,
+  "complete_features": 503,
+  "eligible_features": 493,
+  "eligible_families": 9,
+  "masks": 5,
+  "model_metrics": [
+    {
+      "model": "all_visible_ridge",
+      "samples": 1539,
+      "subjects": 112,
+      "prediction_pairs": 758727,
+      "row_weighted_rmse_sd": 0.17469607896126818,
+      "equal_subject_weighted_rmse_sd": 0.17798531620309438,
+      "pooled_r2": 0.9702515171754093,
+      "precision_at_k": 0.9725362789690274,
+      "equal_subject_precision_at_k": 0.9741322839987484,
+      "ndcg_at_k": 0.9619115176089351
+    },
+    {
+      "model": "family_score_ridge",
+      "samples": 1539,
+      "subjects": 112,
+      "prediction_pairs": 758727,
+      "row_weighted_rmse_sd": 0.650255537003897,
+      "equal_subject_weighted_rmse_sd": 0.6679837935618068,
+      "pooled_r2": 0.587839256569974,
+      "precision_at_k": 0.4029456356941737,
+      "equal_subject_precision_at_k": 0.39118613369598315,
+      "ndcg_at_k": 0.633141038055094
+    },
+    {
+      "model": "population_mean",
+      "samples": 1539,
+      "subjects": 112,
+      "prediction_pairs": 758727,
+      "row_weighted_rmse_sd": 1.012863093306374,
+      "equal_subject_weighted_rmse_sd": 1.0652330100172904,
+      "pooled_r2": 0.0,
+      "precision_at_k": 0.15447260125622697,
+      "equal_subject_precision_at_k": 0.1573655033382416,
+      "ndcg_at_k": 0.3693806948590562
+    },
+    {
+      "model": "random_group_score_ridge",
+      "samples": 1539,
+      "subjects": 112,
+      "prediction_pairs": 758727,
+      "row_weighted_rmse_sd": 0.6271285120647957,
+      "equal_subject_weighted_rmse_sd": 0.6416548052630107,
+      "pooled_r2": 0.6166357604513352,
+      "precision_at_k": 0.3691141433831492,
+      "equal_subject_precision_at_k": 0.3745774137993028,
+      "ndcg_at_k": 0.606331045783776
+    }
+  ],
+  "bootstrap_comparisons": [
+    {
+      "reference": "population_mean",
+      "challenger": "family_score_ridge",
+      "subjects": 112,
+      "draws": 5000,
+      "rmse_improvement_sd": 0.3972492164554836,
+      "rmse_ci_lower": 0.3506427505241715,
+      "rmse_ci_upper": 0.4459916062898318,
+      "precision_improvement": 0.23382063035774156,
+      "precision_ci_lower": 0.20668612276338602,
+      "precision_ci_upper": 0.2623264416951311
+    },
+    {
+      "reference": "random_group_score_ridge",
+      "challenger": "family_score_ridge",
+      "subjects": 112,
+      "draws": 5000,
+      "rmse_improvement_sd": -0.026328988298796152,
+      "rmse_ci_lower": -0.042879454401125325,
+      "rmse_ci_upper": -0.010388545851969475,
+      "precision_improvement": 0.016608719896680335,
+      "precision_ci_lower": -0.024728814957642856,
+      "precision_ci_upper": 0.059100294153047475
+    },
+    {
+      "reference": "all_visible_ridge",
+      "challenger": "family_score_ridge",
+      "subjects": 112,
+      "draws": 5000,
+      "rmse_improvement_sd": -0.48999847735871244,
+      "rmse_ci_lower": -0.5106949159671575,
+      "rmse_ci_upper": -0.4693717852953072,
+      "precision_improvement": -0.5829461503027653,
+      "precision_ci_lower": -0.6136865093303264,
+      "precision_ci_upper": -0.5517599912721937
+    }
+  ],
+  "gate_results": {
+    "data_scale": true,
+    "rmse_beats_population": true,
+    "rmse_beats_random_grouping": false,
+    "precision_beats_random_grouping": false
+  },
+  "claim_boundary": "Participant-held-out missing-panel reconstruction can validate compact biochemical-family representation and marker-priority enrichment. It does not establish directional dynamics, genetic conditioning, physiological flux, diagnosis, treatment response or clinical utility.",
+  "output_sha256": {
+    "feature-families.csv": "8cf6da1dd9113a006bacc8b1f25f29d37b39f894e34f32512dfeb7a9765b37d7",
+    "disjoint-masks.csv": "42d688e174bf45a646938a8e92d1edd2072435dc5f8c890ad5f6acf120e6a130",
+    "model-metrics.csv": "d6e7ff88340809aee99b02ed7a46e8c37c5b1e05e3a035cdc57a0557f096037a",
+    "sample-metrics.csv": "33656f12098c3652cc1e6df00481cb10c4157e83a45ad9ecbce327121fd2bd63",
+    "target-metrics.csv": "7b33ea54c859a9e100d69e485b5fa822bedb8516e30b95c53af3656f814ee6aa",
+    "bootstrap-comparisons.csv": "6ff39e2d3ab4aa1a5a95e4cb463df175a740702657efbed8e8c5c0c5f5a39f33",
+    "report.md": "75af3dc05abd7da210e96842d717df649aebc5a6db45006712d0b27a6883a5e6"
+  }
+}

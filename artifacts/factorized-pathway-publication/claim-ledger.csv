@@ -1,0 +1,18 @@
+claim,decision,basis
+Compact lipid-family scores reconstruct hidden human markers,SUPPORTED_VS_POPULATION,Participant-bootstrap RMSE interval above zero versus population mean
+Broad lipid-family scores are pathway-specific,NOT_SUPPORTED,Random-group RMSE gate failed
+Structure-resolved lipid scores beat a degree-preserving null,SUPPORTED_ADAPTIVE_SAME_COHORT,Adaptive participant-paired RMSE and precision intervals above zero
+Structure-resolved lipid scores replicate in a separate human cohort,SUPPORTED_EXTERNAL_POPULATION_HELD_OUT,ST000818 population-held-out validation across 20 graph nulls
+Direct HumanGEM/GPR features outperform size-matched random features,SUPPORTED,Lineage-isolated target-bootstrap comparison across CCLE metabolites
+Transcript interactions improve the general direct-network model,NOT_SUPPORTED,Interaction model did not beat network-metabolite or additive models
+Transcript-conditioned coupling can exist for selected reactions,SUPPORTED_IN_MODEL_SYSTEM,FDR-significant CDA–cytidine–uridine interaction with robustness checks
+The evidence validates same-person genomic personalization,NOT_TESTED,No available cohort contains the required participant-level modalities
+The model estimates physiological flux or treatment response,NOT_SUPPORTED,Constraint results are model-relative and external drug/isotope tests are null
+The human structural result is robust across declared analysis settings,SUPPORTED_POST_RESULT,All nine settings pass both endpoints in both human cohorts
+Human fixed-degree null graphs are moved and diverse,SUPPORTED_POST_RESULT,Minimum edge replacement=0.771; maximum pairwise Jaccard=0.131
+The CCLE reaction-topology result is robust across declared settings,SUPPORTED_POST_RESULT,Matched random-control lower bounds pass in all ten settings
+Transcript interactions become generally useful under alternative settings,NOT_SUPPORTED,Interactions fail to beat the additive model in all ten settings
+The CCLE topology result is stable across random feature draws,SUPPORTED_POST_RESULT,All 20 null seeds pass; expected-null lower bound=0.093 SD
+CCLE topology beats network-degree and coverage-matched features,SUPPORTED_POST_RESULT,All 20 hard-null seeds pass; expected-null lower bound=0.097 SD
+The CCLE topology effect is not concentrated in one subsystem,SUPPORTED_POST_RESULT,20-cluster bootstrap lower bound=0.086 SD; leave-one-cluster gate passes
+Analysis-facing mappings and exclusions are auditable,SUPPORTED_RESOURCE,Accepted/rejected human and CCLE mapping tables with verified source integrity

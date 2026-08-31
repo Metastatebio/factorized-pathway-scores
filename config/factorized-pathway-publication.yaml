@@ -1,0 +1,27 @@
+analysis_id: factorized_pathway_publication_synthesis_v1
+protocol: ../docs/protocol-factorized-pathway-score-benchmark.md
+sources:
+  st002081: ../artifacts/pathway-score-st002081
+  st002081_structural: ../artifacts/pathway-score-st002081-structural
+  st002081_structural_null_sensitivity: ../artifacts/pathway-score-st002081-structural-null-sensitivity
+  st000818_replication: ../artifacts/pathway-score-st000818-replication
+  ccle_prediction: ../artifacts/pathway-score-ccle
+  human_sensitivity: ../artifacts/pathway-score-human-sensitivity
+  human_graph_mixing: ../artifacts/pathway-score-human-graph-mixing
+  ccle_sensitivity: ../artifacts/pathway-score-ccle-sensitivity
+  ccle_null_ensemble: ../artifacts/pathway-score-ccle-null-ensemble
+  ccle_property_matched_null: ../artifacts/pathway-score-ccle-property-matched-null
+  ccle_reaction_cluster: ../artifacts/pathway-score-ccle-reaction-cluster
+  mapping_supplement: ../artifacts/pathway-score-mapping-supplement
+  ccle_coupling_manifest: ../artifacts/ccle-expanded/ccle_proof_manifest.json
+  ccle_coupling_results: ../artifacts/ccle-expanded/ccle_coupling_results.csv
+  metsim_topology: ../artifacts/mqtl-generalization-benchmark-large
+  gxe_family_manifest: ../artifacts/gxe-family-scan/manifest.json
+  nsclc_manifest: ../artifacts/nsclc-flux-validation/manifest.json
+  constraint_ensemble: ../artifacts/target-constraint-ensemble
+  longitudinal_prior: ../artifacts/longitudinal-state-prediction
+claim_boundary: >-
+  This synthesis benchmarks evidence components across different public cohorts and model systems.
+  It is not same-participant multi-omics, does not infer missing DNA or RNA as measured, and does
+  not establish physiological flux, prospective clinical prediction, diagnosis, treatment
+  selection or drug efficacy.

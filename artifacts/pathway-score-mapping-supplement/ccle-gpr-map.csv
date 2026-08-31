@@ -1,0 +1,196 @@
+signature,genes,gene_count,candidate_rows,reaction_ids,subsystems,complete_expression_signature,used_by_prediction_target
+AADAT,AADAT,1,2,MAR02765;MAR04197,"Alanine, aspartate and glutamate metabolism;Tryptophan metabolism",True,True
+AARS1,AARS1,1,1,MAR05131,Aminoacyl-tRNA biosynthesis,False,False
+AASS,AASS,1,3,MAR04288;MAR04667;MAR04668,Lysine metabolism,True,True
+ABAT,ABAT,1,1,MAR04330,Beta-alanine metabolism,True,True
+ACHE,ACHE,1,1,MAR00641,Glycerophospholipid metabolism,True,True
+ACO1,ACO1,1,1,MAR04454,Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism,True,True
+ACO2,ACO2,1,2,MAR04458;MAR04589,Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism,True,True
+ACP3,ACP3,1,4,MAR04010;MAR04177;MAR04270;MAR04449,Nicotinate and nicotinamide metabolism;Purine metabolism;Pyrimidine metabolism,False,False
+ACP4,ACP4,1,1,MAR04270,Nicotinate and nicotinamide metabolism,False,False
+ACP5,ACP5,1,1,MAR04270,Nicotinate and nicotinamide metabolism,True,True
+ACP6,ACP6,1,1,MAR04270,Nicotinate and nicotinamide metabolism,True,True
+ACP7,ACP7,1,1,MAR04270,Nicotinate and nicotinamide metabolism,False,False
+ACY3,ACY3,1,1,MAR05336,Histidine metabolism,True,True
+ADA,ADA,1,1,MAR04481,Purine metabolism,True,True
+ADA2,ADA2,1,1,MAR04481,Purine metabolism,False,False
+ADK,ADK,1,1,MAR04012,Purine metabolism,True,True
+AGXT,AGXT,1,2,MAR04198;MAR04788,"Glycine, serine and threonine metabolism",True,True
+AGXT2,AGXT2,1,1,MAR04788,"Glycine, serine and threonine metabolism",True,True
+AHCY,AHCY,1,1,MAR03877,Cysteine and methionine metabolism,True,True
+AHCYL2,AHCYL2,1,1,MAR03877,Cysteine and methionine metabolism,True,True
+AICDA,AICDA,1,1,MAR04580,Pyrimidine metabolism,True,True
+AKR1A1,AKR1A1,1,1,MAR06537,Pentose and glucuronate interconversions,True,True
+ALDH1B1,ALDH1B1,1,2,MAR00088;MAR04079,Beta-alanine metabolism,True,True
+ALDH2,ALDH2,1,2,MAR00088;MAR04079,Beta-alanine metabolism,True,True
+ALDH3A2,ALDH3A2,1,2,MAR04079;MAR07993,Beta-alanine metabolism,True,True
+ALDH4A1,ALDH4A1,1,1,MAR03806,Arginine and proline metabolism,True,True
+ALDH7A1,ALDH7A1,1,4,MAR04079;MAR04697;MAR04698;MAR07993,"Beta-alanine metabolism;Glycine, serine and threonine metabolism",True,True
+ALDH9A1,ALDH9A1,1,2,MAR04079;MAR07993,Beta-alanine metabolism,True,True
+APOBEC4,APOBEC4,1,1,MAR04580,Pyrimidine metabolism,True,True
+APRT,APRT,1,1,MAR04085,Purine metabolism,True,True
+ARG1,ARG1,1,1,MAR03816,Arginine and proline metabolism,True,True
+ARG2,ARG2,1,1,MAR08426,Arginine and proline metabolism,True,True
+ASPG,ASPG,1,1,MAR03862,"Alanine, aspartate and glutamate metabolism",True,True
+ASRGL1,ASRGL1,1,1,MAR03862,"Alanine, aspartate and glutamate metabolism",True,True
+ASS1,ASS1,1,3,MAR03811,"Alanine, aspartate and glutamate metabolism",True,True
+BAAT,BAAT,1,3,MAR01667;MAR01841;MAR01844,Bile acid biosynthesis,True,True
+BCAT1,BCAT1,1,3,MAR03747;MAR03777;MAR06923,"Valine, leucine, and isoleucine metabolism",True,True
+BCAT2,BCAT2,1,3,MAR03744;MAR03765;MAR03778,"Valine, leucine, and isoleucine metabolism",True,True
+BCHE,BCHE,1,1,MAR00641,Glycerophospholipid metabolism,True,True
+BHMT,BHMT,1,6,MAR04699,"Glycine, serine and threonine metabolism",True,True
+BHMT2,BHMT2,1,6,MAR04699,"Glycine, serine and threonine metabolism",True,True
+CAD,CAD,1,1,MAR09802,"Alanine, aspartate and glutamate metabolism",True,True
+CARNS1,CARNS1,1,6,MAR04425,Beta-alanine metabolism,True,True
+CBS,CBS,1,1,MAR03879,Cysteine and methionine metabolism,True,True
+CDA,CDA,1,1,MAR04580,Pyrimidine metabolism,True,True
+CDIPT,CDIPT,1,1,MAR00610,Glycerophospholipid metabolism,True,True
+CHAT,CHAT,1,1,MAR00640,Glycerophospholipid metabolism,True,True
+CHDH,CHDH,1,1,MAR04696,"Glycine, serine and threonine metabolism",True,True
+CMA1,CMA1,1,1,MAR03042,Miscellaneous,True,True
+CNDP1,CNDP1,1,3,MAR04427,Beta-alanine metabolism,True,True
+CNDP2,CNDP2,1,4,MAR04427;MAR11411,Beta-alanine metabolism;Peptide metabolism,True,True
+DARS1,DARS1,1,1,MAR05134,Aminoacyl-tRNA biosynthesis,False,False
+DCK,DCK,1,1,MAR04012,Purine metabolism,True,True
+DIO1,DIO1,1,1,MAR06854,"Phenylalanine, tyrosine and tryptophan biosynthesis",True,True
+DIO2,DIO2,1,1,MAR06854,"Phenylalanine, tyrosine and tryptophan biosynthesis",True,True
+DMGDH,DMGDH,1,3,MAR04700,"Glycine, serine and threonine metabolism",True,True
+DPEP1,DPEP1,1,1,MAR11411,Peptide metabolism,True,True
+DPYD,DPYD,1,3,MAR04345;MAR04470;MAR04472,Pyrimidine metabolism,True,True
+EPRS1,EPRS1,1,2,MAR05137;MAR05146,Aminoacyl-tRNA biosynthesis,False,False
+FARSA;FARSB,FARSA;FARSB,2,1,MAR05145,Aminoacyl-tRNA biosynthesis,True,True
+FMO1,FMO1,1,2,MAR09514;MAR13083,Isolated;Metabolism of other amino acids,True,True
+FMO2,FMO2,1,1,MAR09514,Isolated,True,True
+FMO3,FMO3,1,1,MAR09514,Isolated,True,True
+FMO4,FMO4,1,1,MAR09514,Isolated,True,True
+FMO5,FMO5,1,1,MAR09514,Isolated,True,True
+GAD2,GAD2,1,1,MAR04174,Beta-alanine metabolism,True,True
+GARS1,GARS1,1,1,MAR05138,Aminoacyl-tRNA biosynthesis,False,False
+GATM,GATM,1,3,MAR04582,"Glycine, serine and threonine metabolism",True,True
+GFPT1,GFPT1,1,1,MAR04300,Amino sugar and nucleotide sugar metabolism,True,True
+GFPT2,GFPT2,1,1,MAR04300,Amino sugar and nucleotide sugar metabolism,True,True
+GLS,GLS,1,1,MAR03892,"Alanine, aspartate and glutamate metabolism",True,True
+GLS2,GLS2,1,1,MAR09802,"Alanine, aspartate and glutamate metabolism",True,True
+GLUD1,GLUD1,1,2,MAR03802;MAR03804,"Alanine, aspartate and glutamate metabolism",True,True
+GLUD2,GLUD2,1,2,MAR03802;MAR03804,"Alanine, aspartate and glutamate metabolism",True,True
+GLUL,GLUL,1,1,MAR03890,"Alanine, aspartate and glutamate metabolism",True,True
+GMPR,GMPR,1,1,MAR04419,Purine metabolism,True,True
+GMPR2,GMPR2,1,1,MAR04419,Purine metabolism,True,True
+GMPS,GMPS,1,1,MAR04453,Purine metabolism,True,True
+GNMT,GNMT,1,1,MAR03901,"Glycine, serine and threonine metabolism",True,True
+GOT1,GOT1,1,3,MAR03829;MAR06725;MAR06768,"Alanine, aspartate and glutamate metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis",True,True
+GOT1L1,GOT1L1,1,1,MAR03829,"Alanine, aspartate and glutamate metabolism",True,True
+GOT2,GOT2,1,3,MAR01616;MAR03827;MAR06768,"Alanine, aspartate and glutamate metabolism;Phenylalanine metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis",True,True
+GPT,GPT,1,1,MAR03899,"Alanine, aspartate and glutamate metabolism",True,True
+GPT2,GPT2,1,1,MAR04109,"Alanine, aspartate and glutamate metabolism",True,True
+HARS1,HARS1,1,1,MAR05139,Aminoacyl-tRNA biosynthesis,False,False
+IARS1,IARS1,1,1,MAR05140,Aminoacyl-tRNA biosynthesis,False,False
+IDH1,IDH1,1,1,MAR00710,Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism,True,True
+IDH2,IDH2,1,1,MAR03958,Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism,True,True
+IDH3A;IDH3B;IDH3G,IDH3A;IDH3B;IDH3G,3,1,MAR03957,Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism,True,True
+KARS1,KARS1,1,1,MAR05142,Aminoacyl-tRNA biosynthesis,False,False
+KLK1,KLK1,1,1,MAR09475,Isolated,True,True
+KLK2,KLK2,1,1,MAR09475,Isolated,True,True
+KMO,KMO,1,1,MAR04220,"Phenylalanine, tyrosine and tryptophan biosynthesis",True,True
+KYAT1,KYAT1,1,2,MAR04196;MAR04222,"Alanine, aspartate and glutamate metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis",False,False
+KYAT3,KYAT3,1,2,MAR02765;MAR04197,"Alanine, aspartate and glutamate metabolism;Tryptophan metabolism",False,False
+KYNU,KYNU,1,1,MAR04224,"Phenylalanine, tyrosine and tryptophan biosynthesis",True,True
+LARS1,LARS1,1,1,MAR05141,Aminoacyl-tRNA biosynthesis,False,False
+LDHAL6A,LDHAL6A,1,1,MAR08780,Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism,True,True
+LDHAL6B,LDHAL6B,1,1,MAR08780,Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism,True,True
+LDHB,LDHB,1,1,MAR08780,Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism,True,True
+LDHC,LDHC,1,1,MAR08780,Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism,True,True
+LDHD,LDHD,1,1,MAR08780,Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism,True,True
+MACROD1,MACROD1,1,1,MAR05336,Histidine metabolism,True,True
+MARS1,MARS1,1,1,MAR05143,Aminoacyl-tRNA biosynthesis,False,False
+MDH1,MDH1,1,1,MAR04139,Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism,True,True
+MDH1B,MDH1B,1,1,MAR04139,Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism,True,True
+MDH2,MDH2,1,1,MAR04141,Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism,True,True
+ME1,ME1,1,1,MAR04089,Pyruvate metabolism,True,True
+ME2,ME2,1,2,MAR04087;MAR04091,Pyruvate metabolism,True,True
+ME3,ME3,1,2,MAR04087;MAR04091,Pyruvate metabolism,True,True
+MIOX,MIOX,1,1,MAR06539,Inositol phosphate metabolism,True,True
+MTR,MTR,1,1,MAR03917,Cysteine and methionine metabolism,True,True
+NADK,NADK,1,1,MAR04269,Nicotinate and nicotinamide metabolism,True,True
+NADK2,NADK2,1,1,MAR04268,Nicotinate and nicotinamide metabolism,True,True
+NADSYN1,NADSYN1,1,1,MAR04261,Nicotinate and nicotinamide metabolism,True,True
+NARS1,NARS1,1,1,MAR05133,Aminoacyl-tRNA biosynthesis,False,False
+NOS1,NOS1,1,3,MAR02023,Arginine and proline metabolism,True,True
+NOS2,NOS2,1,3,MAR02023,Arginine and proline metabolism,True,True
+NOS3,NOS3,1,3,MAR02023,Arginine and proline metabolism,True,True
+NT5C,NT5C,1,3,MAR03970;MAR04010;MAR04449,Purine metabolism;Pyrimidine metabolism,True,True
+NT5C1A,NT5C1A,1,4,MAR03970;MAR04010;MAR04177;MAR04449,Purine metabolism;Pyrimidine metabolism,True,True
+NT5C1B,NT5C1B,1,4,MAR03970;MAR04010;MAR04177;MAR04449,Purine metabolism;Pyrimidine metabolism,True,True
+NT5C2,NT5C2,1,4,MAR03970;MAR04010;MAR04177;MAR04449,Purine metabolism;Pyrimidine metabolism,True,True
+NT5C3A,NT5C3A,1,3,MAR03970;MAR04177;MAR04449,Purine metabolism;Pyrimidine metabolism,True,True
+NT5C3B,NT5C3B,1,4,MAR03970;MAR04081;MAR04177;MAR04449,Purine metabolism;Pyrimidine metabolism,True,True
+NT5E,NT5E,1,4,MAR03970;MAR04010;MAR04177;MAR04449,Purine metabolism;Pyrimidine metabolism,True,True
+NT5M,NT5M,1,3,MAR03970;MAR04081;MAR04450,Purine metabolism;Pyrimidine metabolism,True,True
+NTAN1,NTAN1,1,1,MAR05336,Histidine metabolism,True,True
+NTAQ1,NTAQ1,1,1,MAR05336,Histidine metabolism,False,False
+NUDT12,NUDT12,1,1,MAR04263,Nicotinate and nicotinamide metabolism,True,True
+OARD1,OARD1,1,1,MAR05336,Histidine metabolism,True,True
+OAT,OAT,1,1,MAR03807,Arginine and proline metabolism,True,True
+ODC1,ODC1,1,1,MAR04212,Arginine and proline metabolism,True,True
+OTC,OTC,1,1,MAR03809,Arginine and proline metabolism,True,True
+PAH,PAH,1,1,MAR08539,"Phenylalanine, tyrosine and tryptophan biosynthesis",True,True
+PDE10A,PDE10A,1,1,MAR04014,Purine metabolism,True,True
+PDE11A,PDE11A,1,1,MAR04014,Purine metabolism,True,True
+PDE1A,PDE1A,1,1,MAR04014,Purine metabolism,True,True
+PDE1B,PDE1B,1,1,MAR04014,Purine metabolism,True,True
+PDE1C,PDE1C,1,1,MAR04014,Purine metabolism,True,True
+PDE2A,PDE2A,1,1,MAR04014,Purine metabolism,True,True
+PDE3A,PDE3A,1,1,MAR04014,Purine metabolism,True,True
+PDE3B,PDE3B,1,1,MAR04014,Purine metabolism,True,True
+PDE4A,PDE4A,1,1,MAR04014,Purine metabolism,True,True
+PDE4B,PDE4B,1,1,MAR04014,Purine metabolism,True,True
+PDE4C,PDE4C,1,1,MAR04014,Purine metabolism,True,True
+PDE4D,PDE4D,1,1,MAR04014,Purine metabolism,True,True
+PDE6C,PDE6C,1,1,MAR04014,Purine metabolism,True,True
+PDE6G,PDE6G,1,1,MAR04014,Purine metabolism,True,True
+PDE6H,PDE6H,1,1,MAR04014,Purine metabolism,True,True
+PDE7A,PDE7A,1,1,MAR04014,Purine metabolism,True,True
+PDE7B,PDE7B,1,1,MAR04014,Purine metabolism,True,True
+PDE8A,PDE8A,1,1,MAR04014,Purine metabolism,True,True
+PDE8B,PDE8B,1,1,MAR04014,Purine metabolism,True,True
+PDPR,PDPR,1,3,MAR04700,"Glycine, serine and threonine metabolism",True,True
+PEPD,PEPD,1,1,MAR07193,Peptide metabolism,True,True
+PIPOX,PIPOX,1,1,MAR03849,"Glycine, serine and threonine metabolism",True,True
+PNP,PNP,1,3,MAR04574;MAR04663;MAR08486,Nucleotide metabolism;Purine metabolism,True,True
+PPAT,PPAT,1,1,MAR04406,Purine metabolism,True,True
+PTDSS1,PTDSS1,1,1,MAR00623,Glycerophospholipid metabolism,True,True
+PXYLP1,PXYLP1,1,1,MAR04270,Nicotinate and nicotinamide metabolism,False,False
+PYCR1,PYCR1,1,2,MAR03837;MAR08609,Arginine and proline metabolism,True,True
+PYCR2,PYCR2,1,2,MAR03833;MAR03835,Arginine and proline metabolism,True,True
+PYCR3,PYCR3,1,2,MAR03833;MAR03835,Arginine and proline metabolism,False,False
+QARS1,QARS1,1,1,MAR05136,Aminoacyl-tRNA biosynthesis,False,False
+RAD1;RAD9A,RAD1;RAD9A,2,6,MAR07164,Nucleotide metabolism,True,True
+RARS1,RARS1,1,1,MAR05132,Aminoacyl-tRNA biosynthesis,False,False
+RBAK,RBAK,1,3,MAR04010;MAR04179;MAR04450,Purine metabolism;Pyrimidine metabolism,True,True
+RWDD2A,RWDD2A,1,1,MAR04089,Pyruvate metabolism,True,True
+SARDH,SARDH,1,2,MAR03849;MAR04701,"Glycine, serine and threonine metabolism;Sulfur metabolism",True,True
+SARS1,SARS1,1,1,MAR05147,Aminoacyl-tRNA biosynthesis,False,False
+SCCPDH,SCCPDH,1,1,MAR04667,Lysine metabolism,True,True
+SHMT1,SHMT1,1,1,MAR03845,"Glycine, serine and threonine metabolism",True,True
+SHMT2,SHMT2,1,1,MAR04792,"Glycine, serine and threonine metabolism",True,True
+SIRT1,SIRT1,1,1,MAR05336,Histidine metabolism,True,True
+SIRT3,SIRT3,1,1,MAR05336,Histidine metabolism,True,True
+SIRT5,SIRT5,1,1,MAR05336,Histidine metabolism,True,True
+SIRT6,SIRT6,1,1,MAR05336,Histidine metabolism,True,True
+SIRT7,SIRT7,1,1,MAR05336,Histidine metabolism,True,True
+TARS1,TARS1,1,1,MAR05148,Aminoacyl-tRNA biosynthesis,False,False
+TAT,TAT,1,3,MAR01616;MAR05391;MAR06768,"Cysteine and methionine metabolism;Phenylalanine metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis",True,True
+TPP1,TPP1,1,1,MAR06915,Peptide metabolism,True,True
+TREX1,TREX1,1,6,MAR07164,Nucleotide metabolism,True,True
+TREX2,TREX2,1,6,MAR07164,Nucleotide metabolism,True,True
+TYMP,TYMP,1,1,MAR04485,Pyrimidine metabolism,True,True
+UCK1,UCK1,1,2,MAR03969;MAR04180,Nucleotide metabolism;Pyrimidine metabolism,True,True
+UCK2,UCK2,1,2,MAR03969;MAR04180,Nucleotide metabolism;Pyrimidine metabolism,True,True
+UCKL1,UCKL1,1,2,MAR04180;MAR05299,Nucleotide metabolism;Pyrimidine metabolism,True,True
+UPP1,UPP1,1,1,MAR04579,Pyrimidine metabolism,True,True
+UPP2,UPP2,1,1,MAR04579,Pyrimidine metabolism,True,True
+UPRT,UPRT,1,1,MAR04343,Pyrimidine metabolism,True,True
+VARS1,VARS1,1,1,MAR05150,Aminoacyl-tRNA biosynthesis,False,False
+WARS1,WARS1,1,1,MAR05149,Aminoacyl-tRNA biosynthesis,False,False
+XDH,XDH,1,5,MAR04519;MAR04646,Purine metabolism,True,True
+YARS1,YARS1,1,1,MAR05130,Aminoacyl-tRNA biosynthesis,False,False
