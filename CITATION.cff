@@ -4,6 +4,7 @@ title: "Matched nulls for metabolic pathway scores"
 type: software
 version: 1.0.0
 date-released: 2026-08-31
+doi: "10.5281/zenodo.22207315"
 authors:
   - family-names: "Ünver"
     given-names: "Oğuzcan"
@@ -18,4 +19,3 @@ keywords:
   - HumanGEM
   - cross-omics
   - reproducible research
-

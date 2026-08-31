@@ -9,6 +9,9 @@ The release contains no private or participant-level source data. It contains fr
 analysis code, exact configurations, checksummed aggregate outputs, complete sensitivity grids,
 accepted/rejected mapping ledgers, figures, and the manuscript package.
 
+- **Release:** [`v1.0.0`](https://github.com/Metastatebio/factorized-pathway-scores/releases/tag/v1.0.0)
+- **Archive DOI:** [10.5281/zenodo.22207315](https://doi.org/10.5281/zenodo.22207315)
+
 ## Main results
 
 - In 1,539 repeated samples from 112 people, coarse lipid families reconstructed hidden markers
@@ -65,5 +68,5 @@ tests/       Unit and pipeline-contract tests
 
 Code is Apache-2.0. Manuscripts, protocols, figures, and aggregate result tables are CC BY 4.0.
 Third-party raw data are excluded and remain under their source terms. Cite the archived release
-using `CITATION.cff`; cite each upstream dataset as listed in `docs/source-data.md`.
-
+using [DOI 10.5281/zenodo.22207315](https://doi.org/10.5281/zenodo.22207315) and
+`CITATION.cff`; cite each upstream dataset as listed in `docs/source-data.md`.

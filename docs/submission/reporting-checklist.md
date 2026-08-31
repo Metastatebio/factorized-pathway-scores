@@ -13,11 +13,11 @@ date: <https://www.nature.com/ncomms/submit/article>.
 | Introduction, Results, Discussion, Methods | Complete | Present in submission manuscript |
 | Main text within target length | Complete | Under 5,000 words excluding Methods, references and end matter |
 | Data Availability | Complete | Public accession/DOI statements included |
-| Code Availability | Partial | Repository contents stated; permanent public URL, license and archive DOI remain pending |
+| Code Availability | Complete | Public repository, `v1.0.0`, licenses and Zenodo DOI stated |
 | References | Complete for draft | 25 primary/source references; bibliographic manager validation still recommended |
-| Acknowledgements | Pending author input | Funding, compute resources and contributors |
-| Author Contributions | Pending author input | Complete CRediT statement |
-| Competing Interests | Pending author input | Metastate ownership/employment/IP disclosure required |
+| Acknowledgements | Complete | No external funding; Metastate compute resources disclosed |
+| Author Contributions | Complete | Sole-author contribution and CRediT roles stated |
+| Competing Interests | Complete | Founder, affiliation and commercial-benefit interest disclosed |
 | Ethics statement | Not applicable to reanalysis as drafted | Confirm source-study consent and repository-use terms before submission |
 
 ## Reproducibility and statistics
@@ -42,26 +42,26 @@ date: <https://www.nature.com/ncomms/submit/article>.
 
 | Task | Status |
 | --- | --- |
-| Create clean public source repository | Pending |
-| Select and add open-source license | Pending author decision |
-| Remove private paths, credentials and non-redistributable raw data | Pending release audit |
-| Tag immutable release matching manuscript | Pending |
-| Archive release and obtain DOI | Pending |
-| Insert repository URL, release tag and DOI into Code Availability | Pending |
-| Validate all source URLs and checksums from a clean environment | Pending final release |
+| Create clean public source repository | Complete |
+| Select and add open-source license | Complete: Apache-2.0 code; CC BY 4.0 research outputs |
+| Remove private paths, credentials and non-redistributable raw data | Complete |
+| Tag immutable release matching manuscript | Complete: `v1.0.0` |
+| Archive release and obtain DOI | Complete: 10.5281/zenodo.22207315 |
+| Insert repository URL, release tag and DOI into Code Availability | Complete |
+| Validate all source URLs and checksums from a clean environment | Complete: 83/83 declared outputs byte-identical |
 | Deposit Supplementary Data files in journal-supported archive if required | Pending submission workflow |
 
 ## Author and editorial declarations
 
 | Item | Status |
 | --- | --- |
-| Final author list, affiliations and correspondence | Pending |
-| All-author approval | Pending |
-| Funding and grant numbers | Pending |
-| Competing-interest and Metastate/IP statement | Pending |
+| Final author list, affiliations and correspondence | Complete |
+| All-author approval | Sole author; final submission approval remains with O.Ü. |
+| Funding and grant numbers | Complete: no external funding declared |
+| Competing-interest and Metastate/IP statement | Complete |
 | Related manuscripts/preprints disclosed | Pending author confirmation |
-| Suggested/opposed reviewers with conflict checks | Pending |
-| Data-use and source-license review | Pending |
+| Suggested/opposed reviewers with conflict checks | Shortlist prepared; author approval pending |
+| Data-use and source-license review | Complete for public release; journal-level confirmation still advised |
 | Cover-letter originality statement | Drafted; author confirmation required |
 
 ## Figures and files
@@ -77,6 +77,6 @@ date: <https://www.nature.com/ncomms/submit/article>.
 
 ## Submission blockers
 
-The scientific draft is reviewable. It is not submission-complete until author metadata,
-declarations, repository licensing/archival details, source-license review and independent domain
-review are completed.
+The scientific draft, declarations and reproducibility release are complete. Remaining editorial
+gates are independent domain review, accessibility review, final reference-manager validation and
+the author's explicit approval of the journal submission.

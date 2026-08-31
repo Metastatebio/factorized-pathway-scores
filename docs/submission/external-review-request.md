@@ -10,9 +10,11 @@ outside the people, populations or cancer lineages used for fitting and outperfo
 representations matched for complexity.
 
 The packet includes an anonymized manuscript, supplement, complete sensitivity grids, mapping
-ledgers and a reproducible code snapshot. I would especially value your assessment of [matched-null
-design / metabolomics representation / genome-scale model interpretation / translational claim
-boundaries].
+ledgers and a reproducible code snapshot. The public release is available at
+<https://github.com/Metastatebio/factorized-pathway-scores> and is archived under
+<https://doi.org/10.5281/zenodo.22207315>. I would especially value your assessment of
+[matched-null design / metabolomics representation / genome-scale model interpretation /
+translational claim boundaries].
 
 Please disclose any conflict involving the authors, Metastate, the cited datasets or closely
 competing work. If you can review, a recommendation plus numbered major and minor comments would be

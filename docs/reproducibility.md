@@ -4,7 +4,8 @@
 
 - Python 3.12.3
 - Exact Python packages: `requirements.lock`
-- Source release: `v1.0.0`
+- Source release: [`v1.0.0`](https://github.com/Metastatebio/factorized-pathway-scores/releases/tag/v1.0.0)
+- Immutable archive: [DOI 10.5281/zenodo.22207315](https://doi.org/10.5281/zenodo.22207315)
 - Random seeds: frozen in `config/*.yaml`
 - Validation units: participant, population category, or cancer lineage; never random rows
 - Public inputs: retrieved into ignored `data/raw/` paths and checksum verified

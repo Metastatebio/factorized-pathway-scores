@@ -421,8 +421,12 @@ repository; scripts, source URLs, versions and checksums define retrieval and in
 
 The analysis code, frozen protocols, configurations, aggregate metrics, complete sensitivity grids,
 accepted/rejected mapping ledgers, figures and machine-readable claim ledger are included in the
-repository. A permanent public repository URL, software license and archival DOI must be inserted
-before submission. The principal output directories are `artifacts/pathway-score-st002081/`,
+public repository at <https://github.com/Metastatebio/factorized-pathway-scores> (release
+`v1.0.0`) and the immutable Zenodo archive at
+<https://doi.org/10.5281/zenodo.22207315>. Source code is licensed under Apache-2.0; the
+manuscript, protocols, figures and aggregate result tables are licensed under CC BY 4.0.
+Third-party raw data are excluded and remain under their source terms. The principal output
+directories are `artifacts/pathway-score-st002081/`,
 `artifacts/pathway-score-st002081-structural/`,
 `artifacts/pathway-score-st000818-replication/`, `artifacts/pathway-score-ccle/`,
 `artifacts/pathway-score-human-sensitivity/`, `artifacts/pathway-score-ccle-sensitivity/`,
